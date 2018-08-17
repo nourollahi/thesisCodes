@@ -1,0 +1,247 @@
+<!-- $Id: revision_tdt2.htm,v 1.1.1.1 2001/06/01 13:12:19 jon Exp $ -->
+<HTML>
+<HEAD>
+<CENTER><TITLE>TDT2eval Revison History</TITLE></CENTER>
+<B><BIG><CENTER>TDT2eval Revision History</CENTER></BIG></B>
+<CENTER>Date: April 31, 1998 </CENTER>
+</HEAD>
+<BODY><p><hr>
+
+The follow is the revision history for the TDT2eval package.
+<P>
+<h1> Version 0.1, Released April 30, 1998 </h1>
+<DIR>
+	Initial release if version 0.1 for TDT2seg.pl, TDT2trk.pl, TDT2det.pl and TDT2.pm.
+</DIR>
+
+<h1> Version 0.2, Released July 30, 1998 </h1>
+<DIR>
+<Table BORDER=2>
+<TR> <TD> TDT2seg.pl V0.2 <TD>
+	<UL>
+	<LI> Modified the segmentation scoring to be MUCH faster.  Removed the old
+	     'delta' based code in favor of the new.  Runtimes went from:
+	<TABLE BORDER=2>
+		<TR> <TH> Source </TH> <TH> v0.1 (sec)</TH>
+			<TH> v0.2 (sec) </TH><TH> Rel. Improvement  </TH></TR>
+		<TR> <TD> nw  </TD><TD>  840 </TD><TD> 67 </TD><TD> 92%</TD></TR>
+		<TR> <TD> bn  </TD><TD>  166 </TD><TD> 37 </TD><TD> 78%</TD></TR>
+		<TR> <TD> bsr </TD><TD>  164 </TD><TD> 37 </TD><TD> 77%</TD></TR>
+	</TABLE>		
+	<li> During the above re-code, a bug was found in the previous delta-based
+	     scorer.  The bug resulted in the final evaluation frame to not be
+	     checked.  The bug had a neglible effect on scores, (something like 
+	     0.000001 for P(miss) and/or P(fa)).
+	<li> Disregard non-story regions during	scoring
+	<li> Eval Frame size a command line arg
+	<li> Blank lines after the initial comment lines in the system output file are treated as comments.
+	<li> The index file format was changed in that file names are 
+		explicitly indicate the directory and extension names.
+	<LI> Added computation of Cseg measure.
+	<LI> Examples updated.
+	</UL>
+<TR> <TD> TDT2trk.pl V0.2 <TD> 
+	<UL>
+	<LI> Added DET plot outputs, options -d, -a, -e, -f
+	<LI> Modified nomenclature to story rather than document
+	<LI> Reversed report output so that important numbers are at top
+	<li> Eval function that maps system output to reference topics
+	     now uses point markers that mark the beginning of a
+	     score/decision point which is continued to the next marker.
+	     The default mapping function is the average over words.
+	<li> Small speed up in the evaluation function.  Runtimes on error example
+	     set went from 76 sec. to 67 sec.  A small gain, but runtime will
+ 	     increase linearly with the number of system output points.
+	<li> Update manual page and reports, refer to story not document.
+	<li> Extensively modified the tracking index file.  Changes include:
+	     adding a list of discriminate training stories in the training epoch, 
+	     a start recid was added to the source file record,  and the
+	     full pathname within the TDT2 corpus is specified for the testing
+	     source file.
+	<li> Modified the scorer to exclude partial source files from scoring based
+	     on the start record number in the index file
+	<li> Modify program to handle new index file format.
+	<li> Blank lines after the initial comment lines in the system output file are treated as comments.
+	<LI> Update examples.
+	<LI> Corrected a problem that breif documents were excluded from all topic scorings.
+		rather than the topic for which it was judged brief.
+	<LI> Added computation of Ctrack measure.
+	</UL>
+<TR> <TD> TDT2det.pl V0.2 <TD> 
+	<UL>
+	<li> Blank lines after the initial comment lines in the system output file are treated as comments.
+	<li> stories marked BRIEF, or stories marked YES for multiple topics are excluded from scoring.
+	<li> Correct percent false alarm to be (#fa)/(Nstory-(#stories on topic given the topic)).
+	<li> Eval function that maps system output to reference topics
+	     now uses point markers that mark the beginning of a
+	     score/decision point which is continued to the next marker.
+	     The default mapping function is the average over words.
+
+	<li> Ref to hyp cluster mapping function optimized by a 
+		cost function, command line configurable.
+	<LI> Modified nomenclature to story rather than document.
+	<LI> Allow reference topic cluster to map to NULL Hypothesis cluster.
+	<LI> Added a DET plot capability
+	<LI> Updated examples.
+	</UL>
+<TR> <TD> TDT2.pl V0.2 <TD> 
+	<UL>
+	<LI> Added Min/Max and Find_system_score_for_doc() functions.
+	<LI> Added DET ploting functions, ppndf(), write_gnuplot_DET_header(), 
+		write_tics(), and Compute_DET_points().
+	</UL>
+<TR> <TD> <A HREF="TDT2BuildIndex.htm">TDT2BuildIndex.pl V0.1</A> <TD>
+	<UL>
+	<LI> This is a new script, the script generates evaluation index files
+		given a file list.
+	</UL>
+
+</table>
+</DIR>
+<P>
+
+
+<h1> Version 0.3, Released August 14, 1998 </h1>
+<DIR>
+<Table BORDER=2>
+<TR> <TD> TDT2seg.pl <TD>
+	<UL>
+	<li> Verified hyp inputs are sorted in ascending order by the pointer.
+	<li> Modified the default P(seg) to be 0.3
+	<li> Re-worked the scoring report to include calculations for each source file type.
+	<li> added a check of TDT2.pm to make sure the right library is in use.
+	</UL>
+<TR> <TD> TDT2trk.pl <TD> 
+	<UL>
+	<LI> Corrected initializations of hash tables to '= {}'
+	<li> added a default topic decision to beginning of each hyp file so that 
+	all reference stories will get mapped to "some" decision.
+	<li> Set Cmiss default value to 1.0
+	<li> Verified hyp  inputs are sorted in ascending order by the pointer.
+	<li> Modified the default P(topic) to be 0.02
+	<li> Scored on NEWS stories in the evaluation, all others excluded
+	<li> added a check of TDT2.pm to make sure the right library is in use.
+	</UL>
+<TR> <TD> TDT2det.pl <TD> 
+	<UL>
+	<LI> Corrected initializations of hash tables to '= {}'
+	<li> added a default topic decision to beginning of each hyp file so that 
+	all reference stories will get mapped to "some" decision.
+	<li> Set Cmiss default value to 1.0
+	<li> Verified hyp inputs are sorted in ascending order by the pointer.
+	<li> Modified the default P(topic) to be 0.02
+	<li> Scored on NEWS stories in the evaluation, all others excluded
+	<li> When mapping ref to hyp document clusters, the NULL topic cluster is the default match.  The
+	     minimum score then is at least as small as the score of the NULL cluster.
+	<li> added a check of TDT2.pm to make sure the right library is in use.
+	</UL>
+<TR> <TD> TDT2.pm <TD> 
+	<UL>
+	<LI> Corrected initializations of hash tables to '= {}'	
+	<li> Corrected a problem in Find_system_score_for_doc().  If there are no decisions for a
+	final reference story, the finale hyp boundary was not in effect. 
+	<li> Corrected the load database function to properly erase TDTref so that more that one tracking 
+	index file could be created.
+	</UL>
+<TR> <TD> <A HREF="TDT2BuildIndex.htm">TDT2BuildIndex.pl</A> <TD>
+	<UL>
+	<LI> Use only NEWS stories in both the Training stories and NON-target training stories.
+	<li> Corrected the load database function to properly erase TDTref so that more that one tracking 
+	index file could be created.
+	<li> Modified the proceedures for making trancking index files, a number of bugs were fixed including: 1) the residual text from the final training files was omitted from test if the file was ABC, 2) the detection index is now used to search for training stories, this way the file lists for detection and tracking match.  3) XXXXXXX  null length asrv news stories not scored
+	</UL>
+
+</table>
+</DIR>
+<P>
+
+<h1> Version 0.4, Released Oct, 7, 1998 </h1>
+<DIR>
+<Table BORDER=2>
+<TR> <TD> TDT2seg.pl <TD>
+	<UL>
+	<LI> Modified the code to handle boundary records without recids
+	<LI> Added the -s switch.  (uses all available speedups)
+	<li> Replaces  the -d option, to dump the internal database and then exit, to -L
+	<li> Added the -r option to write the summary report to a file
+	<LI> Added the -D option to write out detailed diagnostics
+	<li> Added the ability to make DET dot plots of source show scores and of the overall
+		scores via the -d and -t options.
+	</UL>
+<TR> <TD> TDT2trk.pl <TD> 
+	<UL>
+	<LI> Modified the code to handle boundary records without recids
+	<LI> Added P: and C: to the list of commandline options as they were omitted, but documented
+	<LI> Added the -s switch.  (uses all available speedups)
+	<li> Added the -r option to write the summary report to a file
+	<LI> Added the -D option to write out detailed diagnostics
+	</UL>
+<TR> <TD> TDT2det.pl <TD> 
+	<UL>
+	<LI> Modified the code to handle boundary records without recids
+	<LI> Corrected the case of the option 'p:' to be upper case as documented.
+	<LI> Added the -s switch.  (uses all available speedups)
+	<li> Added the -r option to write the summary report to a file
+	<LI> Added the -D option to write out detailed diagnostics
+	<li> Made the DET plots produce a topic score cloud and topic weighted score point.
+	<LI> Added the -T switch to select a set of topics to score over.
+	<LI> The -I option was replaced with the -i option.   '-I' conflicts with the perl option
+	     to add a directory to the package search path.
+	</UL>
+<TR> <TD> TDT2.pm <TD> 
+	<UL>
+	<li> Corrected subroutine Load_Boundaries_Into_TDTRef();
+	<li> Changed computes DET points to output probability data points
+	</UL>
+<TR> <TD> <A HREF="TDT2BuildIndex.htm">TDT2BuildIndex.pl</A> <TD>
+	<UL>
+	<LI> Corrected a problem with tracking indexes, when the final training story is a from a text source with either ccap or fdch transcripts, the rest of the file was not included in the test.
+	<LI> Added the -s switch.  (uses all available speedups)
+	<LI> Added the -T switch to select a set of topics to build tracking indexes for.
+	</UL>
+
+</table>
+</DIR>
+
+<h1> Version 0.5, Released Oct, 20 1998 </h1>
+
+<DIR>
+<Table BORDER=2>
+<TR> <TD> TDT2det.pl <TD> 
+	<UL>
+	<LI> The regular expression to restrict evaluated topics did not work if the regexp was not specified.
+	</UL>
+</table>
+</DIR>
+
+<h1> Version 0.6, Released December 3, 1998 </h1>
+
+<DIR>
+<Table BORDER=2>
+<TR> <TD> TDT2seg.pl <TD> 
+	<UL>
+	<LI> Corrected a bug that had the affect of not producing identical denominators across systems.  The bug was activated by adjacent Non-NEWS stories that were incorrectly scored.  Basically, there were Nframes evaluated around an internal boundary.
+	</UL>
+<TR> <TD> TDT2det.pl <TD> 
+	<UL>
+	<LI> The fix on the topic regular expression didn't work properly if there was no topic regular expression used.  It ran, but it included a 'n/a' topic cluster.
+	<li> Put in an assumption check to make sure there is at least 1 reference and 1 hypothesize story clusters in the evaluation data.
+	</UL>
+<TR> <TD> TDT2trk.pl <TD> 
+	<UL>
+	<LI> There was an option clash between the speedup option -s and the skip system output files not in the index file.
+	</UL>
+</TR>
+<TR> <TD> TDT2BuildIndex.pl <TD> 
+	<UL>
+	<LI> Fixed a problem in seg_asr.ndx file generation.  For some reason, the variable $src was changed to $source in the function to generate the file.
+	<LI> Fixed a problem in tracking non-target generation, non-training documents with multiple topic annotations were in the non-target training list twice.
+	<LI> Fixed a problem in the tracking index files, if the document was on-topic for the test topic and for another topic, the document occured as both target and non-target training.
+	</UL>
+
+</table>
+</DIR>
+
+</BODY>
+</HTML>
+ 

@@ -1,0 +1,194 @@
+<HTML>
+<HEAD>
+<CENTER><TITLE>TDT3eval FAQ</TITLE></CENTER>
+<B><BIG><CENTER>TDT3eval FAQ</CENTER></BIG></B>
+
+</HEAD>
+
+<BODY><p><hr>
+
+<H2> <center> Questions </center> </h1>
+<OL>
+<a href="faq.htm#commlines"> 
+<li> What are the command lines that NIST used for the evaluations? </a>
+<a href="faq.htm#runfast"> 
+<li> How can I make the program run faster? </a>
+<a href="faq.htm#topwei"> 
+<li> How do I make topic weighted DET graphs? </a>
+<a href="faq.htm#trk_subset"> 
+<li> How do I compute tracking performance on subsets of an evaluation set. </a>
+<a href="faq.htm#det_subset"> 
+<li> How do I compute topic detection performance on subsets of an evaluation set. </a>
+<a href="faq.htm#fsd_docs"> 
+<li> How do I manually control the evaluated documents in the FSD evaluation. </a>
+<a href="faq.htm#topic_id_control"> 
+<li> How do I specify which topics the detection and FSD evaluations score. </a>
+</OL>
+
+<H2> <center> Answers </center> </h1>
+
+<ol>
+<A NAME="commlines">
+<li> <B> ANSWER TO: What are the command lines that NIST used for the evaluations? </B>
+</A>
+<UL>
+   <LI> Segmentation
+   <DIR>
+        TDT3seg.pl -R &lt;TDT_DIST&gt; -I <a href="TDT3seg.htm#SegIndexFormat">&lt;TDT_SEG_INDEX&gt;</A>
+                -r report.out -d DETplot -s <A href="TDT3seg.htm#SegOutputFormat">&lt;TDT_SEG_OUTPUT&gt;</a>
+   </DIR>
+
+   <LI> Tracking
+   <DIR>
+        TDT3trk.pl -R &lt;TDT_DIST&gt; -I <A href="TDT3trk.htm#TrkIndexFormat">&lt;TDT_TRK_INDEX_LIST&gt;</A> 
+                -r report.out -d DETplot -w -s <A href="TDT3trk.htm#TrkOutputFormat">&lt;TDT_TRK_OUTPUT_LIST&gt;</A>
+   </DIR>
+
+   <LI> Detection
+   <DIR>
+        TDT3det.pl -R &lt;TDT_DIST&gt; -i <A href="TDT3det.htm#DetIndexFormat">&lt;TDT_DET_INDEX&gt;</a>
+                -r report.out -d DETplot -T TDT99_mul <A href="TDT3det.htm#DetOutputFormat">&lt;TDT_DET_OUTPUT&gt;</a>
+   </DIR>
+
+   <LI> First Story Detection
+   <DIR>
+        TDT3fsd.pl -R &lt;TDT_DIST&gt; -i <A href="TDT3fsd.htm#FsdIndexFormat">&lt;TDT_FSD_INDEX&gt; </a>
+                -r report.out -d DETplot -T TDT99_mul <A href="TDT3fsd.htm#FsdOutputFormat">&lt;TDT_FSD_OUTPUT&gt;</a>
+   </DIR>
+   
+   <li> Link Detection
+   <dir>
+   DetectionScore.pl -d DETplot -K <A HREF="DetectionScore.htm#key_format">&lt;KEY_FILE&gt; </a> <A HREF="DetectionScore.htm#out_format">&lt;TDT_SLD_OUTPUT&gt;</a>
+   </dir>
+
+</UL>
+
+<!---------  next Answer --->
+<P>
+<A NAME="runfast">
+<li> <B> ANSWER TO: How can I make the evaluations run faster? </B>
+</A>
+
+<DIR>
+Each of the scoring modules have an option '-s' that sets the program
+to run for speed.  The option disables the use if SGML parsers to read
+in the TDT data base, thus sidestepping corpora validation steps.
+What could go wrong?  It is possible that a corrupt TDT corpus would
+be undetected.  The author's suggestion is to run a test set through
+the programs without the -s option once to validate the corpus, and
+then use the -s option thereafter since the corpus has been verified
+once.
+</DIR>
+
+<!--------- next Answer --->
+<P>
+<A NAME="topwei">
+<li> <B> ANSWER TO: How do I make topic weighted DET graphs? </B>
+</A>
+
+<DIR>
+Topic weighted DET graphs are only supported for the <A
+HREF="TDT3trk.htm">Tracking</A> and <A HREF="TDT3fsd.htm">First Story
+Detection</A> evaluation tasks.  First, use the '-d DETFILE' option to
+generate a DET plot, and then add the '-w' option to generate a
+topic-weighted DET trace.  NIST generates the topic weighted DET
+graphs for the evaluation.  The <A HREF="faq.htm#commlines">command
+lines</a> above provide an example.
+</DIR>
+
+
+<!--------- next Answer --->
+<P>
+<a name="trk_subset"> 
+<li> <B> ANSWER TO: How do I compute tracking performance on subsets of an evaluation set. </B>
+<dir>
+There are two steps to accomplish this operation: 
+<P>
+<OL type=i> 
+<li> Build a set of topic index files including only the source files that you want to evaluate. 
+<li> Run <A href="TDT3trk.htm">TDT3trk.pl</a> using the new
+index files, adding the command line option <A href="TDT3trk.htm#opt_S">-S</a>.  
+</OL>
+<P>
+The -S option tells the program to ignore any system outputs for
+source files that have not been specified in the index file.  The
+other options, such as the DET plots, apply as normal.
+</dir>
+
+<!--------- next Answer --->
+<P>
+<a name="det_subset"> 
+<li> <B> ANSWER TO: How do I compute topic detection performance on subsets of an evaluation set. </B>
+<DIR>
+A simple modification of the index files will not accomplish a
+subsetting operation (such as for the tracking evaluation.)  The
+detection scoring proceedure first "maps" each reference topic cluster
+to a least cost hypothesized topic cluster.  If the subsetting is done
+prior to the mapping, then the mapped clusters will change drastically
+between subsets.  Therefore, the detection scoring program accepts a
+source file subset definition file via the <a
+href="TDT3det.htm#SubsetFormat">-S SUBSET_FILE"</a> option.  The
+subset file defines any number of (possibly overlapping) subsets of
+source files.  The link above goes to the <a
+href="TDT3det.htm">TDT3det</A> manual page description of the source
+file subset file.
+
+<P> The net effect of using the -S option is the generate additional
+tables in the scoring <a href="TDT3det.htm#report">report</A>.  The
+DET plot will not reflect additional performance points in light of
+this option's use.
+</DIR>
+
+
+<!--------- next Answer --->
+<P>
+<a name="fsd_docs"> 
+<li> <B> ANSWER TO: How do I manually control the evaluated documents in the FSD evaluation.  </B>
+<DIR>
+The <A HREF="TDT3fsd.htm#opt_K">-K FSD_Key</a> option of the <A
+HREF="TDT3fsd.htm">TDT3fsd.pl</A> program specifies an FSD <A
+HREF="TDT3fsd.htm#key_format">key file</a> which designates the
+stories to be evaluated.  The <A HREF="TDT3fsd.htm#key_format">key
+file</a> can be generated according to the documented specifications,
+or automaically using 'TDT3fsd.pl' itself via the <A
+HREF="TDT3fsd.htm#opt_k">-k FSD_Key</a> option.  The '-k' option dumps
+the currently loaded FSD key, so one could, generate an answer key for
+an evaluation set, using the '-k' option, modify the output key file,
+and then rescore the evaluation set using the modified answer key
+using the '-K FSD_Key' option.
+</DIR>
+
+
+<!--------- next Answer --->
+<P>
+
+<a name="topic_id_control"> 
+<li> <B> ANSWER TO: How do I specify which topics the detection and FSD evaluations score. </a> </B>
+<DIR>
+By default, the detection and first story detection evaluation scripts score all topics for which
+there are on-topic documents in the test collection.  Using the '-T regexp' option in the commands for 
+<A HREF="TDT3det.htm">TDT3det.</a> and <a href="TDT3fsd.htm"> TDT3fsd.pl</A>, one can limit to evaluated topics.  The 'regexp' arguement is a PERL regular expression that 
+is 'matched' against the topic ids.  These expressions can become complicated, so there are 4 pre-programmed macros for the
+common topic sets.  The macros are as follows:
+<P>
+<dir>
+<table border=2> 
+<tr> <TH> Macro name </TH> <TH> Equivalent Expression </TH> </TR>
+<tr> <TD> TDT98_Train     <TD> 20+([1-9]|[12][0-9]|3[0-7])
+<tr> <TD> TDT98_DevTest   <TD> 20+(3[89]|[45][0-9]|6[0-6])
+<tr> <TD> TDT98_EvalTest  <TD> 20+(6[7-9]|[89][0-9]|100)
+<tr> <TD> TDT99_mul       <TD> 20+(1|2|5|7|13|15|20|23|39|44|48|57|70|71|76|85|88|89|91|96)
+</table>
+</dir>
+<P>
+A typical use of the macros would be to use the TDT98 training and devtest topics from the TDT2 corpus.  The command
+line argument for this case would be: '-T TDT98_train|TDT98_DevTest'.
+
+
+</DIR>
+
+</OL>
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!-- $Id: TDT3BuildIndex.htm,v 1.1.1.1 2001/06/01 13:12:19 jon Exp $ -->
+<HTML>
+<HEAD>
+<CENTER><TITLE>TDT3BuildIndex.pl User Manual</TITLE></CENTER>
+<A NAME="TDT3BuildIndex.pl"> <B><BIG><CENTER>TDT3BuildIndex.pl User Manual</CENTER></BIG></B></A>
+
+<BR>
+<CENTER> <H1> TDT3 Evaluation Index Generator </H1> </CENTER>
+
+</HEAD>
+
+<BODY><p><hr>
+
+
+<H1>Usage:</H1>
+<DIR>
+	TDT3BuildIndex.pl <A HREF="TDT3BuildIndex.htm#opts">&lt;OPTIONS&gt;</a> -R Rootdir -f SourceList -O OutputDir
+</DIR>
+
+<H1> Description </H1>
+<P> TDT3BuildIndex.pl builds the TDT3 evaluation indexes for an evaluation.  The
+      script reads in a list of source filenames 'SourceList'.  The list
+      should be one document source filename per file without extensions, for example see
+      <a href="example_indexes/index.flist">doc/example_indexes/index.flist</A>.  The
+      script then reads the boundary file information from the TDT3 
+      corpus' root directory, 'Rootdir', and writes index files into
+      'OutputDir'.   <P> The directory <A href="example_indexes">doc/example_indexes</A> contains the
+      output generated as an illustrative example.  (See the <A
+      href="TDT3BuildIndex.htm#descript"> Script Output Description</A>
+      section below for more details.)
+
+<H1> Options </H1>
+<P> <A NAME="opts"> </A>The following Options are recognized by the program:
+
+
+<DIR>
+<TABLE BORDER=2> 
+<TR> <TD> -a [ccap|fdch] <TD> -> <TD> For the ABC shows, choose either the closed captioning
+			transcripts (ccap) or the Federal Documents Clearing House transcripts
+			(fdch) in the index files.  The default is the close captioning.
+<TR> <TD> -l LNKfile <TD> -> <TD> Use the hand generated database of link judgements in 'LNKfile'
+                        rather than randomly generating a set of link story pairs.
+<TR> <TD> -L LNKfile <TD> -> <TD> Write the Link database used to generate the link index files.  If the '-l' option is used, it is essentially a copy of the input database, otherwise it's built from the randomly selected links.
+<TR> <TD> -n Nn <TD> -> <TD> The maximum number of certified off-topc stories to write into the tracking index files.
+<TR> <TD> -r RANDOMSEED <TD> -> <TD> A seed number to supply to the random number generator.  Otherwise, the seed is set to a number based on the current time and process id (A trick from the PERL manual).
+<TR> <TD> -s <TD> -> <TD> Use all available speedups.  Currently, the only speedups involve 
+			  NOT using 'nsmgls' and 'SGMLS.pm' parser and PERL libraries to read 
+			  the TDT3 Corpus files. 
+<TR> <TD> -S EXT[:EXT]* <TD> -> <TD> Speicify the extension to use for the ASR transcripts.  Fall back extensions can be identified by adding colon separator between extensions.  So the string 'as1:asr' forces the program to look for .as1 transcripts, and use them if found.  If there isn't a .as1 transcript, the program attempts to locate a .asr transcript and use it if found.  The default value is 'asr'.
+<TR> <TD> -t Nt <TD> ->  <TD> Maximum number of training stories
+			 per topic for the tracking indexes.  Default is 16
+<TR> <TD> -T Topic_regexp <TD> ->  <TD> Restrict the topics for which the  index files
+			are created using the PERL regular expression 'Topic_regexp'.  The default
+			is to use all occuring annotated topics.  There are a number of macro names
+			for defined topic sets that may be used in place of regular expressions, 
+			they are:
+			<DIR>
+			<table border=2> 
+			<tr> <TH> Macro name </TH> <TH> Equivalent Expression </TH> </TR>
+			<tr> <TD> TDT98_Train     </TD> <TD> 20+([1-9]|[12][0-9]|3[0-7])</TD></TR>
+			<tr> <TD> TDT98_DevTest   </TD> <TD> 20+(3[89]|[45][0-9]|6[0-6])</TD></TR>
+			<tr> <TD> TDT98_EvalTest  </TD> <TD> 20+(6[7-9]|[89][0-9]|100)</TD></TR>
+			<tr> <TD> TDT99_mul       </TD> <TD> 20+(1|2|5|7|13|15|20|23|39|44|48|57|70|71|76|85|88|89|91|96)</TD></TR>
+			</table>
+			</dir>
+<TR> <TD> -v num <TD> -> <TD> Set the verbose level to 'num'. Default 1.<BR>
+	                   ==0 None, ==1 Normal, >5 Slight, >10 way too much, >15 not even funny
+<TR> <TD> -y YEAR <TD> -> <TD> Build index files for the evaluation year 'YEAR'.  The default
+                   is 1999.  Possible values are 1999 and 2000.
+</TABLE>
+</DIR>
+
+<a name="descript"> <H1> Script Output Description </H1></a>
+
+As stated above, the output of this script is a directory full of
+index files, answer keys, source file subset definition files, an
+auxilliary information file, and most importantly an HTML file
+explaining the directories contents.  
+
+<P> In order to explain the output of this script, the evaluation
+software has a complete example of the script's execution.  The
+command executed is in the Bourne shell script <A
+href="example_indexes/create_indexes.sh">
+doc/example_indexes/create_indexes.sh</A>.  The script has two steps,
+the first generates the list of source filename, 
+<A href="example_indexes/index.flist">doc/example_indexes/index.flist</A>, to generate the index files for.  Notice that this particular list covers the June data of 1998.  The second step is to execute TDT2BuildIndex.pl.  The command line arguemts are defined above in the Options section.
+
+<P> After execution, the output directory, <A href="example_indexes">doc/example_indexes</a>, is filled with all sorts of goodies, the most important file is the HTML readme file <A href="example_indexes/index.htm">doc/example_indexes/index.htm</A>.  It has links to all the files and explainations of the contents. 
+
+<P> There are 7 sections in the readme file:
+<OL> 
+<LI> <A href="example_indexes/index.htm#auxinfo">Auxilliary Information</A>
+<LI> <A href="example_indexes/index.htm#seg">Segmentation Index files</A>
+<LI> <A href="example_indexes/index.htm#track">Topic Tracking Index files</A>
+<LI> <A href="example_indexes/index.htm#detect">Topic Detection Index files</A>
+<LI> <A href="example_indexes/index.htm#fsd">First Story Detection Index files</A>
+<LI> <A href="example_indexes/index.htm#lnk">Link Detection Index files</A>
+<LI> <A href="example_indexes/index.htm#ssd">Subset Definition Files</A>
+</OL>
+
+
+</BODY>
+</HTML>
+
+
+

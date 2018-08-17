@@ -1,0 +1,2 @@
+twoTag = subset(MyData,MyData$tag=='new' | MyData$tag=='old')
+ write.table(twoTag, file = "myData.csv",sep = ",")

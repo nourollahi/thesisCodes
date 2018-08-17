@@ -1,0 +1,1 @@
+java -mx512M -cp bin;lib/args4j-2.0.6.jar jgibblda.LDA -est -alpha 0.5 -beta 0.1 -ntopics 30 -niters 1000 -savestep 1000 -twords 38000 -dir tdt2/ -dfile /tdt.txt

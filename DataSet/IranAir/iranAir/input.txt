@@ -1,0 +1,6119 @@
+3
+docID 1 segmentID 1
+docID 1 segmentID 2
+docID 1 segmentID 3
+================================================
+5
+docID 2 segmentID 1
+doc 1 -3.11129
+docID 2 segmentID 2
+doc 1 -3.76996
+docID 2 segmentID 3
+doc 1 -3.20396
+docID 2 segmentID 4
+doc 1 -3.45311
+docID 2 segmentID 5
+doc 1 -2.72928
+================================================
+12
+docID 3 segmentID 1
+doc 1 -2.03105
+doc 2 -2.39758
+docID 3 segmentID 2
+doc 1 -2.75837
+doc 2 -2.83746
+docID 3 segmentID 3
+doc 2 -4.09406
+doc 1 -4.16233
+docID 3 segmentID 4
+doc 2 -2.85207
+doc 1 -3.06539
+docID 3 segmentID 5
+doc 1 -3.75195
+doc 2 -3.85669
+docID 3 segmentID 6
+doc 2 -2.89816
+doc 1 -3.0414
+docID 3 segmentID 7
+doc 2 -3.57831
+doc 1 -3.9272
+docID 3 segmentID 8
+doc 2 -2.56493
+doc 1 -2.71288
+docID 3 segmentID 9
+doc 2 -3.21417
+doc 1 -3.33611
+docID 3 segmentID 10
+doc 2 -3.10237
+doc 1 -3.19996
+docID 3 segmentID 11
+doc 1 -2.60658
+doc 2 -2.75942
+docID 3 segmentID 12
+doc 1 -2.37671
+doc 2 -2.43346
+================================================
+1
+docID 4 segmentID 1
+doc 3 -2.37042
+doc 2 -2.41069
+doc 1 -2.6797
+================================================
+1
+docID 5 segmentID 1
+doc 2 -2.96373
+doc 4 -3.00298
+doc 3 -3.03986
+doc 1 -3.05311
+================================================
+3
+docID 6 segmentID 1
+doc 5 -3.01946
+doc 2 -3.12892
+doc 4 -3.15848
+doc 3 -3.26342
+doc 1 -3.27498
+docID 6 segmentID 2
+doc 3 -3.11324
+doc 4 -3.11486
+doc 1 -3.16824
+doc 5 -3.18558
+doc 2 -3.24537
+docID 6 segmentID 3
+doc 5 -3.36267
+doc 3 -3.54155
+doc 2 -3.71482
+doc 4 -3.75612
+doc 1 -3.76132
+================================================
+5
+docID 7 segmentID 1
+doc 3 -3.10023
+doc 2 -3.24216
+doc 1 -3.31468
+doc 4 -3.42904
+doc 5 -3.44327
+doc 6 -3.56019
+docID 7 segmentID 2
+doc 4 -4.81053
+doc 5 -4.87203
+doc 1 -4.88052
+doc 6 -4.90785
+doc 2 -4.99324
+doc 3 -5.07754
+docID 7 segmentID 3
+doc 2 -4.43946
+doc 5 -4.48611
+doc 1 -4.50258
+doc 4 -4.5596
+doc 6 -4.60669
+doc 3 -4.63462
+docID 7 segmentID 4
+doc 4 -4.05535
+doc 2 -4.08396
+doc 5 -4.1662
+doc 3 -4.17256
+doc 6 -4.25838
+doc 1 -4.28318
+docID 7 segmentID 5
+doc 3 -2.11985
+doc 4 -2.26177
+doc 1 -2.38495
+doc 5 -2.42699
+doc 6 -2.44417
+doc 2 -2.51828
+================================================
+8
+docID 8 segmentID 1
+doc 4 -3.02813
+doc 5 -3.09712
+doc 2 -3.11015
+doc 6 -3.17713
+doc 1 -3.2156
+doc 3 -3.24716
+docID 8 segmentID 2
+doc 3 -2.25853
+doc 5 -2.3106
+doc 4 -2.34363
+doc 1 -2.35129
+doc 6 -2.35854
+doc 2 -2.44047
+docID 8 segmentID 3
+doc 6 -2.68502
+doc 1 -2.71332
+doc 5 -2.72742
+doc 4 -2.74097
+doc 3 -2.74343
+doc 7 -2.75768
+docID 8 segmentID 4
+doc 3 -2.36298
+doc 4 -2.39374
+doc 6 -2.4449
+doc 1 -2.44573
+doc 5 -2.45487
+doc 2 -2.50378
+docID 8 segmentID 5
+doc 3 -2.83486
+doc 2 -2.98254
+doc 5 -3.08477
+doc 1 -3.21666
+doc 4 -3.22537
+doc 6 -3.2535
+docID 8 segmentID 6
+doc 3 -2.7333
+doc 5 -2.94744
+doc 2 -2.9636
+doc 6 -3.00048
+doc 4 -3.00129
+doc 1 -3.0662
+docID 8 segmentID 7
+doc 4 -3.49627
+doc 5 -3.53954
+doc 2 -3.55034
+doc 6 -3.57998
+doc 1 -3.58837
+doc 3 -3.60537
+docID 8 segmentID 8
+doc 1 -3.24925
+doc 3 -3.33337
+doc 6 -3.38246
+doc 4 -3.45124
+doc 5 -3.4593
+doc 2 -3.48082
+================================================
+6
+docID 9 segmentID 1
+doc 1 -2.68443
+doc 4 -2.68701
+doc 3 -2.72138
+doc 6 -2.7524
+doc 5 -2.76565
+doc 2 -2.81841
+docID 9 segmentID 2
+doc 5 -6.09382
+doc 1 -6.10044
+doc 4 -6.10823
+doc 6 -6.12834
+doc 2 -6.23252
+doc 7 -6.25685
+docID 9 segmentID 3
+doc 1 -4.14118
+doc 4 -4.17428
+doc 7 -4.24233
+doc 5 -4.26858
+doc 3 -4.26994
+doc 6 -4.29783
+docID 9 segmentID 4
+doc 1 -4.57764
+doc 5 -4.58008
+doc 4 -4.59002
+doc 6 -4.62398
+doc 2 -4.65349
+doc 7 -4.70268
+docID 9 segmentID 5
+doc 4 -2.77208
+doc 1 -2.77457
+doc 5 -2.77653
+doc 6 -2.80874
+doc 7 -2.86165
+doc 2 -2.86299
+docID 9 segmentID 6
+doc 7 -4.95792
+doc 4 -4.96365
+doc 5 -4.96785
+doc 1 -4.96991
+doc 6 -4.9965
+doc 2 -5.09353
+================================================
+7
+docID 10 segmentID 1
+doc 3 -2.83907
+doc 8 -2.86604
+doc 1 -2.89399
+doc 9 -2.91855
+doc 4 -2.93522
+doc 6 -2.94982
+docID 10 segmentID 2
+doc 8 -2.81436
+doc 1 -2.85176
+doc 5 -2.85661
+doc 3 -2.86468
+doc 4 -2.89254
+doc 2 -2.90211
+docID 10 segmentID 3
+doc 5 -4.07611
+doc 8 -4.08648
+doc 3 -4.0886
+doc 1 -4.129
+doc 4 -4.14819
+doc 6 -4.18088
+docID 10 segmentID 4
+doc 9 -3.41082
+doc 5 -3.43228
+doc 3 -3.44251
+doc 8 -3.46132
+doc 4 -3.47544
+doc 1 -3.47693
+docID 10 segmentID 5
+doc 9 -3.44819
+doc 5 -3.61758
+doc 6 -3.62286
+doc 4 -3.62913
+doc 1 -3.63055
+doc 2 -3.67298
+docID 10 segmentID 6
+doc 3 -2.84625
+doc 8 -2.89626
+doc 5 -2.90598
+doc 1 -2.91288
+doc 6 -2.92208
+doc 2 -2.96329
+docID 10 segmentID 7
+doc 7 -1.90266
+doc 3 -2.19619
+doc 4 -2.25797
+doc 8 -2.32799
+doc 1 -2.37803
+doc 5 -2.41866
+================================================
+2
+docID 11 segmentID 1
+doc 9 -2.11788
+doc 3 -2.72009
+doc 6 -2.73017
+doc 4 -2.73439
+doc 1 -2.75101
+doc 5 -2.75186
+docID 11 segmentID 2
+doc 9 -1.30227
+doc 4 -2.79658
+doc 1 -2.797
+doc 5 -2.81467
+doc 10 -2.83918
+doc 6 -2.84698
+================================================
+4
+docID 12 segmentID 1
+doc 9 -3.35034
+doc 11 -3.37224
+doc 1 -3.41665
+doc 5 -3.44922
+doc 10 -3.4542
+doc 3 -3.45827
+docID 12 segmentID 2
+doc 5 -3.98748
+doc 1 -4.02094
+doc 4 -4.03965
+doc 6 -4.064
+doc 8 -4.08035
+doc 9 -4.10844
+docID 12 segmentID 3
+doc 1 -3.30216
+doc 3 -3.52291
+doc 10 -3.53784
+doc 4 -3.58032
+doc 5 -3.5805
+doc 7 -3.61834
+docID 12 segmentID 4
+doc 2 -3.25135
+doc 3 -3.3516
+doc 4 -3.39598
+doc 5 -3.44648
+doc 1 -3.45997
+doc 8 -3.49491
+================================================
+3
+docID 13 segmentID 1
+doc 4 -3.17074
+doc 5 -3.19513
+doc 6 -3.23122
+doc 1 -3.33282
+doc 8 -3.35345
+doc 2 -3.35576
+docID 13 segmentID 2
+doc 5 -4.41652
+doc 9 -4.43695
+doc 11 -4.43888
+doc 4 -4.46862
+doc 1 -4.46994
+doc 10 -4.47069
+docID 13 segmentID 3
+doc 1 -4.21253
+doc 5 -4.24405
+doc 6 -4.2496
+doc 4 -4.25145
+doc 10 -4.25313
+doc 9 -4.28255
+================================================
+7
+docID 14 segmentID 1
+doc 8 -1.35264
+doc 3 -2.20664
+doc 5 -2.22993
+doc 6 -2.27371
+doc 4 -2.2945
+doc 1 -2.31986
+docID 14 segmentID 2
+doc 8 -1.7707
+doc 6 -2.68502
+doc 1 -2.71332
+doc 5 -2.72742
+doc 13 -2.73169
+doc 4 -2.74097
+docID 14 segmentID 3
+doc 8 -1.42595
+doc 3 -2.36298
+doc 4 -2.39374
+doc 6 -2.4449
+doc 1 -2.44573
+doc 10 -2.45223
+docID 14 segmentID 4
+doc 8 -2.29424
+doc 3 -2.83486
+doc 2 -2.98254
+doc 5 -3.08477
+doc 13 -3.15645
+doc 10 -3.18997
+docID 14 segmentID 5
+doc 8 -2.15511
+doc 3 -2.7333
+doc 5 -2.94744
+doc 2 -2.9636
+doc 10 -2.96893
+doc 12 -2.97191
+docID 14 segmentID 6
+doc 8 -2.33056
+doc 10 -3.41812
+doc 4 -3.49627
+doc 12 -3.51584
+doc 13 -3.53035
+doc 5 -3.53954
+docID 14 segmentID 7
+doc 8 -2.34085
+doc 1 -3.24925
+doc 3 -3.33337
+doc 6 -3.38246
+doc 4 -3.45124
+doc 5 -3.4593
+================================================
+10
+docID 15 segmentID 1
+doc 5 -3.05342
+doc 1 -3.16679
+doc 12 -3.16808
+doc 13 -3.17389
+doc 10 -3.21441
+doc 4 -3.21577
+docID 15 segmentID 2
+doc 5 -3.7755
+doc 10 -3.8433
+doc 8 -3.84434
+doc 14 -3.85414
+doc 1 -3.88727
+doc 6 -3.88976
+docID 15 segmentID 3
+doc 10 -3.41426
+doc 1 -3.45217
+doc 5 -3.45486
+doc 12 -3.45626
+doc 7 -3.47365
+doc 6 -3.47399
+docID 15 segmentID 4
+doc 3 -2.3295
+doc 4 -2.34572
+doc 10 -2.36064
+doc 5 -2.3878
+doc 12 -2.39104
+doc 2 -2.41424
+docID 15 segmentID 5
+doc 5 -3.10903
+doc 13 -3.15864
+doc 9 -3.22558
+doc 11 -3.24054
+doc 1 -3.26894
+doc 4 -3.27816
+docID 15 segmentID 6
+doc 2 -2.95439
+doc 7 -3.0119
+doc 10 -3.01371
+doc 3 -3.04233
+doc 4 -3.05212
+doc 1 -3.08877
+docID 15 segmentID 7
+doc 10 -3.44225
+doc 4 -3.48275
+doc 13 -3.53514
+doc 6 -3.53647
+doc 2 -3.53699
+doc 1 -3.54395
+docID 15 segmentID 8
+doc 13 -2.69899
+doc 5 -2.70122
+doc 2 -2.7417
+doc 1 -2.74365
+doc 4 -2.76162
+doc 12 -2.77889
+docID 15 segmentID 9
+doc 5 -2.90945
+doc 13 -3.03296
+doc 6 -3.10046
+doc 4 -3.13082
+doc 1 -3.1323
+doc 8 -3.13902
+docID 15 segmentID 10
+doc 2 -2.74363
+doc 6 -2.82513
+doc 10 -2.8313
+doc 13 -2.83826
+doc 3 -2.84977
+doc 5 -2.86948
+================================================
+3
+docID 16 segmentID 1
+doc 9 -3.35829
+doc 11 -3.36267
+doc 3 -3.41555
+doc 1 -3.4337
+doc 6 -3.4344
+doc 12 -3.46102
+docID 16 segmentID 2
+doc 14 -2.81267
+doc 8 -2.8176
+doc 3 -2.82307
+doc 1 -2.8255
+doc 12 -2.83565
+doc 4 -2.83845
+docID 16 segmentID 3
+doc 6 -2.83761
+doc 1 -2.856
+doc 4 -2.86398
+doc 5 -2.8808
+doc 3 -2.88681
+doc 9 -2.88758
+================================================
+3
+docID 17 segmentID 1
+doc 5 -3.28683
+doc 6 -3.35512
+doc 2 -3.39039
+doc 15 -3.39572
+doc 1 -3.40841
+doc 12 -3.42173
+docID 17 segmentID 2
+doc 3 -3.02808
+doc 2 -3.08529
+doc 15 -3.08951
+doc 4 -3.15128
+doc 7 -3.17048
+doc 6 -3.17384
+docID 17 segmentID 3
+doc 10 -3.83607
+doc 13 -3.87312
+doc 8 -3.9209
+doc 12 -3.92834
+doc 14 -3.93494
+doc 7 -3.93815
+================================================
+4
+docID 18 segmentID 1
+doc 5 -2.90623
+doc 11 -3.12489
+doc 13 -3.20729
+doc 15 -3.21447
+doc 7 -3.2189
+doc 3 -3.23888
+docID 18 segmentID 2
+doc 10 -2.82188
+doc 5 -2.86137
+doc 8 -2.89034
+doc 13 -2.89466
+doc 3 -2.90171
+doc 4 -2.91916
+docID 18 segmentID 3
+doc 5 -3.70857
+doc 7 -3.7106
+doc 4 -3.81558
+doc 1 -3.82729
+doc 13 -3.83465
+doc 6 -3.84052
+docID 18 segmentID 4
+doc 5 -4.17402
+doc 15 -4.22807
+doc 13 -4.30245
+doc 4 -4.41959
+doc 16 -4.44007
+doc 9 -4.46271
+================================================
+7
+docID 19 segmentID 1
+doc 3 -2.71782
+doc 7 -2.75733
+doc 2 -2.79063
+doc 12 -2.85096
+doc 4 -2.91728
+doc 5 -2.92043
+docID 19 segmentID 2
+doc 7 -4.19525
+doc 5 -4.42523
+doc 2 -4.46789
+doc 13 -4.50036
+doc 12 -4.50482
+doc 4 -4.52191
+docID 19 segmentID 3
+doc 17 -4.95954
+doc 3 -5.09166
+doc 2 -5.13736
+doc 6 -5.17468
+doc 12 -5.20157
+doc 4 -5.33175
+docID 19 segmentID 4
+doc 13 -3.18229
+doc 15 -3.1857
+doc 5 -3.20826
+doc 18 -3.22118
+doc 6 -3.23843
+doc 10 -3.25505
+docID 19 segmentID 5
+doc 16 -2.87631
+doc 3 -2.90514
+doc 7 -2.91415
+doc 17 -2.91561
+doc 5 -2.92551
+doc 2 -2.94013
+docID 19 segmentID 6
+doc 17 -3.11629
+doc 3 -3.17654
+doc 10 -3.224
+doc 2 -3.24962
+doc 15 -3.2589
+doc 5 -3.28444
+docID 19 segmentID 7
+doc 7 -1.76971
+doc 10 -1.89969
+doc 3 -2.11985
+doc 4 -2.26177
+doc 8 -2.33364
+doc 12 -2.33844
+================================================
+1
+docID 20 segmentID 1
+doc 16 -1.56422
+doc 6 -2.38562
+doc 3 -2.38735
+doc 19 -2.39185
+doc 1 -2.39452
+doc 14 -2.39793
+================================================
+2
+docID 21 segmentID 1
+doc 18 -2.68556
+doc 5 -2.92076
+doc 7 -3.00493
+doc 19 -3.06151
+doc 13 -3.07838
+doc 4 -3.08634
+docID 21 segmentID 2
+doc 18 -2.0641
+doc 7 -4.66971
+doc 5 -4.69118
+doc 11 -4.84297
+doc 12 -4.86011
+doc 3 -5.06946
+================================================
+4
+docID 22 segmentID 1
+doc 19 -3.41746
+doc 20 -3.42401
+doc 16 -3.44502
+doc 1 -3.45366
+doc 17 -3.45485
+doc 12 -3.46895
+docID 22 segmentID 2
+doc 9 -3.1602
+doc 11 -3.212
+doc 1 -3.47842
+doc 20 -3.49624
+doc 4 -3.52555
+doc 16 -3.5324
+docID 22 segmentID 3
+doc 9 -2.8667
+doc 11 -2.88716
+doc 12 -3.4901
+doc 1 -3.51664
+doc 4 -3.54136
+doc 3 -3.55865
+docID 22 segmentID 4
+doc 9 -3.67339
+doc 11 -3.67972
+doc 5 -4.00649
+doc 6 -4.05026
+doc 1 -4.05067
+doc 17 -4.05343
+================================================
+3
+docID 23 segmentID 1
+doc 22 -3.37396
+doc 16 -3.43447
+doc 20 -3.61139
+doc 1 -3.66599
+doc 19 -3.68544
+doc 4 -3.70743
+docID 23 segmentID 2
+doc 22 -3.50893
+doc 16 -3.55123
+doc 20 -3.62621
+doc 1 -3.63321
+doc 4 -3.71039
+doc 5 -3.7299
+docID 23 segmentID 3
+doc 16 -2.68472
+doc 20 -2.75071
+doc 22 -2.76218
+doc 19 -2.79074
+doc 1 -2.80884
+doc 12 -2.81862
+================================================
+4
+docID 24 segmentID 1
+doc 12 -3.58326
+doc 19 -3.64498
+doc 1 -3.64892
+doc 5 -3.67709
+doc 3 -3.70556
+doc 7 -3.72851
+docID 24 segmentID 2
+doc 11 -4.48944
+doc 9 -4.55235
+doc 7 -4.71712
+doc 22 -4.85251
+doc 19 -4.87604
+doc 23 -4.88757
+docID 24 segmentID 3
+doc 11 -3.90645
+doc 9 -3.9175
+doc 5 -3.95276
+doc 1 -3.97217
+doc 22 -3.97822
+doc 4 -4.00099
+docID 24 segmentID 4
+doc 5 -5.20052
+doc 10 -5.33047
+doc 20 -5.36943
+doc 15 -5.37774
+doc 3 -5.3782
+doc 23 -5.37927
+================================================
+4
+docID 25 segmentID 1
+doc 22 -3.56093
+doc 11 -3.60604
+doc 9 -3.75624
+doc 1 -3.76838
+doc 24 -3.77548
+doc 4 -3.80776
+docID 25 segmentID 2
+doc 1 -3.55522
+doc 24 -3.56576
+doc 11 -3.60023
+doc 9 -3.60051
+doc 12 -3.61898
+doc 23 -3.6491
+docID 25 segmentID 3
+doc 11 -2.9492
+doc 9 -3.00234
+doc 22 -3.01864
+doc 24 -3.02711
+doc 12 -3.06081
+doc 4 -3.07058
+docID 25 segmentID 4
+doc 10 -2.36689
+doc 22 -2.42368
+doc 19 -2.4454
+doc 12 -2.50548
+doc 7 -2.50742
+doc 1 -2.51164
+================================================
+2
+docID 26 segmentID 1
+doc 23 -1.99953
+doc 20 -3.35467
+doc 22 -3.38212
+doc 1 -3.50414
+doc 25 -3.50658
+doc 24 -3.50905
+docID 26 segmentID 2
+doc 23 -1.68896
+doc 20 -2.69222
+doc 16 -2.74025
+doc 19 -2.74803
+doc 22 -2.75344
+doc 1 -2.8001
+================================================
+1
+docID 27 segmentID 1
+doc 15 -1.39332
+doc 17 -1.7993
+doc 4 -1.83069
+doc 26 -1.84731
+doc 20 -1.85067
+doc 5 -1.85681
+================================================
+56
+docID 28 segmentID 1
+doc 25 -3.14332
+doc 20 -3.28645
+doc 1 -3.29125
+doc 16 -3.29504
+doc 26 -3.29804
+doc 23 -3.30815
+docID 28 segmentID 2
+doc 1 -2.39572
+doc 25 -2.57779
+doc 12 -2.58674
+doc 13 -2.60142
+doc 22 -2.6377
+doc 2 -2.63837
+docID 28 segmentID 3
+doc 25 -2.44854
+doc 1 -2.52845
+doc 3 -2.53574
+doc 6 -2.57308
+doc 10 -2.57363
+doc 12 -2.60625
+docID 28 segmentID 4
+doc 20 -3.43239
+doc 16 -3.45968
+doc 6 -3.46147
+doc 1 -3.4684
+doc 5 -3.48939
+doc 10 -3.50277
+docID 28 segmentID 5
+doc 17 -2.80994
+doc 5 -3.01296
+doc 12 -3.03797
+doc 2 -3.04244
+doc 6 -3.0425
+doc 1 -3.04615
+docID 28 segmentID 6
+doc 25 -3.14087
+doc 1 -3.14131
+doc 3 -3.15794
+doc 12 -3.18028
+doc 24 -3.20306
+doc 10 -3.21129
+docID 28 segmentID 7
+doc 8 -2.67623
+doc 20 -2.68669
+doc 16 -2.7025
+doc 3 -2.70457
+doc 1 -2.70992
+doc 14 -2.71363
+docID 28 segmentID 8
+doc 8 -2.73368
+doc 14 -2.7378
+doc 1 -2.91671
+doc 5 -2.92301
+doc 3 -2.94078
+doc 12 -2.9582
+docID 28 segmentID 9
+doc 23 -3.2398
+doc 17 -3.2583
+doc 16 -3.30017
+doc 19 -3.32996
+doc 26 -3.34581
+doc 22 -3.37115
+docID 28 segmentID 10
+doc 2 -3.79444
+doc 14 -3.82451
+doc 8 -3.82853
+doc 3 -3.96728
+doc 13 -4.16242
+doc 18 -4.16433
+docID 28 segmentID 11
+doc 6 -3.29334
+doc 1 -3.30681
+doc 3 -3.32244
+doc 4 -3.32805
+doc 16 -3.33202
+doc 20 -3.34097
+docID 28 segmentID 12
+doc 2 -2.84558
+doc 8 -2.90303
+doc 14 -2.90521
+doc 20 -2.96835
+doc 16 -2.9818
+doc 5 -2.98187
+docID 28 segmentID 13
+doc 1 -3.89915
+doc 19 -3.91513
+doc 24 -3.94083
+doc 20 -3.98647
+doc 2 -3.98944
+doc 16 -3.99225
+docID 28 segmentID 14
+doc 17 -2.27487
+doc 2 -2.29992
+doc 1 -2.32845
+doc 25 -2.33291
+doc 6 -2.35093
+doc 3 -2.38897
+docID 28 segmentID 15
+doc 4 -3.05366
+doc 25 -3.21605
+doc 2 -3.24139
+doc 7 -3.25973
+doc 1 -3.26359
+doc 17 -3.26801
+docID 28 segmentID 16
+doc 14 -2.99476
+doc 2 -2.99738
+doc 6 -3.01014
+doc 8 -3.02511
+doc 1 -3.06927
+doc 3 -3.07149
+docID 28 segmentID 17
+doc 19 -2.78212
+doc 7 -2.80091
+doc 25 -2.84155
+doc 2 -2.84922
+doc 21 -2.8812
+doc 18 -2.88898
+docID 28 segmentID 18
+doc 4 -3.69218
+doc 1 -3.70189
+doc 2 -3.72643
+doc 20 -3.74977
+doc 5 -3.75596
+doc 16 -3.76668
+docID 28 segmentID 19
+doc 2 -2.9124
+doc 26 -3.20577
+doc 17 -3.21369
+doc 23 -3.21987
+doc 15 -3.24303
+doc 1 -3.24425
+docID 28 segmentID 20
+doc 2 -3.45426
+doc 8 -3.46316
+doc 14 -3.49647
+doc 5 -3.52054
+doc 4 -3.53498
+doc 17 -3.54898
+docID 28 segmentID 21
+doc 5 -3.09016
+doc 18 -3.47374
+doc 1 -3.47839
+doc 17 -3.49468
+doc 24 -3.50307
+doc 2 -3.5066
+docID 28 segmentID 22
+doc 25 -4.04755
+doc 1 -4.08423
+doc 20 -4.09436
+doc 2 -4.09745
+doc 16 -4.10211
+doc 11 -4.11725
+docID 28 segmentID 23
+doc 19 -3.22177
+doc 2 -3.33302
+doc 13 -3.34512
+doc 3 -3.37452
+doc 27 -3.38596
+doc 15 -3.43188
+docID 28 segmentID 24
+doc 13 -3.39796
+doc 19 -3.57272
+doc 21 -3.64291
+doc 5 -3.65236
+doc 18 -3.65586
+doc 15 -3.6582
+docID 28 segmentID 25
+doc 13 -3.46336
+doc 2 -3.55968
+doc 25 -3.58386
+doc 18 -3.59879
+doc 1 -3.6066
+doc 12 -3.61019
+docID 28 segmentID 26
+doc 17 -2.95926
+doc 2 -3.01601
+doc 5 -3.16634
+doc 12 -3.17148
+doc 1 -3.17554
+doc 3 -3.18173
+docID 28 segmentID 27
+doc 17 -2.83169
+doc 16 -2.90846
+doc 20 -2.92805
+doc 3 -2.94865
+doc 2 -2.96289
+doc 27 -2.98257
+docID 28 segmentID 28
+doc 17 -2.70442
+doc 6 -2.70709
+doc 16 -2.72648
+doc 23 -2.73006
+doc 1 -2.73222
+doc 19 -2.73916
+docID 28 segmentID 29
+doc 17 -2.73287
+doc 16 -2.81405
+doc 20 -2.8209
+doc 23 -2.82501
+doc 1 -2.82638
+doc 26 -2.83999
+docID 28 segmentID 30
+doc 6 -2.27589
+doc 3 -2.30524
+doc 1 -2.30776
+doc 5 -2.31815
+doc 10 -2.33017
+doc 19 -2.34213
+docID 28 segmentID 31
+doc 25 -3.25298
+doc 10 -3.26382
+doc 4 -3.27825
+doc 1 -3.27921
+doc 6 -3.3222
+doc 20 -3.32263
+docID 28 segmentID 32
+doc 13 -3.02176
+doc 1 -3.02241
+doc 4 -3.02571
+doc 16 -3.0494
+doc 20 -3.05113
+doc 9 -3.06003
+docID 28 segmentID 33
+doc 12 -3.60667
+doc 14 -3.73312
+doc 8 -3.75387
+doc 1 -3.78959
+doc 4 -3.79068
+doc 25 -3.82749
+docID 28 segmentID 34
+doc 6 -3.06332
+doc 16 -3.06332
+doc 20 -3.06565
+doc 5 -3.09677
+doc 4 -3.10041
+doc 2 -3.10505
+docID 28 segmentID 35
+doc 2 -3.74889
+doc 9 -3.76974
+doc 14 -3.77664
+doc 8 -3.78814
+doc 5 -3.81159
+doc 20 -3.84224
+docID 28 segmentID 36
+doc 16 -2.66181
+doc 9 -2.66299
+doc 22 -2.69327
+doc 20 -2.72026
+doc 11 -2.72576
+doc 1 -2.7635
+docID 28 segmentID 37
+doc 9 -2.93569
+doc 11 -2.94116
+doc 25 -3.01118
+doc 16 -3.03113
+doc 23 -3.04835
+doc 22 -3.05302
+docID 28 segmentID 38
+doc 16 -3.6802
+doc 23 -3.72923
+doc 20 -3.74478
+doc 12 -3.76552
+doc 1 -3.7873
+doc 26 -3.7946
+docID 28 segmentID 39
+doc 16 -2.57969
+doc 1 -2.62286
+doc 9 -2.64403
+doc 23 -2.64516
+doc 5 -2.6466
+doc 4 -2.65974
+docID 28 segmentID 40
+doc 16 -2.72206
+doc 23 -2.85109
+doc 20 -2.85654
+doc 11 -2.93902
+doc 26 -2.95602
+doc 1 -2.97278
+docID 28 segmentID 41
+doc 5 -4.74683
+doc 1 -4.7531
+doc 20 -4.76491
+doc 4 -4.78047
+doc 6 -4.78354
+doc 16 -4.78722
+docID 28 segmentID 42
+doc 7 -3.30344
+doc 4 -3.33126
+doc 3 -3.33613
+doc 2 -3.33901
+doc 22 -3.34112
+doc 17 -3.34445
+docID 28 segmentID 43
+doc 1 -2.71865
+doc 16 -2.77636
+doc 6 -2.78559
+doc 12 -2.78636
+doc 20 -2.80893
+doc 5 -2.82151
+docID 28 segmentID 44
+doc 1 -3.76536
+doc 6 -3.77276
+doc 16 -3.82439
+doc 14 -3.83431
+doc 4 -3.84092
+doc 20 -3.84968
+docID 28 segmentID 45
+doc 2 -3.27227
+doc 12 -3.30761
+doc 1 -3.3662
+doc 6 -3.3874
+doc 19 -3.38899
+doc 25 -3.41955
+docID 28 segmentID 46
+doc 26 -4.01357
+doc 2 -4.02537
+doc 23 -4.02559
+doc 6 -4.03254
+doc 1 -4.04647
+doc 5 -4.05952
+docID 28 segmentID 47
+doc 6 -3.1954
+doc 14 -3.20285
+doc 2 -3.20498
+doc 8 -3.20508
+doc 4 -3.2182
+doc 1 -3.22046
+docID 28 segmentID 48
+doc 4 -4.21078
+doc 1 -4.35087
+doc 17 -4.35253
+doc 9 -4.36238
+doc 10 -4.37972
+doc 20 -4.38426
+docID 28 segmentID 49
+doc 19 -3.30839
+doc 12 -3.31442
+doc 1 -3.32438
+doc 6 -3.33992
+doc 3 -3.34767
+doc 26 -3.35488
+docID 28 segmentID 50
+doc 16 -3.04173
+doc 1 -3.05327
+doc 3 -3.05631
+doc 6 -3.0647
+doc 10 -3.06965
+doc 13 -3.07288
+docID 28 segmentID 51
+doc 3 -2.45798
+doc 1 -2.46815
+doc 12 -2.47134
+doc 5 -2.51527
+doc 10 -2.52279
+doc 16 -2.53473
+docID 28 segmentID 52
+doc 2 -3.04637
+doc 6 -3.11122
+doc 3 -3.12148
+doc 1 -3.15338
+doc 7 -3.15874
+doc 17 -3.16312
+docID 28 segmentID 53
+doc 25 -3.70177
+doc 14 -3.70521
+doc 1 -3.70713
+doc 4 -3.71359
+doc 8 -3.7237
+doc 2 -3.72799
+docID 28 segmentID 54
+doc 18 -3.63898
+doc 21 -3.68057
+doc 17 -3.78245
+doc 5 -3.81812
+doc 19 -3.82373
+doc 2 -3.88287
+docID 28 segmentID 55
+doc 21 -3.03105
+doc 2 -3.16333
+doc 1 -3.1922
+doc 18 -3.21812
+doc 25 -3.24742
+doc 3 -3.28386
+docID 28 segmentID 56
+doc 21 -5.90519
+doc 18 -6.07356
+doc 7 -6.4067
+doc 13 -6.49012
+doc 2 -6.64438
+doc 19 -6.68535
+================================================
+5
+docID 29 segmentID 1
+doc 5 -4.11945
+doc 12 -4.14292
+doc 13 -4.15479
+doc 17 -4.17289
+doc 28 -4.17524
+doc 14 -4.2137
+docID 29 segmentID 2
+doc 13 -3.00305
+doc 6 -3.02192
+doc 5 -3.02865
+doc 4 -3.03768
+doc 17 -3.03887
+doc 1 -3.04369
+docID 29 segmentID 3
+doc 14 -2.49036
+doc 8 -2.4931
+doc 3 -2.56508
+doc 20 -2.58591
+doc 26 -2.59112
+doc 19 -2.59777
+docID 29 segmentID 4
+doc 28 -3.45823
+doc 17 -3.67101
+doc 6 -3.73451
+doc 4 -3.77825
+doc 3 -3.79329
+doc 27 -3.81041
+docID 29 segmentID 5
+doc 1 -2.86837
+doc 12 -2.88075
+doc 17 -2.89177
+doc 16 -2.8952
+doc 28 -2.90775
+doc 5 -2.92442
+================================================
+4
+docID 30 segmentID 1
+doc 24 -3.77504
+doc 11 -4.00567
+doc 9 -4.04625
+doc 12 -4.32874
+doc 25 -4.33484
+doc 22 -4.33703
+docID 30 segmentID 2
+doc 25 -3.47287
+doc 24 -3.47336
+doc 9 -3.48444
+doc 22 -3.50443
+doc 11 -3.57383
+doc 12 -3.58092
+docID 30 segmentID 3
+doc 12 -3.22163
+doc 9 -3.23171
+doc 11 -3.23939
+doc 1 -3.24389
+doc 24 -3.25645
+doc 25 -3.25831
+docID 30 segmentID 4
+doc 22 -3.15462
+doc 9 -3.2876
+doc 11 -3.34198
+doc 16 -3.42522
+doc 1 -3.43073
+doc 20 -3.43909
+================================================
+3
+docID 31 segmentID 1
+doc 25 -3.98143
+doc 22 -4.19748
+doc 6 -4.32251
+doc 8 -4.36441
+doc 14 -4.36644
+doc 26 -4.36797
+docID 31 segmentID 2
+doc 30 -3.33437
+doc 25 -3.34989
+doc 22 -3.37831
+doc 9 -3.37835
+doc 11 -3.45694
+doc 1 -3.52703
+docID 31 segmentID 3
+doc 22 -3.47451
+doc 30 -3.50462
+doc 1 -3.58556
+doc 24 -3.60393
+doc 9 -3.61016
+doc 15 -3.61291
+================================================
+6
+docID 32 segmentID 1
+doc 19 -3.04614
+doc 3 -3.17574
+doc 22 -3.19722
+doc 2 -3.20669
+doc 17 -3.20759
+doc 21 -3.22258
+docID 32 segmentID 2
+doc 1 -2.90522
+doc 4 -2.93253
+doc 29 -2.94522
+doc 12 -2.9471
+doc 7 -2.95236
+doc 31 -2.95423
+docID 32 segmentID 3
+doc 26 -3.38292
+doc 23 -3.38725
+doc 14 -3.40288
+doc 8 -3.40804
+doc 10 -3.41066
+doc 3 -3.42061
+docID 32 segmentID 4
+doc 12 -3.19387
+doc 3 -3.30853
+doc 28 -3.31221
+doc 10 -3.31878
+doc 25 -3.35289
+doc 1 -3.35949
+docID 32 segmentID 5
+doc 29 -3.55923
+doc 17 -3.6905
+doc 23 -3.72561
+doc 26 -3.73103
+doc 14 -3.79051
+doc 27 -3.79138
+docID 32 segmentID 6
+doc 28 -3.0388
+doc 19 -3.23054
+doc 2 -3.24699
+doc 13 -3.3631
+doc 17 -3.3868
+doc 3 -3.40543
+================================================
+5
+docID 33 segmentID 1
+doc 17 -3.49813
+doc 25 -3.53624
+doc 3 -3.54664
+doc 16 -3.61443
+doc 20 -3.61909
+doc 32 -3.64222
+docID 33 segmentID 2
+doc 16 -3.19684
+doc 20 -3.20399
+doc 25 -3.20932
+doc 4 -3.21308
+doc 17 -3.231
+doc 13 -3.23544
+docID 33 segmentID 3
+doc 17 -2.94364
+doc 16 -2.99493
+doc 4 -2.99864
+doc 13 -3.0
+doc 20 -3.0059
+doc 25 -3.0072
+docID 33 segmentID 4
+doc 4 -3.20901
+doc 20 -3.21156
+doc 16 -3.23351
+doc 10 -3.24343
+doc 17 -3.25923
+doc 5 -3.26789
+docID 33 segmentID 5
+doc 8 -2.18264
+doc 14 -2.20232
+doc 10 -2.20773
+doc 25 -2.23628
+doc 20 -2.23707
+doc 31 -2.24517
+================================================
+219
+docID 34 segmentID 1
+doc 31 -3.72404
+doc 10 -3.78361
+doc 3 -3.80829
+doc 4 -3.81953
+doc 11 -3.83338
+doc 30 -3.86541
+docID 34 segmentID 2
+doc 28 -4.49126
+doc 1 -4.52803
+doc 10 -4.53687
+doc 25 -4.54141
+doc 32 -4.55404
+doc 30 -4.59742
+docID 34 segmentID 3
+doc 9 -2.89087
+doc 11 -2.89796
+doc 33 -2.98297
+doc 25 -2.99281
+doc 31 -3.04291
+doc 15 -3.07566
+docID 34 segmentID 4
+doc 15 -3.58541
+doc 3 -3.62609
+doc 13 -3.73062
+doc 8 -3.77113
+doc 14 -3.77207
+doc 1 -3.81654
+docID 34 segmentID 5
+doc 6 -3.62145
+doc 19 -3.9458
+doc 29 -3.94765
+doc 20 -3.95742
+doc 5 -3.96576
+doc 32 -3.97765
+docID 34 segmentID 6
+doc 28 -3.84927
+doc 22 -3.88208
+doc 17 -3.8829
+doc 29 -3.8959
+doc 20 -3.98618
+doc 16 -3.99407
+docID 34 segmentID 7
+doc 29 -4.81388
+doc 17 -4.94523
+doc 19 -4.96792
+doc 20 -5.01311
+doc 16 -5.03768
+doc 4 -5.0879
+docID 34 segmentID 8
+doc 29 -4.43546
+doc 16 -4.4788
+doc 28 -4.49439
+doc 20 -4.50824
+doc 19 -4.51287
+doc 1 -4.52335
+docID 34 segmentID 9
+doc 33 -4.21473
+doc 20 -4.28404
+doc 14 -4.30015
+doc 4 -4.30599
+doc 16 -4.30929
+doc 10 -4.31258
+docID 34 segmentID 10
+doc 29 -3.64324
+doc 15 -3.72917
+doc 20 -3.79706
+doc 33 -3.80672
+doc 6 -3.81701
+doc 17 -3.81742
+docID 34 segmentID 11
+doc 24 -4.03014
+doc 14 -4.14381
+doc 8 -4.1472
+doc 13 -4.16597
+doc 30 -4.19623
+doc 16 -4.20747
+docID 34 segmentID 12
+doc 22 -3.44386
+doc 29 -3.47115
+doc 20 -3.51675
+doc 6 -3.55012
+doc 16 -3.55817
+doc 4 -3.56256
+docID 34 segmentID 13
+doc 9 -4.52865
+doc 13 -4.53198
+doc 22 -4.53311
+doc 11 -4.53354
+doc 30 -4.5504
+doc 17 -4.58567
+docID 34 segmentID 14
+doc 19 -4.3748
+doc 26 -4.45409
+doc 23 -4.45787
+doc 33 -4.47807
+doc 15 -4.48904
+doc 25 -4.50774
+docID 34 segmentID 15
+doc 32 -3.4224
+doc 28 -3.49534
+doc 19 -3.50969
+doc 29 -3.52002
+doc 3 -3.54114
+doc 2 -3.54218
+docID 34 segmentID 16
+doc 4 -4.83287
+doc 29 -4.83865
+doc 20 -4.86976
+doc 16 -4.89483
+doc 1 -4.92908
+doc 5 -4.93723
+docID 34 segmentID 17
+doc 30 -3.99338
+doc 19 -4.0172
+doc 4 -4.07052
+doc 1 -4.07157
+doc 5 -4.08046
+doc 31 -4.08183
+docID 34 segmentID 18
+doc 27 -3.86439
+doc 26 -3.87488
+doc 32 -3.87569
+doc 10 -3.88873
+doc 23 -3.89037
+doc 6 -3.89278
+docID 34 segmentID 19
+doc 9 -4.59643
+doc 11 -4.60607
+doc 28 -4.6738
+doc 3 -4.7699
+doc 6 -4.79065
+doc 25 -4.80127
+docID 34 segmentID 20
+doc 26 -4.12135
+doc 13 -4.12282
+doc 20 -4.13386
+doc 6 -4.15571
+doc 23 -4.15707
+doc 16 -4.17114
+docID 34 segmentID 21
+doc 13 -4.63073
+doc 4 -4.72022
+doc 33 -4.78048
+doc 17 -4.79084
+doc 20 -4.8092
+doc 5 -4.81853
+docID 34 segmentID 22
+doc 33 -3.74755
+doc 9 -3.88739
+doc 11 -3.89872
+doc 25 -3.97234
+doc 6 -3.99179
+doc 16 -4.00623
+docID 34 segmentID 23
+doc 9 -4.8266
+doc 11 -4.83234
+doc 30 -4.84622
+doc 29 -4.88256
+doc 4 -4.90368
+doc 20 -4.90651
+docID 34 segmentID 24
+doc 29 -4.08729
+doc 33 -4.09262
+doc 19 -4.1118
+doc 32 -4.11336
+doc 6 -4.11365
+doc 30 -4.11963
+docID 34 segmentID 25
+doc 20 -4.30252
+doc 29 -4.30504
+doc 1 -4.32535
+doc 17 -4.34813
+doc 22 -4.3509
+doc 3 -4.35097
+docID 34 segmentID 26
+doc 29 -4.1923
+doc 28 -4.19653
+doc 6 -4.21992
+doc 1 -4.22138
+doc 20 -4.24093
+doc 4 -4.2413
+docID 34 segmentID 27
+doc 12 -3.91361
+doc 5 -3.92205
+doc 33 -3.93138
+doc 16 -3.93882
+doc 20 -3.93898
+doc 17 -3.95351
+docID 34 segmentID 28
+doc 23 -4.2989
+doc 26 -4.3023
+doc 17 -4.31521
+doc 22 -4.31601
+doc 20 -4.31965
+doc 16 -4.3374
+docID 34 segmentID 29
+doc 13 -4.73479
+doc 5 -4.81096
+doc 1 -4.8412
+doc 32 -4.84308
+doc 4 -4.86286
+doc 20 -4.86577
+docID 34 segmentID 30
+doc 17 -4.43883
+doc 15 -4.45739
+doc 3 -4.62797
+doc 5 -4.63299
+doc 19 -4.72223
+doc 28 -4.75736
+docID 34 segmentID 31
+doc 7 -5.67546
+doc 5 -5.86464
+doc 28 -5.87048
+doc 1 -5.97202
+doc 4 -5.98405
+doc 20 -5.98689
+docID 34 segmentID 32
+doc 5 -4.18473
+doc 8 -4.20733
+doc 4 -4.2171
+doc 7 -4.22366
+doc 14 -4.24792
+doc 10 -4.304
+docID 34 segmentID 33
+doc 32 -3.82214
+doc 7 -3.96026
+doc 26 -3.97623
+doc 23 -3.99881
+doc 1 -4.01927
+doc 14 -4.0301
+docID 34 segmentID 34
+doc 17 -5.46855
+doc 25 -5.4773
+doc 4 -5.49531
+doc 1 -5.49897
+doc 33 -5.503
+doc 31 -5.50773
+docID 34 segmentID 35
+doc 20 -6.94324
+doc 5 -6.94375
+doc 1 -6.95099
+doc 4 -6.9575
+doc 27 -6.95982
+doc 26 -6.96791
+docID 34 segmentID 36
+doc 10 -3.61059
+doc 14 -3.70566
+doc 28 -3.71254
+doc 8 -3.71707
+doc 27 -3.73665
+doc 29 -3.75296
+docID 34 segmentID 37
+doc 32 -3.51391
+doc 23 -3.64299
+doc 26 -3.65443
+doc 3 -3.72405
+doc 12 -3.77944
+doc 1 -3.8082
+docID 34 segmentID 38
+doc 10 -3.74957
+doc 25 -3.81207
+doc 32 -3.97467
+doc 15 -4.03694
+doc 1 -4.05944
+doc 12 -4.07927
+docID 34 segmentID 39
+doc 18 -3.91405
+doc 21 -4.03722
+doc 28 -4.16218
+doc 20 -4.16244
+doc 5 -4.16735
+doc 1 -4.16979
+docID 34 segmentID 40
+doc 5 -3.72361
+doc 2 -3.75926
+doc 1 -3.76657
+doc 14 -3.78053
+doc 8 -3.81081
+doc 12 -3.83294
+docID 34 segmentID 41
+doc 8 -4.15837
+doc 14 -4.16889
+doc 12 -4.23176
+doc 4 -4.2889
+doc 5 -4.33835
+doc 10 -4.4144
+docID 34 segmentID 42
+doc 28 -3.50144
+doc 3 -3.53338
+doc 14 -3.60407
+doc 13 -3.6181
+doc 8 -3.63032
+doc 20 -3.6425
+docID 34 segmentID 43
+doc 14 -4.01053
+doc 8 -4.04925
+doc 6 -4.16797
+doc 7 -4.22706
+doc 33 -4.25421
+doc 20 -4.25572
+docID 34 segmentID 44
+doc 14 -3.8457
+doc 8 -3.85377
+doc 3 -4.02716
+doc 33 -4.09077
+doc 24 -4.14822
+doc 32 -4.16334
+docID 34 segmentID 45
+doc 28 -4.03119
+doc 21 -4.34176
+doc 7 -4.34768
+doc 5 -4.36579
+doc 1 -4.38152
+doc 20 -4.39074
+docID 34 segmentID 46
+doc 33 -3.47905
+doc 19 -3.61807
+doc 17 -3.71451
+doc 28 -3.72803
+doc 1 -3.76442
+doc 15 -3.76506
+docID 34 segmentID 47
+doc 10 -4.93731
+doc 15 -5.0612
+doc 12 -5.21082
+doc 5 -5.28532
+doc 29 -5.30523
+doc 9 -5.34066
+docID 34 segmentID 48
+doc 17 -4.46032
+doc 5 -4.46211
+doc 1 -4.4703
+doc 24 -4.47478
+doc 20 -4.47512
+doc 6 -4.47794
+docID 34 segmentID 49
+doc 15 -3.73193
+doc 19 -3.74434
+doc 4 -3.7684
+doc 27 -3.77146
+doc 3 -3.78423
+doc 17 -3.78968
+docID 34 segmentID 50
+doc 5 -4.75479
+doc 14 -4.8215
+doc 8 -4.82518
+doc 6 -4.86292
+doc 10 -4.87144
+doc 29 -4.88263
+docID 34 segmentID 51
+doc 5 -4.41531
+doc 24 -4.45885
+doc 33 -4.47708
+doc 10 -4.48284
+doc 27 -4.48949
+doc 17 -4.50101
+docID 34 segmentID 52
+doc 32 -3.80047
+doc 10 -3.81705
+doc 6 -3.84125
+doc 5 -3.84748
+doc 29 -3.87187
+doc 15 -3.91072
+docID 34 segmentID 53
+doc 13 -4.09961
+doc 8 -4.2055
+doc 9 -4.20555
+doc 11 -4.21076
+doc 2 -4.2299
+doc 14 -4.24438
+docID 34 segmentID 54
+doc 27 -3.47549
+doc 15 -3.49302
+doc 19 -3.49758
+doc 17 -3.50049
+doc 2 -3.56358
+doc 5 -3.5671
+docID 34 segmentID 55
+doc 16 -5.23436
+doc 5 -5.23925
+doc 27 -5.24753
+doc 29 -5.27402
+doc 9 -5.28224
+doc 30 -5.28876
+docID 34 segmentID 56
+doc 18 -4.79572
+doc 13 -4.84064
+doc 21 -4.84222
+doc 1 -4.85603
+doc 17 -4.8901
+doc 4 -4.95718
+docID 34 segmentID 57
+doc 18 -3.36109
+doc 1 -3.37377
+doc 22 -3.41403
+doc 6 -3.42343
+doc 5 -3.42423
+doc 3 -3.43031
+docID 34 segmentID 58
+doc 13 -4.8771
+doc 1 -4.90661
+doc 4 -4.93664
+doc 6 -4.95452
+doc 26 -4.95966
+doc 5 -4.96598
+docID 34 segmentID 59
+doc 4 -4.60274
+doc 19 -4.70768
+doc 20 -4.74508
+doc 14 -4.74717
+doc 6 -4.75395
+doc 1 -4.75451
+docID 34 segmentID 60
+doc 5 -4.45679
+doc 10 -4.48734
+doc 1 -4.57566
+doc 19 -4.59624
+doc 32 -4.59809
+doc 7 -4.62003
+docID 34 segmentID 61
+doc 29 -5.16558
+doc 3 -5.17644
+doc 6 -5.21956
+doc 13 -5.22793
+doc 1 -5.24585
+doc 4 -5.25212
+docID 34 segmentID 62
+doc 10 -4.17912
+doc 25 -4.28148
+doc 3 -4.32818
+doc 30 -4.34029
+doc 28 -4.34031
+doc 1 -4.35765
+docID 34 segmentID 63
+doc 5 -2.9385
+doc 6 -2.95675
+doc 1 -2.96244
+doc 20 -2.96324
+doc 29 -2.96543
+doc 4 -2.97245
+docID 34 segmentID 64
+doc 13 -5.25854
+doc 5 -5.28342
+doc 1 -5.2846
+doc 20 -5.28618
+doc 4 -5.29513
+doc 26 -5.31625
+docID 34 segmentID 65
+doc 5 -5.37423
+doc 13 -5.4099
+doc 15 -5.41941
+doc 17 -5.42746
+doc 7 -5.45055
+doc 19 -5.47066
+docID 34 segmentID 66
+doc 5 -4.21338
+doc 10 -4.26657
+doc 6 -4.27109
+doc 13 -4.27225
+doc 1 -4.28322
+doc 4 -4.30159
+docID 34 segmentID 67
+doc 14 -4.0837
+doc 8 -4.08877
+doc 2 -4.11747
+doc 29 -4.12226
+doc 27 -4.12533
+doc 5 -4.13833
+docID 34 segmentID 68
+doc 6 -3.86818
+doc 3 -3.88112
+doc 2 -3.9481
+doc 20 -3.95766
+doc 16 -3.99032
+doc 29 -4.02367
+docID 34 segmentID 69
+doc 3 -3.86669
+doc 1 -3.90164
+doc 30 -3.93649
+doc 6 -3.94466
+doc 25 -3.96396
+doc 20 -3.96487
+docID 34 segmentID 70
+doc 1 -4.07823
+doc 29 -4.08302
+doc 14 -4.15118
+doc 12 -4.16204
+doc 28 -4.17174
+doc 8 -4.18983
+docID 34 segmentID 71
+doc 32 -3.88618
+doc 3 -3.8877
+doc 15 -3.89135
+doc 1 -3.89976
+doc 29 -3.92449
+doc 27 -3.93092
+docID 34 segmentID 72
+doc 5 -5.70383
+doc 4 -5.71007
+doc 1 -5.71015
+doc 20 -5.71296
+doc 6 -5.7358
+doc 26 -5.73796
+docID 34 segmentID 73
+doc 28 -4.78738
+doc 32 -4.83401
+doc 13 -4.84933
+doc 1 -4.86136
+doc 3 -4.88377
+doc 29 -4.8907
+docID 34 segmentID 74
+doc 1 -4.29945
+doc 5 -4.36293
+doc 4 -4.3821
+doc 6 -4.38805
+doc 20 -4.39356
+doc 31 -4.41031
+docID 34 segmentID 75
+doc 3 -4.26024
+doc 26 -4.35223
+doc 23 -4.37391
+doc 33 -4.3767
+doc 17 -4.4162
+doc 14 -4.4225
+docID 34 segmentID 76
+doc 33 -4.91666
+doc 2 -4.99426
+doc 16 -4.9995
+doc 20 -5.00781
+doc 4 -5.01211
+doc 9 -5.04244
+docID 34 segmentID 77
+doc 1 -4.28055
+doc 25 -4.29995
+doc 6 -4.30702
+doc 13 -4.31305
+doc 5 -4.3462
+doc 12 -4.35294
+docID 34 segmentID 78
+doc 12 -3.80226
+doc 1 -3.86924
+doc 33 -3.90356
+doc 32 -3.90415
+doc 4 -3.91127
+doc 19 -3.92077
+docID 34 segmentID 79
+doc 4 -5.0933
+doc 6 -5.14783
+doc 13 -5.15585
+doc 17 -5.18602
+doc 29 -5.22386
+doc 15 -5.25554
+docID 34 segmentID 80
+doc 5 -3.71513
+doc 28 -3.72883
+doc 13 -3.76429
+doc 6 -3.80496
+doc 1 -3.81252
+doc 20 -3.81692
+docID 34 segmentID 81
+doc 20 -4.3457
+doc 16 -4.38793
+doc 5 -4.48021
+doc 13 -4.49824
+doc 6 -4.49924
+doc 4 -4.50517
+docID 34 segmentID 82
+doc 18 -4.30758
+doc 4 -4.42279
+doc 33 -4.43485
+doc 21 -4.43566
+doc 1 -4.45614
+doc 17 -4.46477
+docID 34 segmentID 83
+doc 29 -3.6601
+doc 6 -3.67345
+doc 10 -3.67868
+doc 3 -3.69523
+doc 5 -3.69771
+doc 1 -3.73486
+docID 34 segmentID 84
+doc 27 -3.5458
+doc 15 -3.55546
+doc 12 -3.6003
+doc 17 -3.64284
+doc 29 -3.65272
+doc 1 -3.65501
+docID 34 segmentID 85
+doc 27 -4.49903
+doc 3 -4.55912
+doc 13 -4.57012
+doc 1 -4.57915
+doc 2 -4.60916
+doc 19 -4.64819
+docID 34 segmentID 86
+doc 29 -3.90645
+doc 13 -3.96413
+doc 20 -3.99429
+doc 2 -3.99488
+doc 4 -3.99855
+doc 16 -4.00927
+docID 34 segmentID 87
+doc 6 -4.15124
+doc 5 -4.17433
+doc 28 -4.18884
+doc 14 -4.18959
+doc 8 -4.21387
+doc 4 -4.21939
+docID 34 segmentID 88
+doc 26 -4.31258
+doc 23 -4.32127
+doc 1 -4.44985
+doc 20 -4.46114
+doc 5 -4.46394
+doc 29 -4.46898
+docID 34 segmentID 89
+doc 6 -3.35218
+doc 5 -3.38972
+doc 17 -3.41539
+doc 3 -3.47459
+doc 29 -3.4767
+doc 20 -3.51974
+docID 34 segmentID 90
+doc 23 -4.402
+doc 26 -4.41883
+doc 19 -4.46115
+doc 13 -4.51567
+doc 1 -4.56615
+doc 17 -4.57788
+docID 34 segmentID 91
+doc 9 -4.37623
+doc 11 -4.38435
+doc 33 -4.39858
+doc 17 -4.46639
+doc 6 -4.46768
+doc 14 -4.49022
+docID 34 segmentID 92
+doc 17 -4.26428
+doc 22 -4.2895
+doc 6 -4.35645
+doc 33 -4.37278
+doc 5 -4.37826
+doc 26 -4.40579
+docID 34 segmentID 93
+doc 28 -4.08685
+doc 4 -4.14002
+doc 6 -4.16024
+doc 17 -4.16444
+doc 13 -4.18235
+doc 30 -4.18512
+docID 34 segmentID 94
+doc 28 -4.36748
+doc 21 -4.70193
+doc 18 -4.71941
+doc 7 -4.92623
+doc 12 -4.96632
+doc 26 -4.9845
+docID 34 segmentID 95
+doc 1 -4.73469
+doc 12 -4.73683
+doc 10 -4.76168
+doc 17 -4.76284
+doc 4 -4.76642
+doc 20 -4.76952
+docID 34 segmentID 96
+doc 6 -3.26654
+doc 3 -3.29484
+doc 28 -3.42796
+doc 14 -3.4564
+doc 8 -3.49258
+doc 29 -3.50635
+docID 34 segmentID 97
+doc 20 -4.24909
+doc 33 -4.26243
+doc 16 -4.27864
+doc 29 -4.30077
+doc 17 -4.32971
+doc 5 -4.36066
+docID 34 segmentID 98
+doc 23 -4.59994
+doc 26 -4.64871
+doc 19 -4.75018
+doc 3 -4.78948
+doc 33 -4.84957
+doc 28 -4.85187
+docID 34 segmentID 99
+doc 26 -4.12056
+doc 23 -4.14591
+doc 6 -4.16029
+doc 27 -4.17929
+doc 20 -4.18373
+doc 4 -4.19272
+docID 34 segmentID 100
+doc 5 -4.87536
+doc 17 -5.01724
+doc 9 -5.05619
+doc 10 -5.05925
+doc 19 -5.06433
+doc 11 -5.06508
+docID 34 segmentID 101
+doc 2 -4.42866
+doc 3 -4.43927
+doc 22 -4.44254
+doc 17 -4.46502
+doc 28 -4.49594
+doc 5 -4.50019
+docID 34 segmentID 102
+doc 3 -4.61845
+doc 2 -4.64257
+doc 17 -4.71088
+doc 6 -4.71915
+doc 29 -4.7345
+doc 5 -4.75155
+docID 34 segmentID 103
+doc 33 -4.21093
+doc 29 -4.2914
+doc 5 -4.31661
+doc 6 -4.32632
+doc 20 -4.32848
+doc 1 -4.33054
+docID 34 segmentID 104
+doc 6 -5.04682
+doc 27 -5.0605
+doc 17 -5.06825
+doc 5 -5.07723
+doc 4 -5.08249
+doc 13 -5.08479
+docID 34 segmentID 105
+doc 6 -3.67424
+doc 5 -3.80046
+doc 3 -3.81678
+doc 13 -3.8527
+doc 4 -3.86411
+doc 15 -3.91181
+docID 34 segmentID 106
+doc 14 -4.00607
+doc 8 -4.00938
+doc 3 -4.10778
+doc 13 -4.14098
+doc 16 -4.14158
+doc 20 -4.1635
+docID 34 segmentID 107
+doc 6 -4.69139
+doc 19 -4.69831
+doc 27 -4.70554
+doc 2 -4.77462
+doc 13 -4.79424
+doc 20 -4.80677
+docID 34 segmentID 108
+doc 33 -4.30673
+doc 17 -4.31665
+doc 5 -4.34368
+doc 6 -4.39634
+doc 1 -4.44905
+doc 4 -4.45165
+docID 34 segmentID 109
+doc 13 -4.76155
+doc 32 -4.80319
+doc 29 -4.85924
+doc 26 -4.86042
+doc 20 -4.86764
+doc 22 -4.8756
+docID 34 segmentID 110
+doc 4 -4.53667
+doc 3 -4.58715
+doc 13 -4.58888
+doc 15 -4.59254
+doc 24 -4.59749
+doc 6 -4.60144
+docID 34 segmentID 111
+doc 3 -4.38865
+doc 10 -4.43921
+doc 13 -4.45318
+doc 17 -4.45344
+doc 29 -4.48258
+doc 4 -4.4934
+docID 34 segmentID 112
+doc 15 -3.25696
+doc 33 -3.2642
+doc 6 -3.27545
+doc 3 -3.28726
+doc 17 -3.30613
+doc 4 -3.31479
+docID 34 segmentID 113
+doc 30 -4.55798
+doc 27 -4.56624
+doc 1 -4.60383
+doc 6 -4.635
+doc 31 -4.64878
+doc 17 -4.6578
+docID 34 segmentID 114
+doc 6 -3.91848
+doc 17 -4.07573
+doc 29 -4.09286
+doc 28 -4.12551
+doc 1 -4.14454
+doc 5 -4.14539
+docID 34 segmentID 115
+doc 14 -4.41997
+doc 8 -4.42999
+doc 6 -4.45719
+doc 5 -4.4893
+doc 13 -4.508
+doc 1 -4.51965
+docID 34 segmentID 116
+doc 6 -4.43172
+doc 17 -4.52013
+doc 5 -4.53249
+doc 30 -4.54551
+doc 13 -4.55852
+doc 33 -4.56394
+docID 34 segmentID 117
+doc 33 -4.01078
+doc 8 -4.0847
+doc 14 -4.09074
+doc 6 -4.09326
+doc 3 -4.10723
+doc 13 -4.12432
+docID 34 segmentID 118
+doc 29 -4.80121
+doc 4 -4.80491
+doc 16 -4.82287
+doc 17 -4.8273
+doc 5 -4.83935
+doc 1 -4.8394
+docID 34 segmentID 119
+doc 3 -4.60538
+doc 5 -4.82498
+doc 17 -4.83554
+doc 33 -4.85707
+doc 15 -4.90989
+doc 14 -4.92026
+docID 34 segmentID 120
+doc 16 -4.57489
+doc 20 -4.57576
+doc 6 -4.62496
+doc 4 -4.63759
+doc 26 -4.65676
+doc 23 -4.65763
+docID 34 segmentID 121
+doc 6 -3.38858
+doc 3 -3.62931
+doc 13 -3.67806
+doc 10 -3.68124
+doc 28 -3.68964
+doc 5 -3.71603
+docID 34 segmentID 122
+doc 14 -4.34105
+doc 6 -4.34589
+doc 8 -4.34626
+doc 10 -4.39216
+doc 29 -4.41391
+doc 33 -4.41785
+docID 34 segmentID 123
+doc 6 -4.62156
+doc 3 -4.70404
+doc 5 -4.73118
+doc 17 -4.74127
+doc 4 -4.74603
+doc 21 -4.79316
+docID 34 segmentID 124
+doc 33 -3.69717
+doc 3 -3.73969
+doc 6 -3.74453
+doc 29 -3.75164
+doc 17 -3.75769
+doc 26 -3.76437
+docID 34 segmentID 125
+doc 2 -3.61428
+doc 6 -3.63457
+doc 5 -3.64521
+doc 17 -3.64571
+doc 4 -3.66158
+doc 20 -3.66475
+docID 34 segmentID 126
+doc 3 -4.05541
+doc 29 -4.11235
+doc 33 -4.16993
+doc 8 -4.23898
+doc 14 -4.23962
+doc 22 -4.25893
+docID 34 segmentID 127
+doc 10 -3.94118
+doc 5 -4.01678
+doc 19 -4.02776
+doc 32 -4.04482
+doc 28 -4.06892
+doc 6 -4.07957
+docID 34 segmentID 128
+doc 6 -3.73036
+doc 2 -3.89976
+doc 5 -3.93733
+doc 20 -4.02385
+doc 1 -4.02672
+doc 4 -4.02965
+docID 34 segmentID 129
+doc 7 -3.12448
+doc 3 -3.16538
+doc 28 -3.18896
+doc 14 -3.20067
+doc 8 -3.23467
+doc 29 -3.24653
+docID 34 segmentID 130
+doc 14 -3.70383
+doc 8 -3.72181
+doc 28 -4.03104
+doc 25 -4.05905
+doc 2 -4.06857
+doc 6 -4.11508
+docID 34 segmentID 131
+doc 3 -4.45349
+doc 13 -4.53513
+doc 8 -4.57557
+doc 14 -4.57725
+doc 24 -4.57768
+doc 25 -4.62751
+docID 34 segmentID 132
+doc 6 -3.23542
+doc 31 -3.27812
+doc 17 -3.31223
+doc 2 -3.31493
+doc 3 -3.31939
+doc 28 -3.33265
+docID 34 segmentID 133
+doc 6 -4.432
+doc 14 -4.53733
+doc 8 -4.56328
+doc 5 -4.62813
+doc 4 -4.64701
+doc 20 -4.65979
+docID 34 segmentID 134
+doc 16 -4.08406
+doc 20 -4.08893
+doc 3 -4.15507
+doc 4 -4.16994
+doc 5 -4.17861
+doc 6 -4.1801
+docID 34 segmentID 135
+doc 4 -4.18432
+doc 6 -4.20862
+doc 5 -4.21541
+doc 1 -4.22357
+doc 17 -4.22782
+doc 20 -4.22849
+docID 34 segmentID 136
+doc 5 -4.12996
+doc 28 -4.14662
+doc 10 -4.18527
+doc 4 -4.20756
+doc 18 -4.2225
+doc 21 -4.23309
+docID 34 segmentID 137
+doc 1 -3.43075
+doc 3 -3.50063
+doc 12 -3.50627
+doc 5 -3.50951
+doc 28 -3.55532
+doc 19 -3.5614
+docID 34 segmentID 138
+doc 1 -3.30411
+doc 26 -3.36201
+doc 23 -3.37875
+doc 6 -3.39232
+doc 3 -3.42552
+doc 28 -3.42856
+docID 34 segmentID 139
+doc 33 -3.06362
+doc 3 -3.26601
+doc 5 -3.27299
+doc 29 -3.29357
+doc 1 -3.30607
+doc 6 -3.3472
+docID 34 segmentID 140
+doc 28 -3.44122
+doc 11 -3.59379
+doc 9 -3.59594
+doc 1 -3.61086
+doc 17 -3.61814
+doc 19 -3.63289
+docID 34 segmentID 141
+doc 14 -4.11823
+doc 29 -4.12124
+doc 8 -4.15027
+doc 20 -4.17777
+doc 3 -4.19977
+doc 16 -4.2093
+docID 34 segmentID 142
+doc 8 -3.95525
+doc 14 -3.96745
+doc 33 -4.05102
+doc 17 -4.13569
+doc 4 -4.14505
+doc 20 -4.14523
+docID 34 segmentID 143
+doc 17 -3.78812
+doc 5 -3.96468
+doc 33 -4.03619
+doc 27 -4.03878
+doc 1 -4.04985
+doc 4 -4.05675
+docID 34 segmentID 144
+doc 19 -3.95416
+doc 32 -4.00632
+doc 4 -4.10899
+doc 3 -4.11067
+doc 23 -4.11346
+doc 26 -4.11604
+docID 34 segmentID 145
+doc 25 -4.17909
+doc 33 -4.24471
+doc 17 -4.26097
+doc 29 -4.26919
+doc 12 -4.32319
+doc 5 -4.38662
+docID 34 segmentID 146
+doc 5 -4.21799
+doc 4 -4.26354
+doc 13 -4.31935
+doc 15 -4.33461
+doc 17 -4.35532
+doc 3 -4.39404
+docID 34 segmentID 147
+doc 20 -3.9532
+doc 14 -3.95397
+doc 16 -3.95531
+doc 8 -3.96717
+doc 26 -4.0237
+doc 4 -4.03076
+docID 34 segmentID 148
+doc 19 -3.54242
+doc 14 -3.62856
+doc 17 -3.62923
+doc 29 -3.64384
+doc 8 -3.64998
+doc 4 -3.66378
+docID 34 segmentID 149
+doc 5 -4.25196
+doc 26 -4.28735
+doc 9 -4.28922
+doc 23 -4.29351
+doc 11 -4.30792
+doc 29 -4.30899
+docID 34 segmentID 150
+doc 4 -3.38476
+doc 13 -3.46707
+doc 6 -3.48675
+doc 10 -3.48832
+doc 29 -3.5097
+doc 27 -3.51068
+docID 34 segmentID 151
+doc 29 -3.44216
+doc 5 -3.47719
+doc 10 -3.50911
+doc 3 -3.53963
+doc 6 -3.56696
+doc 1 -3.57917
+docID 34 segmentID 152
+doc 1 -4.07679
+doc 17 -4.11033
+doc 12 -4.14147
+doc 5 -4.1675
+doc 4 -4.17293
+doc 20 -4.17597
+docID 34 segmentID 153
+doc 20 -4.13797
+doc 16 -4.17318
+doc 28 -4.18061
+doc 1 -4.22023
+doc 3 -4.22645
+doc 6 -4.23917
+docID 34 segmentID 154
+doc 14 -4.31932
+doc 8 -4.3244
+doc 17 -4.38194
+doc 5 -4.38842
+doc 1 -4.42044
+doc 29 -4.46562
+docID 34 segmentID 155
+doc 3 -4.24536
+doc 29 -4.54713
+doc 14 -4.64943
+doc 8 -4.65437
+doc 13 -4.75434
+doc 6 -4.75967
+docID 34 segmentID 156
+doc 33 -3.85228
+doc 17 -4.24534
+doc 20 -4.26593
+doc 10 -4.26946
+doc 4 -4.27966
+doc 5 -4.28387
+docID 34 segmentID 157
+doc 10 -4.71158
+doc 13 -4.73455
+doc 31 -4.77894
+doc 1 -4.83508
+doc 15 -4.83623
+doc 30 -4.84064
+docID 34 segmentID 158
+doc 6 -5.28117
+doc 12 -5.44188
+doc 5 -5.55679
+doc 4 -5.56399
+doc 20 -5.56717
+doc 1 -5.57639
+docID 34 segmentID 159
+doc 10 -4.26341
+doc 15 -4.42095
+doc 9 -4.44243
+doc 11 -4.44967
+doc 12 -4.47182
+doc 33 -4.51488
+docID 34 segmentID 160
+doc 6 -4.24768
+doc 33 -4.25944
+doc 13 -4.26893
+doc 5 -4.27507
+doc 14 -4.28015
+doc 4 -4.28021
+docID 34 segmentID 161
+doc 27 -3.59964
+doc 3 -3.61852
+doc 14 -3.65482
+doc 29 -3.67081
+doc 8 -3.68312
+doc 32 -3.71206
+docID 34 segmentID 162
+doc 3 -4.22311
+doc 19 -4.25246
+doc 1 -4.26962
+doc 17 -4.33636
+doc 12 -4.3484
+doc 8 -4.36141
+docID 34 segmentID 163
+doc 28 -3.34773
+doc 6 -3.63574
+doc 3 -3.65005
+doc 10 -3.68669
+doc 29 -3.72108
+doc 4 -3.72212
+docID 34 segmentID 164
+doc 6 -4.38189
+doc 5 -4.42882
+doc 20 -4.49238
+doc 15 -4.49693
+doc 4 -4.50089
+doc 1 -4.50635
+docID 34 segmentID 165
+doc 4 -5.99338
+doc 15 -5.99445
+doc 20 -5.99629
+doc 5 -6.00569
+doc 1 -6.01008
+doc 16 -6.02272
+docID 34 segmentID 166
+doc 29 -5.20722
+doc 5 -5.23346
+doc 6 -5.24827
+doc 4 -5.25234
+doc 1 -5.25307
+doc 20 -5.25524
+docID 34 segmentID 167
+doc 3 -3.48065
+doc 6 -3.54654
+doc 30 -3.55266
+doc 5 -3.57805
+doc 10 -3.59477
+doc 20 -3.60799
+docID 34 segmentID 168
+doc 33 -4.605
+doc 17 -4.68231
+doc 29 -4.74237
+doc 13 -4.77171
+doc 5 -4.79084
+doc 19 -4.79221
+docID 34 segmentID 169
+doc 23 -4.08289
+doc 26 -4.11644
+doc 10 -4.16633
+doc 1 -4.31931
+doc 3 -4.33163
+doc 20 -4.33933
+docID 34 segmentID 170
+doc 13 -3.91907
+doc 20 -3.92965
+doc 2 -3.94881
+doc 11 -3.95907
+doc 4 -4.00193
+doc 5 -4.01434
+docID 34 segmentID 171
+doc 19 -4.0362
+doc 32 -4.07691
+doc 29 -4.12757
+doc 25 -4.18351
+doc 20 -4.21914
+doc 4 -4.22558
+docID 34 segmentID 172
+doc 3 -4.24727
+doc 20 -4.3603
+doc 4 -4.36032
+doc 29 -4.37105
+doc 16 -4.38284
+doc 6 -4.39348
+docID 34 segmentID 173
+doc 17 -4.31906
+doc 33 -4.36372
+doc 6 -4.37783
+doc 14 -4.38702
+doc 8 -4.39106
+doc 13 -4.40452
+docID 34 segmentID 174
+doc 33 -3.37158
+doc 29 -3.49906
+doc 10 -3.50095
+doc 31 -3.502
+doc 15 -3.51317
+doc 14 -3.51586
+docID 34 segmentID 175
+doc 29 -4.61643
+doc 4 -4.68874
+doc 31 -4.71592
+doc 28 -4.74304
+doc 17 -4.75226
+doc 20 -4.76533
+docID 34 segmentID 176
+doc 6 -4.23646
+doc 3 -4.28651
+doc 27 -4.29902
+doc 20 -4.31337
+doc 14 -4.34321
+doc 4 -4.34693
+docID 34 segmentID 177
+doc 3 -3.53281
+doc 4 -3.67845
+doc 20 -3.71
+doc 16 -3.72554
+doc 2 -3.73035
+doc 10 -3.74426
+docID 34 segmentID 178
+doc 29 -4.29126
+doc 9 -4.33413
+doc 11 -4.34383
+doc 17 -4.36005
+doc 24 -4.36025
+doc 13 -4.36208
+docID 34 segmentID 179
+doc 33 -4.14141
+doc 13 -4.18046
+doc 14 -4.18684
+doc 8 -4.20868
+doc 20 -4.21229
+doc 17 -4.21297
+docID 34 segmentID 180
+doc 14 -4.54974
+doc 3 -4.5628
+doc 2 -4.56392
+doc 8 -4.56452
+doc 5 -4.58838
+doc 33 -4.61817
+docID 34 segmentID 181
+doc 10 -3.81054
+doc 29 -3.88621
+doc 27 -3.93767
+doc 6 -3.96815
+doc 32 -3.97658
+doc 5 -3.97723
+docID 34 segmentID 182
+doc 13 -5.06369
+doc 29 -5.10793
+doc 33 -5.15205
+doc 32 -5.15613
+doc 5 -5.16127
+doc 26 -5.16586
+docID 34 segmentID 183
+doc 30 -3.60659
+doc 20 -3.62307
+doc 33 -3.62369
+doc 16 -3.65151
+doc 1 -3.65919
+doc 4 -3.6808
+docID 34 segmentID 184
+doc 29 -4.45332
+doc 19 -4.49658
+doc 5 -4.50642
+doc 17 -4.542
+doc 15 -4.56966
+doc 4 -4.57482
+docID 34 segmentID 185
+doc 14 -4.34179
+doc 8 -4.34733
+doc 17 -4.35724
+doc 22 -4.37431
+doc 29 -4.41091
+doc 6 -4.42948
+docID 34 segmentID 186
+doc 11 -4.64075
+doc 9 -4.64438
+doc 6 -4.72591
+doc 5 -4.72872
+doc 29 -4.73208
+doc 4 -4.7357
+docID 34 segmentID 187
+doc 5 -4.0413
+doc 27 -4.0955
+doc 29 -4.11854
+doc 7 -4.14264
+doc 1 -4.14751
+doc 10 -4.17553
+docID 34 segmentID 188
+doc 10 -3.6252
+doc 3 -3.66886
+doc 28 -3.72532
+doc 1 -3.7317
+doc 6 -3.77857
+doc 5 -3.79495
+docID 34 segmentID 189
+doc 17 -4.07662
+doc 3 -4.0933
+doc 2 -4.11158
+doc 22 -4.1143
+doc 6 -4.13089
+doc 1 -4.14157
+docID 34 segmentID 190
+doc 19 -4.43649
+doc 33 -4.51657
+doc 15 -4.54163
+doc 17 -4.60914
+doc 5 -4.62056
+doc 26 -4.62102
+docID 34 segmentID 191
+doc 5 -4.07476
+doc 29 -4.11573
+doc 27 -4.13594
+doc 24 -4.19391
+doc 17 -4.20555
+doc 30 -4.20926
+docID 34 segmentID 192
+doc 17 -5.11786
+doc 33 -5.12047
+doc 25 -5.12455
+doc 31 -5.15451
+doc 4 -5.16053
+doc 1 -5.16419
+docID 34 segmentID 193
+doc 5 -3.87829
+doc 11 -3.88457
+doc 29 -3.89153
+doc 3 -3.89424
+doc 19 -3.91429
+doc 13 -3.91804
+docID 34 segmentID 194
+doc 29 -4.11767
+doc 17 -4.12063
+doc 33 -4.1325
+doc 5 -4.13505
+doc 1 -4.13592
+doc 25 -4.1751
+docID 34 segmentID 195
+doc 10 -3.96373
+doc 19 -3.97557
+doc 27 -3.98991
+doc 33 -3.99122
+doc 13 -4.00188
+doc 29 -4.01724
+docID 34 segmentID 196
+doc 29 -4.63374
+doc 1 -4.64034
+doc 5 -4.64326
+doc 20 -4.66578
+doc 12 -4.66976
+doc 4 -4.6712
+docID 34 segmentID 197
+doc 13 -5.02124
+doc 22 -5.11588
+doc 6 -5.11682
+doc 9 -5.12079
+doc 32 -5.12771
+doc 11 -5.13335
+docID 34 segmentID 198
+doc 13 -5.73004
+doc 33 -5.81443
+doc 16 -5.8213
+doc 5 -5.88895
+doc 31 -5.9004
+doc 14 -5.90115
+docID 34 segmentID 199
+doc 13 -5.14557
+doc 19 -5.23228
+doc 6 -5.27755
+doc 5 -5.28286
+doc 18 -5.28379
+doc 29 -5.29001
+docID 34 segmentID 200
+doc 33 -5.56702
+doc 17 -5.59085
+doc 4 -5.65959
+doc 20 -5.6625
+doc 5 -5.6719
+doc 1 -5.67628
+docID 34 segmentID 201
+doc 9 -5.03501
+doc 11 -5.0402
+doc 31 -5.08329
+doc 16 -5.11333
+doc 20 -5.12134
+doc 25 -5.13523
+docID 34 segmentID 202
+doc 33 -4.67963
+doc 19 -4.69564
+doc 17 -4.72484
+doc 10 -4.76647
+doc 5 -4.7695
+doc 12 -4.80526
+docID 34 segmentID 203
+doc 15 -3.8991
+doc 27 -3.99208
+doc 3 -4.04382
+doc 33 -4.09517
+doc 10 -4.11403
+doc 13 -4.12176
+docID 34 segmentID 204
+doc 24 -4.42738
+doc 8 -4.5633
+doc 14 -4.56999
+doc 30 -4.59527
+doc 32 -4.59566
+doc 5 -4.59908
+docID 34 segmentID 205
+doc 13 -4.51241
+doc 16 -4.75472
+doc 4 -4.78246
+doc 20 -4.78405
+doc 12 -4.79424
+doc 10 -4.82511
+docID 34 segmentID 206
+doc 22 -4.49398
+doc 8 -4.60493
+doc 14 -4.61305
+doc 5 -4.61977
+doc 17 -4.63169
+doc 33 -4.63275
+docID 34 segmentID 207
+doc 33 -4.33508
+doc 9 -4.44813
+doc 11 -4.45549
+doc 19 -4.4646
+doc 27 -4.50227
+doc 25 -4.51884
+docID 34 segmentID 208
+doc 22 -4.11065
+doc 20 -4.11835
+doc 10 -4.21345
+doc 5 -4.23255
+doc 16 -4.25017
+doc 6 -4.25975
+docID 34 segmentID 209
+doc 28 -4.3979
+doc 16 -4.41548
+doc 20 -4.45242
+doc 1 -4.45339
+doc 4 -4.47264
+doc 18 -4.48673
+docID 34 segmentID 210
+doc 25 -3.96344
+doc 17 -3.9804
+doc 29 -3.9923
+doc 33 -3.9945
+doc 12 -4.01045
+doc 22 -4.05152
+docID 34 segmentID 211
+doc 11 -4.69592
+doc 30 -4.71229
+doc 20 -4.77332
+doc 6 -4.77364
+doc 9 -4.77975
+doc 17 -4.81561
+docID 34 segmentID 212
+doc 30 -4.81571
+doc 10 -4.83444
+doc 1 -4.97165
+doc 13 -4.97807
+doc 20 -4.99226
+doc 5 -4.99858
+docID 34 segmentID 213
+doc 33 -4.21516
+doc 13 -4.27393
+doc 25 -4.29677
+doc 17 -4.29741
+doc 4 -4.31644
+doc 8 -4.32616
+docID 34 segmentID 214
+doc 9 -5.42809
+doc 11 -5.43598
+doc 18 -5.4857
+doc 25 -5.48762
+doc 20 -5.51518
+doc 16 -5.5207
+docID 34 segmentID 215
+doc 29 -4.32822
+doc 33 -4.34423
+doc 22 -4.38629
+doc 17 -4.49574
+doc 1 -4.49599
+doc 26 -4.50395
+docID 34 segmentID 216
+doc 1 -4.83998
+doc 5 -4.84336
+doc 6 -4.85624
+doc 20 -4.86569
+doc 4 -4.87486
+doc 17 -4.87658
+docID 34 segmentID 217
+doc 5 -6.19621
+doc 1 -6.20446
+doc 13 -6.21514
+doc 20 -6.22433
+doc 4 -6.2348
+doc 26 -6.24776
+docID 34 segmentID 218
+doc 27 -4.46465
+doc 9 -4.47688
+doc 11 -4.47763
+doc 5 -4.48961
+doc 26 -4.54287
+doc 4 -4.55666
+docID 34 segmentID 219
+doc 19 -3.61459
+doc 33 -3.63992
+doc 31 -3.6654
+doc 10 -3.68184
+doc 5 -3.69988
+doc 11 -3.70374
+================================================
+7
+docID 35 segmentID 1
+doc 28 -2.7651
+doc 17 -2.80075
+doc 1 -2.86681
+doc 6 -2.87409
+doc 34 -2.88914
+doc 3 -2.93103
+docID 35 segmentID 2
+doc 34 -2.9177
+doc 6 -2.91915
+doc 28 -2.93529
+doc 30 -2.97475
+doc 29 -2.98434
+doc 12 -2.99362
+docID 35 segmentID 3
+doc 29 -3.18083
+doc 20 -3.29451
+doc 32 -3.3197
+doc 17 -3.31996
+doc 26 -3.3486
+doc 16 -3.36182
+docID 35 segmentID 4
+doc 6 -2.79073
+doc 3 -2.8325
+doc 4 -2.83363
+doc 1 -2.83453
+doc 19 -2.83859
+doc 10 -2.84603
+docID 35 segmentID 5
+doc 32 -2.39435
+doc 12 -2.42539
+doc 15 -2.4499
+doc 10 -2.45038
+doc 25 -2.48495
+doc 28 -2.48918
+docID 35 segmentID 6
+doc 15 -3.10413
+doc 27 -3.11545
+doc 4 -3.13837
+doc 3 -3.14107
+doc 19 -3.16114
+doc 6 -3.16988
+docID 35 segmentID 7
+doc 27 -3.22311
+doc 11 -3.37658
+doc 3 -3.3795
+doc 26 -3.38389
+doc 5 -3.3949
+doc 23 -3.40315
+================================================
+48
+docID 36 segmentID 1
+doc 22 -2.72682
+doc 34 -2.72909
+doc 29 -2.74246
+doc 19 -2.77331
+doc 3 -2.8281
+doc 26 -2.82864
+docID 36 segmentID 2
+doc 32 -3.2652
+doc 19 -3.36385
+doc 5 -3.47624
+doc 7 -3.48178
+doc 3 -3.48482
+doc 28 -3.50753
+docID 36 segmentID 3
+doc 31 -2.75715
+doc 32 -2.77778
+doc 17 -2.78663
+doc 1 -2.79399
+doc 15 -2.79518
+doc 20 -2.79761
+docID 36 segmentID 4
+doc 34 -3.45489
+doc 30 -3.51538
+doc 32 -3.55203
+doc 14 -3.60956
+doc 17 -3.62812
+doc 10 -3.63367
+docID 36 segmentID 5
+doc 1 -2.61856
+doc 6 -2.62808
+doc 13 -2.63596
+doc 5 -2.64537
+doc 28 -2.65896
+doc 14 -2.66078
+docID 36 segmentID 6
+doc 7 -2.65634
+doc 28 -2.66496
+doc 3 -2.69302
+doc 4 -2.69777
+doc 19 -2.69986
+doc 29 -2.71409
+docID 36 segmentID 7
+doc 34 -3.1275
+doc 20 -3.28356
+doc 5 -3.30315
+doc 1 -3.30397
+doc 4 -3.30465
+doc 17 -3.30811
+docID 36 segmentID 8
+doc 20 -2.89864
+doc 16 -2.92457
+doc 5 -2.95191
+doc 1 -2.96213
+doc 6 -2.96847
+doc 14 -2.98413
+docID 36 segmentID 9
+doc 1 -3.69208
+doc 20 -3.7089
+doc 4 -3.71668
+doc 16 -3.72575
+doc 29 -3.73105
+doc 34 -3.73606
+docID 36 segmentID 10
+doc 14 -3.194
+doc 8 -3.19776
+doc 3 -3.25512
+doc 32 -3.2634
+doc 17 -3.28005
+doc 2 -3.28645
+docID 36 segmentID 11
+doc 28 -4.44301
+doc 17 -4.85241
+doc 2 -4.87578
+doc 13 -4.92167
+doc 10 -4.96933
+doc 19 -4.99217
+docID 36 segmentID 12
+doc 19 -2.96589
+doc 7 -3.03321
+doc 10 -3.09354
+doc 28 -3.13243
+doc 22 -3.17975
+doc 25 -3.18574
+docID 36 segmentID 13
+doc 6 -3.00267
+doc 4 -3.03985
+doc 28 -3.04694
+doc 13 -3.06455
+doc 32 -3.06467
+doc 33 -3.07117
+docID 36 segmentID 14
+doc 4 -2.97764
+doc 17 -3.00712
+doc 15 -3.00902
+doc 7 -3.05749
+doc 27 -3.06121
+doc 5 -3.06733
+docID 36 segmentID 15
+doc 3 -2.84427
+doc 27 -2.84459
+doc 10 -2.8665
+doc 14 -2.87154
+doc 19 -2.87682
+doc 17 -2.88627
+docID 36 segmentID 16
+doc 19 -2.88792
+doc 33 -2.96838
+doc 29 -3.0102
+doc 17 -3.03057
+doc 4 -3.03736
+doc 27 -3.04242
+docID 36 segmentID 17
+doc 14 -2.74279
+doc 8 -2.746
+doc 26 -2.76894
+doc 1 -2.77419
+doc 20 -2.78799
+doc 23 -2.79
+docID 36 segmentID 18
+doc 20 -2.76842
+doc 6 -2.77167
+doc 16 -2.77906
+doc 1 -2.78975
+doc 5 -2.79773
+doc 29 -2.79887
+docID 36 segmentID 19
+doc 34 -2.74969
+doc 17 -2.9436
+doc 14 -2.95497
+doc 5 -2.95684
+doc 8 -2.97553
+doc 20 -2.97654
+docID 36 segmentID 20
+doc 5 -3.10395
+doc 4 -3.10871
+doc 2 -3.11832
+doc 29 -3.11986
+doc 11 -3.13309
+doc 9 -3.13396
+docID 36 segmentID 21
+doc 4 -4.49077
+doc 26 -4.51163
+doc 27 -4.52057
+doc 17 -4.52803
+doc 1 -4.53854
+doc 23 -4.53878
+docID 36 segmentID 22
+doc 28 -3.53411
+doc 29 -3.54875
+doc 4 -3.60282
+doc 33 -3.61589
+doc 1 -3.63209
+doc 34 -3.64764
+docID 36 segmentID 23
+doc 1 -2.85881
+doc 6 -2.86349
+doc 7 -2.86566
+doc 14 -2.86748
+doc 13 -2.86815
+doc 4 -2.87287
+docID 36 segmentID 24
+doc 34 -2.8521
+doc 5 -2.91346
+doc 1 -2.91756
+doc 14 -2.9343
+doc 4 -2.93622
+doc 20 -2.93831
+docID 36 segmentID 25
+doc 20 -3.11402
+doc 29 -3.11479
+doc 13 -3.12139
+doc 17 -3.12306
+doc 1 -3.13987
+doc 5 -3.1402
+docID 36 segmentID 26
+doc 17 -3.73899
+doc 22 -3.74478
+doc 9 -3.76907
+doc 11 -3.78226
+doc 14 -3.78332
+doc 8 -3.78591
+docID 36 segmentID 27
+doc 4 -4.15168
+doc 33 -4.2228
+doc 24 -4.24646
+doc 20 -4.25088
+doc 1 -4.25936
+doc 14 -4.26035
+docID 36 segmentID 28
+doc 32 -2.84153
+doc 19 -2.85392
+doc 3 -2.86899
+doc 17 -2.9177
+doc 7 -2.91914
+doc 8 -2.92506
+docID 36 segmentID 29
+doc 30 -3.96768
+doc 14 -3.99284
+doc 19 -4.01807
+doc 8 -4.01957
+doc 34 -4.05077
+doc 25 -4.06896
+docID 36 segmentID 30
+doc 28 -4.28827
+doc 3 -4.36232
+doc 33 -4.43288
+doc 4 -4.44467
+doc 14 -4.49811
+doc 8 -4.50166
+docID 36 segmentID 31
+doc 7 -3.5491
+doc 28 -3.68302
+doc 21 -4.16424
+doc 18 -4.1782
+doc 26 -4.23103
+doc 5 -4.23376
+docID 36 segmentID 32
+doc 12 -3.96561
+doc 28 -4.01417
+doc 3 -4.02021
+doc 1 -4.04651
+doc 4 -4.06425
+doc 32 -4.07366
+docID 36 segmentID 33
+doc 34 -3.25669
+doc 29 -3.26613
+doc 5 -3.35167
+doc 13 -3.35205
+doc 4 -3.35777
+doc 17 -3.36094
+docID 36 segmentID 34
+doc 34 -3.03116
+doc 14 -3.04027
+doc 5 -3.05256
+doc 25 -3.05924
+doc 8 -3.06316
+doc 13 -3.09129
+docID 36 segmentID 35
+doc 1 -2.89834
+doc 5 -2.90177
+doc 4 -2.93908
+doc 3 -2.93974
+doc 14 -2.95113
+doc 8 -2.95155
+docID 36 segmentID 36
+doc 6 -3.49116
+doc 32 -3.50634
+doc 4 -3.51629
+doc 35 -3.5245
+doc 5 -3.53667
+doc 1 -3.55774
+docID 36 segmentID 37
+doc 13 -2.57054
+doc 29 -2.58514
+doc 34 -2.59968
+doc 15 -2.61215
+doc 5 -2.61532
+doc 1 -2.61794
+docID 36 segmentID 38
+doc 10 -4.71432
+doc 34 -4.83398
+doc 32 -4.98649
+doc 5 -5.00583
+doc 22 -5.07364
+doc 12 -5.10993
+docID 36 segmentID 39
+doc 34 -3.66877
+doc 10 -3.75062
+doc 16 -3.78353
+doc 32 -3.78726
+doc 20 -3.7888
+doc 14 -3.79628
+docID 36 segmentID 40
+doc 7 -3.28121
+doc 32 -3.3154
+doc 28 -3.35974
+doc 19 -3.36231
+doc 5 -3.38329
+doc 3 -3.38647
+docID 36 segmentID 41
+doc 34 -3.71602
+doc 7 -3.81227
+doc 1 -3.9347
+doc 33 -3.97158
+doc 29 -3.97844
+doc 13 -4.0182
+docID 36 segmentID 42
+doc 31 -3.65866
+doc 33 -3.67692
+doc 4 -3.6865
+doc 26 -3.69456
+doc 1 -3.71176
+doc 17 -3.71684
+docID 36 segmentID 43
+doc 27 -3.31411
+doc 31 -3.41656
+doc 34 -3.47299
+doc 15 -3.47967
+doc 25 -3.48826
+doc 2 -3.50586
+docID 36 segmentID 44
+doc 4 -3.74259
+doc 7 -3.78146
+doc 20 -3.79463
+doc 16 -3.81728
+doc 1 -3.81905
+doc 12 -3.83085
+docID 36 segmentID 45
+doc 32 -3.00561
+doc 19 -3.02977
+doc 4 -3.04842
+doc 2 -3.05192
+doc 7 -3.09564
+doc 5 -3.10103
+docID 36 segmentID 46
+doc 4 -3.3925
+doc 20 -3.40072
+doc 17 -3.40207
+doc 2 -3.4035
+doc 1 -3.40767
+doc 6 -3.41114
+docID 36 segmentID 47
+doc 17 -2.92236
+doc 9 -2.92825
+doc 26 -2.93228
+doc 11 -2.93978
+doc 23 -2.94234
+doc 10 -2.95204
+docID 36 segmentID 48
+doc 5 -2.71172
+doc 20 -2.72432
+doc 4 -2.72505
+doc 16 -2.73522
+doc 26 -2.73652
+doc 6 -2.74917
+================================================
+47
+docID 37 segmentID 1
+doc 36 -2.05433
+doc 32 -2.98078
+doc 19 -3.06981
+doc 28 -3.15655
+doc 7 -3.17152
+doc 5 -3.17172
+docID 37 segmentID 2
+doc 36 -1.65012
+doc 31 -2.75715
+doc 32 -2.77778
+doc 17 -2.78663
+doc 1 -2.79399
+doc 15 -2.79518
+docID 37 segmentID 3
+doc 36 -2.41295
+doc 34 -3.45489
+doc 30 -3.51538
+doc 32 -3.55203
+doc 14 -3.60956
+doc 17 -3.62812
+docID 37 segmentID 4
+doc 36 -1.72496
+doc 1 -2.60177
+doc 28 -2.63723
+doc 13 -2.64134
+doc 5 -2.65252
+doc 6 -2.66523
+docID 37 segmentID 5
+doc 36 -1.77935
+doc 7 -2.65634
+doc 28 -2.66496
+doc 3 -2.69302
+doc 4 -2.69777
+doc 19 -2.69986
+docID 37 segmentID 6
+doc 36 -2.02204
+doc 34 -3.00927
+doc 20 -3.21164
+doc 5 -3.23058
+doc 1 -3.23164
+doc 4 -3.23222
+docID 37 segmentID 7
+doc 36 -1.83387
+doc 20 -2.89864
+doc 16 -2.92457
+doc 5 -2.95191
+doc 1 -2.96213
+doc 6 -2.96847
+docID 37 segmentID 8
+doc 36 -2.33041
+doc 1 -3.64095
+doc 20 -3.65855
+doc 34 -3.66487
+doc 4 -3.66681
+doc 16 -3.67475
+docID 37 segmentID 9
+doc 36 -2.00603
+doc 14 -3.18381
+doc 8 -3.18754
+doc 3 -3.24563
+doc 32 -3.25611
+doc 17 -3.27525
+docID 37 segmentID 10
+doc 36 -4.15075
+doc 28 -4.79717
+doc 17 -5.20656
+doc 2 -5.22993
+doc 13 -5.27583
+doc 26 -5.40277
+docID 37 segmentID 11
+doc 36 -2.26633
+doc 19 -2.96589
+doc 7 -3.03321
+doc 10 -3.09354
+doc 28 -3.13243
+doc 22 -3.17975
+docID 37 segmentID 12
+doc 36 -2.09379
+doc 28 -3.17768
+doc 33 -3.20642
+doc 4 -3.21535
+doc 6 -3.22246
+doc 3 -3.22288
+docID 37 segmentID 13
+doc 36 -1.86176
+doc 4 -2.89712
+doc 15 -2.9116
+doc 17 -2.92671
+doc 19 -2.9742
+doc 27 -2.97547
+docID 37 segmentID 14
+doc 36 -2.02273
+doc 3 -2.84427
+doc 27 -2.84459
+doc 10 -2.8665
+doc 14 -2.87154
+doc 19 -2.87682
+docID 37 segmentID 15
+doc 36 -1.89791
+doc 19 -2.88792
+doc 33 -2.96838
+doc 29 -3.0102
+doc 17 -3.03057
+doc 4 -3.03736
+docID 37 segmentID 16
+doc 36 -1.76784
+doc 14 -2.74279
+doc 8 -2.746
+doc 26 -2.76894
+doc 1 -2.77419
+doc 20 -2.78799
+docID 37 segmentID 17
+doc 36 -1.87108
+doc 20 -2.76842
+doc 6 -2.77167
+doc 16 -2.77906
+doc 1 -2.78975
+doc 5 -2.79773
+docID 37 segmentID 18
+doc 36 -1.86154
+doc 34 -2.74969
+doc 17 -2.9436
+doc 14 -2.95497
+doc 5 -2.95684
+doc 8 -2.97553
+docID 37 segmentID 19
+doc 36 -1.95936
+doc 5 -3.10395
+doc 4 -3.10871
+doc 2 -3.11832
+doc 29 -3.11986
+doc 11 -3.13309
+docID 37 segmentID 20
+doc 36 -2.9258
+doc 27 -4.06363
+doc 4 -4.12643
+doc 26 -4.14354
+doc 23 -4.16894
+doc 17 -4.17162
+docID 37 segmentID 21
+doc 36 -3.15496
+doc 29 -3.86497
+doc 4 -3.91904
+doc 33 -3.93211
+doc 1 -3.94831
+doc 34 -3.96386
+docID 37 segmentID 22
+doc 36 -1.7066
+doc 6 -2.71
+doc 1 -2.71103
+doc 13 -2.71467
+doc 7 -2.7154
+doc 8 -2.73408
+docID 37 segmentID 23
+doc 36 -1.49363
+doc 34 -2.45036
+doc 1 -2.53985
+doc 5 -2.54017
+doc 4 -2.54307
+doc 14 -2.55268
+docID 37 segmentID 24
+doc 36 -1.76615
+doc 29 -3.05489
+doc 20 -3.06113
+doc 13 -3.06955
+doc 17 -3.07057
+doc 1 -3.08651
+docID 37 segmentID 25
+doc 36 -2.2142
+doc 17 -3.73899
+doc 22 -3.74478
+doc 9 -3.76907
+doc 11 -3.78226
+doc 14 -3.78332
+docID 37 segmentID 26
+doc 36 -3.03971
+doc 4 -4.12914
+doc 33 -4.19317
+doc 24 -4.22618
+doc 14 -4.23179
+doc 20 -4.23336
+docID 37 segmentID 27
+doc 36 -2.00365
+doc 32 -2.84153
+doc 19 -2.85392
+doc 3 -2.86899
+doc 17 -2.9177
+doc 7 -2.91914
+docID 37 segmentID 28
+doc 36 -2.57169
+doc 30 -3.96768
+doc 14 -3.99284
+doc 19 -4.01807
+doc 8 -4.01957
+doc 34 -4.05077
+docID 37 segmentID 29
+doc 36 -3.06954
+doc 28 -4.28827
+doc 3 -4.36232
+doc 33 -4.43288
+doc 4 -4.44467
+doc 14 -4.49811
+docID 37 segmentID 30
+doc 36 -2.44114
+doc 7 -3.49019
+doc 28 -3.62501
+doc 21 -4.13344
+doc 18 -4.14861
+doc 26 -4.21229
+docID 37 segmentID 31
+doc 36 -3.57029
+doc 12 -4.55278
+doc 28 -4.61692
+doc 1 -4.62951
+doc 3 -4.63152
+doc 32 -4.65527
+docID 37 segmentID 32
+doc 36 -2.00662
+doc 34 -3.25669
+doc 29 -3.26613
+doc 5 -3.35167
+doc 13 -3.35205
+doc 4 -3.35777
+docID 37 segmentID 33
+doc 36 -2.09008
+doc 34 -3.15376
+doc 5 -3.16977
+doc 14 -3.17765
+doc 25 -3.18499
+doc 8 -3.19885
+docID 37 segmentID 34
+doc 36 -1.89253
+doc 1 -2.89834
+doc 5 -2.90177
+doc 4 -2.93908
+doc 3 -2.93974
+doc 14 -2.95113
+docID 37 segmentID 35
+doc 36 -2.79536
+doc 32 -3.8572
+doc 1 -3.87956
+doc 35 -3.8873
+doc 20 -3.89978
+doc 4 -3.90496
+docID 37 segmentID 36
+doc 36 -1.82684
+doc 13 -2.51979
+doc 29 -2.53439
+doc 34 -2.53482
+doc 15 -2.5614
+doc 5 -2.56457
+docID 37 segmentID 37
+doc 36 -3.25003
+doc 10 -4.71432
+doc 34 -4.83398
+doc 32 -4.98649
+doc 5 -5.00583
+doc 22 -5.07364
+docID 37 segmentID 38
+doc 36 -2.40072
+doc 34 -3.66877
+doc 10 -3.75062
+doc 16 -3.78353
+doc 32 -3.78726
+doc 20 -3.7888
+docID 37 segmentID 39
+doc 36 -2.21987
+doc 7 -3.28121
+doc 32 -3.3154
+doc 28 -3.35974
+doc 19 -3.36231
+doc 5 -3.38329
+docID 37 segmentID 40
+doc 36 -2.76948
+doc 34 -3.71602
+doc 7 -3.81227
+doc 1 -3.9347
+doc 33 -3.97158
+doc 29 -3.97844
+docID 37 segmentID 41
+doc 36 -2.21936
+doc 17 -3.70866
+doc 31 -3.73987
+doc 4 -3.76771
+doc 33 -3.77143
+doc 26 -3.78316
+docID 37 segmentID 42
+doc 36 -2.20839
+doc 27 -3.31411
+doc 31 -3.41656
+doc 34 -3.47299
+doc 15 -3.47967
+doc 25 -3.48826
+docID 37 segmentID 43
+doc 36 -2.25842
+doc 4 -3.75248
+doc 7 -3.79135
+doc 20 -3.80452
+doc 16 -3.82717
+doc 1 -3.82893
+docID 37 segmentID 44
+doc 36 -1.75858
+doc 32 -2.83181
+doc 19 -2.8465
+doc 4 -2.87257
+doc 2 -2.87714
+doc 17 -2.91225
+docID 37 segmentID 45
+doc 36 -1.97198
+doc 24 -3.10909
+doc 33 -3.11577
+doc 4 -3.11905
+doc 20 -3.1259
+doc 13 -3.12671
+docID 37 segmentID 46
+doc 36 -1.8729
+doc 17 -2.92236
+doc 9 -2.92825
+doc 26 -2.93228
+doc 11 -2.93978
+doc 23 -2.94234
+docID 37 segmentID 47
+doc 36 -1.59176
+doc 5 -2.74256
+doc 20 -2.75512
+doc 4 -2.75581
+doc 16 -2.76635
+doc 26 -2.76744
+================================================
+5
+docID 38 segmentID 1
+doc 28 -2.80131
+doc 23 -2.89746
+doc 26 -2.89817
+doc 35 -2.90068
+doc 25 -2.91184
+doc 12 -2.91319
+docID 38 segmentID 2
+doc 28 -3.55816
+doc 12 -3.60611
+doc 35 -3.62782
+doc 1 -3.63427
+doc 25 -3.64291
+doc 31 -3.64882
+docID 38 segmentID 3
+doc 5 -3.97514
+doc 26 -4.01511
+doc 10 -4.01733
+doc 1 -4.02104
+doc 25 -4.02482
+doc 31 -4.02694
+docID 38 segmentID 4
+doc 28 -2.65825
+doc 32 -2.73967
+doc 29 -2.80393
+doc 17 -2.8101
+doc 27 -2.8334
+doc 16 -2.87114
+docID 38 segmentID 5
+doc 29 -3.19619
+doc 1 -3.22989
+doc 20 -3.27978
+doc 16 -3.29798
+doc 26 -3.3286
+doc 19 -3.33191
+================================================
+9
+docID 39 segmentID 1
+doc 15 -3.50212
+doc 27 -3.51649
+doc 1 -3.6901
+doc 12 -3.69761
+doc 4 -3.70939
+doc 5 -3.72517
+docID 39 segmentID 2
+doc 27 -3.35831
+doc 15 -3.65948
+doc 10 -3.87834
+doc 26 -3.91631
+doc 23 -3.94844
+doc 35 -3.98155
+docID 39 segmentID 3
+doc 15 -2.02606
+doc 27 -2.16352
+doc 35 -2.47733
+doc 3 -2.48318
+doc 31 -2.48763
+doc 1 -2.48928
+docID 39 segmentID 4
+doc 15 -2.3027
+doc 27 -2.51531
+doc 10 -3.04127
+doc 25 -3.06335
+doc 30 -3.06847
+doc 5 -3.09002
+docID 39 segmentID 5
+doc 27 -2.02777
+doc 15 -2.17086
+doc 4 -2.24904
+doc 11 -2.28133
+doc 3 -2.28937
+doc 17 -2.2922
+docID 39 segmentID 6
+doc 27 -2.6834
+doc 15 -2.71888
+doc 26 -3.00105
+doc 4 -3.00125
+doc 1 -3.0085
+doc 5 -3.00905
+docID 39 segmentID 7
+doc 27 -2.4027
+doc 15 -2.43429
+doc 34 -2.6174
+doc 5 -2.62564
+doc 4 -2.64149
+doc 20 -2.64484
+docID 39 segmentID 8
+doc 15 -2.25354
+doc 27 -2.27391
+doc 5 -2.50276
+doc 20 -2.50584
+doc 17 -2.51196
+doc 11 -2.51395
+docID 39 segmentID 9
+doc 15 -2.35308
+doc 27 -2.41813
+doc 10 -2.7117
+doc 34 -2.71903
+doc 5 -2.75844
+doc 33 -2.77122
+================================================
+11
+docID 40 segmentID 1
+doc 16 -2.55997
+doc 28 -2.59892
+doc 23 -2.61282
+doc 10 -2.63811
+doc 30 -2.65566
+doc 13 -2.67035
+docID 40 segmentID 2
+doc 28 -3.20745
+doc 23 -3.21779
+doc 38 -3.22382
+doc 4 -3.23074
+doc 26 -3.23942
+doc 20 -3.25984
+docID 40 segmentID 3
+doc 20 -3.18755
+doc 16 -3.19052
+doc 26 -3.40983
+doc 23 -3.42634
+doc 28 -3.42766
+doc 17 -3.43854
+docID 40 segmentID 4
+doc 16 -3.26053
+doc 23 -3.26543
+doc 28 -3.30153
+doc 26 -3.32817
+doc 20 -3.34141
+doc 1 -3.39721
+docID 40 segmentID 5
+doc 34 -5.32621
+doc 31 -5.33828
+doc 27 -5.3702
+doc 20 -5.40361
+doc 38 -5.41313
+doc 5 -5.41845
+docID 40 segmentID 6
+doc 27 -3.09737
+doc 2 -3.12396
+doc 1 -3.13964
+doc 38 -3.15109
+doc 29 -3.1588
+doc 24 -3.17588
+docID 40 segmentID 7
+doc 16 -3.62038
+doc 1 -3.63506
+doc 20 -3.65267
+doc 5 -3.67763
+doc 6 -3.68489
+doc 31 -3.69502
+docID 40 segmentID 8
+doc 39 -3.79477
+doc 26 -3.88603
+doc 23 -3.91071
+doc 27 -4.14834
+doc 15 -4.15202
+doc 20 -4.16314
+docID 40 segmentID 9
+doc 30 -2.65314
+doc 29 -2.74506
+doc 38 -2.76324
+doc 26 -2.78275
+doc 22 -2.78646
+doc 34 -2.78726
+docID 40 segmentID 10
+doc 28 -2.85341
+doc 23 -2.8824
+doc 26 -2.89554
+doc 16 -2.90622
+doc 22 -2.93578
+doc 20 -2.94978
+docID 40 segmentID 11
+doc 30 -2.7764
+doc 29 -2.94624
+doc 20 -3.00024
+doc 5 -3.00837
+doc 34 -3.01481
+doc 28 -3.01684
+================================================
+5
+docID 41 segmentID 1
+doc 37 -3.84115
+doc 36 -3.85563
+doc 4 -4.08935
+doc 1 -4.10228
+doc 39 -4.10371
+doc 17 -4.10426
+docID 41 segmentID 2
+doc 37 -3.71668
+doc 36 -3.72952
+doc 3 -3.73557
+doc 1 -3.75042
+doc 4 -3.80682
+doc 2 -3.81579
+docID 41 segmentID 3
+doc 28 -4.06156
+doc 3 -4.09393
+doc 1 -4.09933
+doc 5 -4.12066
+doc 4 -4.14385
+doc 40 -4.14695
+docID 41 segmentID 4
+doc 2 -2.64976
+doc 4 -2.7513
+doc 5 -2.7833
+doc 1 -2.78406
+doc 28 -2.78962
+doc 32 -2.8365
+docID 41 segmentID 5
+doc 3 -2.49329
+doc 10 -2.50894
+doc 7 -2.528
+doc 32 -2.54805
+doc 19 -2.56355
+doc 25 -2.5714
+================================================
+1
+docID 42 segmentID 1
+doc 20 -1.95973
+doc 16 -1.98162
+doc 4 -1.99691
+doc 1 -1.99691
+doc 31 -2.00297
+doc 5 -2.00601
+================================================
+9
+docID 43 segmentID 1
+doc 28 -3.65939
+doc 22 -3.683
+doc 5 -3.70735
+doc 13 -3.70839
+doc 40 -3.75031
+doc 20 -3.75195
+docID 43 segmentID 2
+doc 23 -2.59922
+doc 26 -2.60516
+doc 22 -2.69395
+doc 42 -2.8124
+doc 9 -2.81756
+doc 11 -2.83277
+docID 43 segmentID 3
+doc 9 -4.10484
+doc 22 -4.1076
+doc 11 -4.1159
+doc 4 -4.13016
+doc 20 -4.16618
+doc 1 -4.16738
+docID 43 segmentID 4
+doc 40 -3.27628
+doc 38 -3.48226
+doc 24 -3.48373
+doc 22 -3.48596
+doc 4 -3.50058
+doc 26 -3.50753
+docID 43 segmentID 5
+doc 12 -3.9429
+doc 31 -3.99805
+doc 1 -4.02478
+doc 26 -4.05659
+doc 42 -4.0572
+doc 20 -4.05955
+docID 43 segmentID 6
+doc 40 -3.66136
+doc 10 -3.6886
+doc 22 -3.76668
+doc 26 -3.77185
+doc 32 -3.78635
+doc 23 -3.78752
+docID 43 segmentID 7
+doc 1 -3.62412
+doc 40 -3.66682
+doc 10 -3.69972
+doc 6 -3.72417
+doc 38 -3.72572
+doc 17 -3.73231
+docID 43 segmentID 8
+doc 20 -4.50729
+doc 40 -4.51164
+doc 16 -4.53402
+doc 31 -4.54419
+doc 24 -4.54789
+doc 30 -4.55791
+docID 43 segmentID 9
+doc 9 -4.24123
+doc 11 -4.24288
+doc 26 -4.52387
+doc 29 -4.5358
+doc 27 -4.54079
+doc 20 -4.54645
+================================================
+2
+docID 44 segmentID 1
+doc 42 -2.96168
+doc 6 -3.03018
+doc 16 -3.03651
+doc 20 -3.04207
+doc 5 -3.0847
+doc 40 -3.091
+docID 44 segmentID 2
+doc 13 -3.47622
+doc 20 -3.52362
+doc 16 -3.54792
+doc 42 -3.56233
+doc 10 -3.65674
+doc 6 -3.66238
+================================================
+16
+docID 45 segmentID 1
+doc 31 -3.12861
+doc 44 -3.13066
+doc 38 -3.13704
+doc 10 -3.16824
+doc 19 -3.17045
+doc 30 -3.18685
+docID 45 segmentID 2
+doc 14 -2.15309
+doc 6 -2.15922
+doc 28 -2.17476
+doc 4 -2.1765
+doc 20 -2.1771
+doc 8 -2.1824
+docID 45 segmentID 3
+doc 6 -2.22183
+doc 29 -2.23653
+doc 4 -2.2881
+doc 20 -2.29691
+doc 35 -2.30721
+doc 16 -2.31303
+docID 45 segmentID 4
+doc 28 -2.0273
+doc 1 -2.05367
+doc 29 -2.07472
+doc 6 -2.08436
+doc 14 -2.08516
+doc 37 -2.08641
+docID 45 segmentID 5
+doc 6 -2.51694
+doc 14 -2.54386
+doc 8 -2.57413
+doc 20 -2.60009
+doc 12 -2.62252
+doc 1 -2.62912
+docID 45 segmentID 6
+doc 6 -3.02917
+doc 3 -3.08685
+doc 2 -3.11439
+doc 42 -3.12718
+doc 13 -3.141
+doc 19 -3.14289
+docID 45 segmentID 7
+doc 14 -2.57446
+doc 8 -2.57983
+doc 28 -2.63986
+doc 27 -2.65788
+doc 2 -2.66399
+doc 3 -2.70282
+docID 45 segmentID 8
+doc 29 -3.1438
+doc 34 -3.18153
+doc 3 -3.18828
+doc 14 -3.21411
+doc 4 -3.21754
+doc 8 -3.22866
+docID 45 segmentID 9
+doc 44 -2.43186
+doc 1 -2.45732
+doc 17 -2.46512
+doc 31 -2.46817
+doc 20 -2.47291
+doc 29 -2.48041
+docID 45 segmentID 10
+doc 29 -2.65271
+doc 31 -2.7124
+doc 17 -2.71989
+doc 16 -2.72546
+doc 6 -2.72924
+doc 5 -2.73041
+docID 45 segmentID 11
+doc 44 -3.03216
+doc 29 -3.06172
+doc 17 -3.07361
+doc 4 -3.08193
+doc 33 -3.0853
+doc 15 -3.09648
+docID 45 segmentID 12
+doc 20 -2.82007
+doc 33 -2.8255
+doc 17 -2.84279
+doc 31 -2.8459
+doc 16 -2.8514
+doc 5 -2.85559
+docID 45 segmentID 13
+doc 33 -3.27201
+doc 4 -3.29107
+doc 16 -3.30109
+doc 39 -3.30358
+doc 20 -3.31782
+doc 5 -3.31831
+docID 45 segmentID 14
+doc 27 -3.10332
+doc 15 -3.11032
+doc 20 -3.14795
+doc 40 -3.14837
+doc 2 -3.14988
+doc 33 -3.16221
+docID 45 segmentID 15
+doc 17 -2.51654
+doc 35 -2.52258
+doc 27 -2.55538
+doc 4 -2.55705
+doc 2 -2.57129
+doc 6 -2.57776
+docID 45 segmentID 16
+doc 29 -2.90103
+doc 44 -2.91946
+doc 1 -2.94125
+doc 14 -2.94439
+doc 4 -2.94985
+doc 19 -2.9539
+================================================
+1
+docID 46 segmentID 1
+doc 6 -1.54201
+doc 45 -1.59997
+doc 20 -1.61254
+doc 5 -1.62165
+doc 1 -1.62324
+doc 44 -1.64073
+================================================
+4
+docID 47 segmentID 1
+doc 20 -2.56663
+doc 26 -2.57
+doc 23 -2.58817
+doc 35 -2.60215
+doc 13 -2.60256
+doc 30 -2.61385
+docID 47 segmentID 2
+doc 20 -2.74427
+doc 26 -2.81863
+doc 16 -2.84084
+doc 18 -2.85361
+doc 32 -2.86484
+doc 28 -2.8654
+docID 47 segmentID 3
+doc 20 -2.70062
+doc 27 -2.74128
+doc 26 -2.7428
+doc 16 -2.75542
+doc 29 -2.77131
+doc 1 -2.77635
+docID 47 segmentID 4
+doc 44 -2.71948
+doc 38 -2.93028
+doc 16 -2.93087
+doc 20 -2.94027
+doc 8 -2.96144
+doc 35 -2.97404
+================================================
+16
+docID 48 segmentID 1
+doc 45 -2.01651
+doc 31 -3.12861
+doc 44 -3.13066
+doc 38 -3.13704
+doc 10 -3.16824
+doc 19 -3.17045
+docID 48 segmentID 2
+doc 45 -1.16147
+doc 14 -2.19026
+doc 6 -2.20194
+doc 46 -2.20576
+doc 4 -2.20972
+doc 8 -2.21333
+docID 48 segmentID 3
+doc 45 -1.3515
+doc 6 -2.22183
+doc 46 -2.22961
+doc 29 -2.23653
+doc 4 -2.2881
+doc 20 -2.29691
+docID 48 segmentID 4
+doc 45 -1.24999
+doc 28 -2.0273
+doc 1 -2.05367
+doc 46 -2.0671
+doc 29 -2.07472
+doc 6 -2.08436
+docID 48 segmentID 5
+doc 45 -1.60411
+doc 46 -2.31502
+doc 6 -2.51694
+doc 14 -2.54386
+doc 8 -2.57413
+doc 20 -2.60009
+docID 48 segmentID 6
+doc 45 -2.2486
+doc 6 -3.02917
+doc 3 -3.08685
+doc 2 -3.11439
+doc 42 -3.12718
+doc 13 -3.141
+docID 48 segmentID 7
+doc 45 -1.7802
+doc 14 -2.57446
+doc 8 -2.57983
+doc 28 -2.63986
+doc 27 -2.65788
+doc 2 -2.66399
+docID 48 segmentID 8
+doc 45 -2.25182
+doc 29 -3.1438
+doc 34 -3.18153
+doc 3 -3.18828
+doc 14 -3.21411
+doc 4 -3.21754
+docID 48 segmentID 9
+doc 45 -1.33938
+doc 44 -2.43186
+doc 1 -2.45732
+doc 17 -2.46512
+doc 31 -2.46817
+doc 20 -2.47291
+docID 48 segmentID 10
+doc 45 -1.54954
+doc 29 -2.65271
+doc 31 -2.7124
+doc 17 -2.71989
+doc 16 -2.72546
+doc 6 -2.72924
+docID 48 segmentID 11
+doc 45 -1.85326
+doc 44 -3.03216
+doc 29 -3.06172
+doc 17 -3.07361
+doc 4 -3.08193
+doc 33 -3.0853
+docID 48 segmentID 12
+doc 45 -1.60135
+doc 20 -2.82007
+doc 33 -2.8255
+doc 17 -2.84279
+doc 31 -2.8459
+doc 16 -2.8514
+docID 48 segmentID 13
+doc 45 -1.77476
+doc 33 -3.27201
+doc 4 -3.29107
+doc 16 -3.30109
+doc 39 -3.30358
+doc 20 -3.31782
+docID 48 segmentID 14
+doc 45 -1.86802
+doc 27 -3.10332
+doc 15 -3.11032
+doc 20 -3.14795
+doc 40 -3.14837
+doc 2 -3.14988
+docID 48 segmentID 15
+doc 45 -1.44628
+doc 17 -2.51654
+doc 35 -2.52258
+doc 27 -2.55538
+doc 4 -2.55705
+doc 2 -2.57129
+docID 48 segmentID 16
+doc 45 -1.67844
+doc 29 -2.90103
+doc 44 -2.91946
+doc 1 -2.94125
+doc 14 -2.94439
+doc 4 -2.94985
+================================================
+16
+docID 49 segmentID 1
+doc 42 -2.58643
+doc 20 -2.5902
+doc 16 -2.60144
+doc 13 -2.62577
+doc 44 -2.64793
+doc 47 -2.65303
+docID 49 segmentID 2
+doc 20 -3.1801
+doc 8 -3.19693
+doc 14 -3.19959
+doc 45 -3.20987
+doc 48 -3.21094
+doc 16 -3.21714
+docID 49 segmentID 3
+doc 20 -3.63428
+doc 6 -3.64489
+doc 45 -3.65991
+doc 48 -3.66071
+doc 16 -3.69185
+doc 26 -3.70505
+docID 49 segmentID 4
+doc 17 -3.44963
+doc 5 -3.45047
+doc 29 -3.46958
+doc 44 -3.4716
+doc 48 -3.49659
+doc 45 -3.49659
+docID 49 segmentID 5
+doc 17 -2.92522
+doc 5 -2.97149
+doc 42 -2.97406
+doc 6 -2.97887
+doc 20 -2.98044
+doc 26 -2.9963
+docID 49 segmentID 6
+doc 8 -2.77671
+doc 14 -2.79287
+doc 25 -2.8043
+doc 4 -2.82022
+doc 3 -2.84575
+doc 42 -2.84912
+docID 49 segmentID 7
+doc 40 -3.56946
+doc 8 -3.65708
+doc 42 -3.65728
+doc 16 -3.662
+doc 14 -3.66273
+doc 20 -3.6703
+docID 49 segmentID 8
+doc 44 -3.62033
+doc 13 -3.78485
+doc 47 -3.83242
+doc 4 -3.84225
+doc 26 -3.84869
+doc 42 -3.84953
+docID 49 segmentID 9
+doc 20 -3.24958
+doc 16 -3.27846
+doc 42 -3.28714
+doc 34 -3.28979
+doc 9 -3.30027
+doc 6 -3.33543
+docID 49 segmentID 10
+doc 42 -3.20278
+doc 20 -3.20681
+doc 5 -3.2427
+doc 16 -3.25441
+doc 44 -3.26721
+doc 17 -3.2727
+docID 49 segmentID 11
+doc 42 -2.55818
+doc 9 -2.56259
+doc 11 -2.56305
+doc 20 -2.60651
+doc 17 -2.6102
+doc 13 -2.61047
+docID 49 segmentID 12
+doc 40 -2.92345
+doc 25 -2.94663
+doc 33 -2.95174
+doc 13 -2.95648
+doc 17 -2.95787
+doc 28 -2.96207
+docID 49 segmentID 13
+doc 31 -2.73248
+doc 1 -2.75768
+doc 16 -2.7658
+doc 20 -2.76887
+doc 25 -2.77575
+doc 44 -2.77972
+docID 49 segmentID 14
+doc 40 -3.09255
+doc 20 -3.10619
+doc 31 -3.1075
+doc 16 -3.11117
+doc 1 -3.11156
+doc 44 -3.11454
+docID 49 segmentID 15
+doc 17 -3.44064
+doc 5 -3.45224
+doc 29 -3.48805
+doc 43 -3.49526
+doc 12 -3.50542
+doc 20 -3.53175
+docID 49 segmentID 16
+doc 22 -4.1622
+doc 23 -4.23506
+doc 16 -4.32981
+doc 26 -4.33313
+doc 20 -4.33824
+doc 40 -4.47052
+================================================
+4
+docID 50 segmentID 1
+doc 47 -2.68685
+doc 20 -2.83047
+doc 26 -2.84203
+doc 23 -2.96253
+doc 16 -2.96669
+doc 35 -3.02708
+docID 50 segmentID 2
+doc 47 -2.41662
+doc 20 -2.46343
+doc 16 -2.52424
+doc 26 -2.55392
+doc 23 -2.59444
+doc 35 -2.59478
+docID 50 segmentID 3
+doc 16 -2.96533
+doc 20 -2.9722
+doc 30 -3.02632
+doc 47 -3.0275
+doc 29 -3.06608
+doc 38 -3.10295
+docID 50 segmentID 4
+doc 47 -3.26627
+doc 26 -3.39346
+doc 44 -3.44971
+doc 20 -3.46022
+doc 23 -3.47286
+doc 28 -3.50824
+================================================
+9
+docID 51 segmentID 1
+doc 16 -2.96939
+doc 20 -2.97907
+doc 49 -3.05877
+doc 23 -3.13063
+doc 50 -3.14886
+doc 44 -3.1539
+docID 51 segmentID 2
+doc 49 -3.79429
+doc 42 -3.80742
+doc 23 -3.82063
+doc 20 -3.82405
+doc 16 -3.83759
+doc 26 -3.85143
+docID 51 segmentID 3
+doc 49 -2.97687
+doc 42 -3.0279
+doc 44 -3.07259
+doc 36 -3.10442
+doc 37 -3.10706
+doc 47 -3.11573
+docID 51 segmentID 4
+doc 31 -3.91953
+doc 33 -3.93462
+doc 42 -3.95329
+doc 48 -3.99564
+doc 45 -3.99567
+doc 49 -3.99979
+docID 51 segmentID 5
+doc 44 -2.7572
+doc 5 -2.77996
+doc 4 -2.78181
+doc 33 -2.79177
+doc 6 -2.79988
+doc 2 -2.80156
+docID 51 segmentID 6
+doc 49 -3.73352
+doc 37 -3.81413
+doc 36 -3.81817
+doc 34 -3.83508
+doc 45 -3.85175
+doc 48 -3.85175
+docID 51 segmentID 7
+doc 16 -2.78114
+doc 20 -2.78284
+doc 49 -2.82268
+doc 40 -2.83203
+doc 44 -2.85039
+doc 42 -2.85613
+docID 51 segmentID 8
+doc 44 -5.51479
+doc 5 -5.628
+doc 13 -5.6826
+doc 20 -5.69301
+doc 4 -5.69564
+doc 1 -5.69903
+docID 51 segmentID 9
+doc 49 -3.345
+doc 22 -4.1622
+doc 23 -4.23506
+doc 16 -4.32981
+doc 26 -4.33313
+doc 20 -4.33824
+================================================
+6
+docID 52 segmentID 1
+doc 35 -3.08876
+doc 28 -3.21244
+doc 16 -3.25751
+doc 46 -3.2659
+doc 30 -3.27698
+doc 25 -3.29663
+docID 52 segmentID 2
+doc 28 -1.99482
+doc 16 -2.13746
+doc 47 -2.13954
+doc 23 -2.16707
+doc 50 -2.18426
+doc 38 -2.18778
+docID 52 segmentID 3
+doc 5 -3.01173
+doc 50 -3.01998
+doc 16 -3.0286
+doc 17 -3.02984
+doc 1 -3.03589
+doc 23 -3.03705
+docID 52 segmentID 4
+doc 28 -3.62539
+doc 5 -3.65863
+doc 1 -3.66231
+doc 17 -3.67783
+doc 34 -3.68578
+doc 6 -3.68991
+docID 52 segmentID 5
+doc 44 -2.29404
+doc 50 -2.30045
+doc 40 -2.30912
+doc 16 -2.31423
+doc 28 -2.3166
+doc 1 -2.32353
+docID 52 segmentID 6
+doc 16 -3.08216
+doc 23 -3.08363
+doc 47 -3.17752
+doc 26 -3.18446
+doc 44 -3.18984
+doc 20 -3.20676
+================================================
+8
+docID 53 segmentID 1
+doc 44 -2.81702
+doc 51 -2.83553
+doc 40 -2.86696
+doc 47 -2.90552
+doc 42 -2.90713
+doc 16 -2.9079
+docID 53 segmentID 2
+doc 20 -2.56134
+doc 47 -2.59406
+doc 26 -2.61098
+doc 16 -2.61421
+doc 23 -2.6407
+doc 52 -2.64621
+docID 53 segmentID 3
+doc 16 -2.51953
+doc 40 -2.52682
+doc 44 -2.53383
+doc 20 -2.53474
+doc 51 -2.55782
+doc 47 -2.56277
+docID 53 segmentID 4
+doc 16 -3.46795
+doc 6 -3.49348
+doc 49 -3.50565
+doc 26 -3.50744
+doc 10 -3.511
+doc 5 -3.51561
+docID 53 segmentID 5
+doc 16 -2.69672
+doc 20 -2.71593
+doc 47 -2.75393
+doc 44 -2.76803
+doc 17 -2.7719
+doc 26 -2.78037
+docID 53 segmentID 6
+doc 52 -2.71015
+doc 16 -2.75094
+doc 47 -2.76777
+doc 40 -2.80688
+doc 20 -2.81383
+doc 43 -2.81486
+docID 53 segmentID 7
+doc 40 -2.78383
+doc 44 -2.83504
+doc 51 -2.88294
+doc 47 -2.90314
+doc 16 -2.90891
+doc 20 -2.91022
+docID 53 segmentID 8
+doc 16 -2.49175
+doc 38 -2.49427
+doc 20 -2.49826
+doc 1 -2.51268
+doc 44 -2.52429
+doc 17 -2.52695
+================================================
+17
+docID 54 segmentID 1
+doc 53 -3.35478
+doc 40 -3.40265
+doc 51 -3.44191
+doc 49 -3.48297
+doc 44 -3.54937
+doc 16 -3.59542
+docID 54 segmentID 2
+doc 24 -3.26758
+doc 20 -3.39642
+doc 33 -3.40081
+doc 16 -3.41907
+doc 44 -3.42868
+doc 37 -3.43612
+docID 54 segmentID 3
+doc 14 -2.58452
+doc 8 -2.60065
+doc 20 -2.60829
+doc 37 -2.61093
+doc 44 -2.61525
+doc 5 -2.61987
+docID 54 segmentID 4
+doc 33 -3.137
+doc 42 -3.17142
+doc 16 -3.20102
+doc 20 -3.21371
+doc 50 -3.21645
+doc 44 -3.24028
+docID 54 segmentID 5
+doc 24 -3.87414
+doc 34 -3.91784
+doc 44 -3.94271
+doc 5 -3.9445
+doc 26 -3.95793
+doc 36 -3.97145
+docID 54 segmentID 6
+doc 35 -3.76253
+doc 20 -3.76704
+doc 40 -3.78787
+doc 44 -3.83605
+doc 42 -3.84573
+doc 16 -3.84599
+docID 54 segmentID 7
+doc 15 -3.74818
+doc 35 -3.77921
+doc 24 -3.78543
+doc 26 -3.78749
+doc 44 -3.79227
+doc 23 -3.79677
+docID 54 segmentID 8
+doc 15 -3.88442
+doc 5 -3.88869
+doc 20 -3.89711
+doc 26 -3.91473
+doc 35 -3.94313
+doc 6 -3.97412
+docID 54 segmentID 9
+doc 44 -3.81844
+doc 43 -3.93158
+doc 48 -3.99417
+doc 45 -3.99417
+doc 1 -3.99773
+doc 12 -4.02021
+docID 54 segmentID 10
+doc 42 -4.57617
+doc 30 -4.57874
+doc 4 -4.59454
+doc 20 -4.59574
+doc 40 -4.59881
+doc 44 -4.60461
+docID 54 segmentID 11
+doc 4 -3.3307
+doc 33 -3.33742
+doc 26 -3.34503
+doc 10 -3.3457
+doc 42 -3.3477
+doc 23 -3.36696
+docID 54 segmentID 12
+doc 44 -3.80294
+doc 42 -3.84873
+doc 35 -3.85822
+doc 43 -3.85947
+doc 33 -3.85989
+doc 20 -3.87192
+docID 54 segmentID 13
+doc 42 -2.67357
+doc 10 -2.68442
+doc 34 -2.74401
+doc 31 -2.75143
+doc 53 -2.75694
+doc 49 -2.76366
+docID 54 segmentID 14
+doc 10 -3.11974
+doc 44 -3.1438
+doc 6 -3.16868
+doc 5 -3.17156
+doc 42 -3.18131
+doc 47 -3.18322
+docID 54 segmentID 15
+doc 19 -2.41891
+doc 10 -2.42447
+doc 4 -2.43153
+doc 7 -2.43487
+doc 47 -2.44171
+doc 5 -2.44733
+docID 54 segmentID 16
+doc 10 -2.6993
+doc 50 -2.82171
+doc 9 -2.8325
+doc 20 -2.83342
+doc 26 -2.83881
+doc 11 -2.84235
+docID 54 segmentID 17
+doc 53 -3.16697
+doc 47 -3.22452
+doc 40 -3.24224
+doc 51 -3.32763
+doc 16 -3.36716
+doc 20 -3.37686
+================================================
+11
+docID 55 segmentID 1
+doc 52 -3.33314
+doc 53 -3.35939
+doc 10 -3.37541
+doc 16 -3.39288
+doc 40 -3.3939
+doc 54 -3.39598
+docID 55 segmentID 2
+doc 53 -3.02528
+doc 6 -3.0465
+doc 8 -3.053
+doc 40 -3.08337
+doc 44 -3.09175
+doc 14 -3.09211
+docID 55 segmentID 3
+doc 53 -3.04271
+doc 16 -3.09296
+doc 51 -3.09459
+doc 42 -3.10365
+doc 49 -3.12627
+doc 41 -3.12676
+docID 55 segmentID 4
+doc 53 -3.43845
+doc 11 -3.45073
+doc 40 -3.45712
+doc 4 -3.49821
+doc 44 -3.50264
+doc 22 -3.50534
+docID 55 segmentID 5
+doc 44 -3.8884
+doc 43 -4.04829
+doc 4 -4.06579
+doc 1 -4.06779
+doc 53 -4.08802
+doc 54 -4.09256
+docID 55 segmentID 6
+doc 44 -3.35607
+doc 42 -3.45736
+doc 43 -3.49536
+doc 33 -3.5095
+doc 53 -3.53324
+doc 3 -3.53385
+docID 55 segmentID 7
+doc 42 -4.31711
+doc 5 -4.49551
+doc 44 -4.4992
+doc 53 -4.50035
+doc 3 -4.51036
+doc 49 -4.51269
+docID 55 segmentID 8
+doc 4 -2.8624
+doc 1 -2.96184
+doc 28 -2.97432
+doc 52 -2.98248
+doc 40 -2.98587
+doc 31 -2.99385
+docID 55 segmentID 9
+doc 40 -3.07444
+doc 1 -3.10787
+doc 4 -3.11947
+doc 49 -3.1221
+doc 52 -3.12457
+doc 44 -3.12493
+docID 55 segmentID 10
+doc 34 -3.72785
+doc 48 -3.85811
+doc 45 -3.85811
+doc 49 -3.88046
+doc 10 -3.89193
+doc 37 -3.90936
+docID 55 segmentID 11
+doc 34 -3.78409
+doc 35 -3.79748
+doc 38 -3.88275
+doc 15 -3.88541
+doc 12 -3.89085
+doc 1 -3.89945
+================================================
+10
+docID 56 segmentID 1
+doc 54 -3.7675
+doc 39 -3.88494
+doc 43 -3.8861
+doc 10 -3.9385
+doc 26 -3.94718
+doc 42 -3.94777
+docID 56 segmentID 2
+doc 47 -2.9741
+doc 54 -3.03622
+doc 5 -3.08238
+doc 35 -3.11206
+doc 6 -3.11373
+doc 17 -3.11481
+docID 56 segmentID 3
+doc 39 -3.65136
+doc 42 -3.65455
+doc 38 -3.69385
+doc 34 -3.71362
+doc 15 -3.75074
+doc 47 -3.75174
+docID 56 segmentID 4
+doc 15 -3.48904
+doc 42 -3.53841
+doc 39 -3.54561
+doc 31 -3.57128
+doc 27 -3.57632
+doc 1 -3.60086
+docID 56 segmentID 5
+doc 55 -3.56213
+doc 20 -3.6819
+doc 31 -3.68394
+doc 42 -3.68996
+doc 43 -3.69305
+doc 39 -3.70425
+docID 56 segmentID 6
+doc 54 -2.91829
+doc 49 -2.93026
+doc 55 -2.9309
+doc 44 -2.94806
+doc 10 -2.94972
+doc 42 -2.96867
+docID 56 segmentID 7
+doc 49 -2.7886
+doc 42 -2.79299
+doc 29 -2.80349
+doc 34 -2.85166
+doc 6 -2.85374
+doc 44 -2.85502
+docID 56 segmentID 8
+doc 42 -3.21146
+doc 27 -3.27812
+doc 54 -3.30905
+doc 49 -3.31226
+doc 36 -3.32021
+doc 37 -3.32045
+docID 56 segmentID 9
+doc 53 -3.04789
+doc 43 -3.08266
+doc 30 -3.11693
+doc 54 -3.12469
+doc 20 -3.14027
+doc 40 -3.16284
+docID 56 segmentID 10
+doc 54 -2.78279
+doc 53 -2.88035
+doc 44 -2.88595
+doc 55 -2.89842
+doc 50 -2.90398
+doc 40 -2.91006
+================================================
+14
+docID 57 segmentID 1
+doc 20 -3.57795
+doc 16 -3.58854
+doc 49 -3.58938
+doc 51 -3.68168
+doc 50 -3.73283
+doc 26 -3.76026
+docID 57 segmentID 2
+doc 29 -2.42038
+doc 6 -2.4288
+doc 45 -2.47995
+doc 52 -2.48472
+doc 48 -2.48685
+doc 5 -2.49716
+docID 57 segmentID 3
+doc 46 -2.33413
+doc 6 -2.46122
+doc 45 -2.51323
+doc 48 -2.51783
+doc 20 -2.53037
+doc 5 -2.56657
+docID 57 segmentID 4
+doc 46 -2.34044
+doc 6 -2.35438
+doc 48 -2.40751
+doc 45 -2.40796
+doc 20 -2.41323
+doc 35 -2.45098
+docID 57 segmentID 5
+doc 34 -3.46627
+doc 45 -3.60123
+doc 48 -3.6013
+doc 54 -3.69302
+doc 49 -3.69517
+doc 32 -3.77029
+docID 57 segmentID 6
+doc 4 -2.98212
+doc 32 -2.99251
+doc 35 -3.03647
+doc 17 -3.04551
+doc 2 -3.05197
+doc 8 -3.05914
+docID 57 segmentID 7
+doc 53 -3.42245
+doc 29 -3.42504
+doc 39 -3.44072
+doc 44 -3.44667
+doc 33 -3.44766
+doc 55 -3.44938
+docID 57 segmentID 8
+doc 49 -3.71404
+doc 6 -3.73122
+doc 5 -3.74421
+doc 42 -3.74478
+doc 56 -3.74998
+doc 39 -3.75684
+docID 57 segmentID 9
+doc 4 -3.65106
+doc 24 -3.65655
+doc 54 -3.67147
+doc 56 -3.67357
+doc 33 -3.6803
+doc 20 -3.68075
+docID 57 segmentID 10
+doc 29 -2.9546
+doc 56 -2.9638
+doc 50 -2.97424
+doc 35 -2.97927
+doc 26 -2.98331
+doc 17 -3.00849
+docID 57 segmentID 11
+doc 53 -2.8516
+doc 56 -2.88647
+doc 5 -2.90186
+doc 40 -2.90972
+doc 44 -2.91052
+doc 38 -2.92844
+docID 57 segmentID 12
+doc 54 -3.29096
+doc 5 -3.31266
+doc 4 -3.31455
+doc 46 -3.32075
+doc 13 -3.32089
+doc 10 -3.3307
+docID 57 segmentID 13
+doc 51 -3.35937
+doc 49 -3.37185
+doc 22 -4.04045
+doc 23 -4.12461
+doc 16 -4.22965
+doc 26 -4.23433
+docID 57 segmentID 14
+doc 16 -5.26123
+doc 20 -5.27258
+doc 49 -5.27442
+doc 11 -5.3155
+doc 9 -5.32284
+doc 54 -5.33314
+================================================
+7
+docID 58 segmentID 1
+doc 53 -4.00419
+doc 1 -4.01739
+doc 47 -4.09452
+doc 23 -4.16855
+doc 25 -4.1701
+doc 50 -4.18469
+docID 58 segmentID 2
+doc 38 -2.98056
+doc 1 -2.98909
+doc 56 -2.99671
+doc 36 -3.02001
+doc 37 -3.02019
+doc 4 -3.02755
+docID 58 segmentID 3
+doc 33 -3.63421
+doc 1 -3.64446
+doc 53 -3.66571
+doc 47 -3.66971
+doc 49 -3.68157
+doc 20 -3.68505
+docID 58 segmentID 4
+doc 54 -3.59978
+doc 56 -3.68686
+doc 4 -3.72966
+doc 50 -3.73314
+doc 1 -3.74373
+doc 20 -3.76394
+docID 58 segmentID 5
+doc 33 -3.46726
+doc 49 -3.49838
+doc 17 -3.56796
+doc 44 -3.57241
+doc 1 -3.58346
+doc 6 -3.59977
+docID 58 segmentID 6
+doc 14 -2.91217
+doc 37 -2.91247
+doc 8 -2.93985
+doc 36 -2.94702
+doc 32 -3.02169
+doc 3 -3.05512
+docID 58 segmentID 7
+doc 1 -2.79597
+doc 49 -2.81693
+doc 50 -2.84356
+doc 20 -2.84699
+doc 24 -2.85068
+doc 16 -2.85492
+================================================
+8
+docID 59 segmentID 1
+doc 54 -2.99167
+doc 53 -3.02741
+doc 20 -3.03558
+doc 30 -3.03561
+doc 51 -3.04338
+doc 16 -3.0435
+docID 59 segmentID 2
+doc 40 -3.14073
+doc 51 -3.1891
+doc 53 -3.23351
+doc 57 -3.25194
+doc 54 -3.29045
+doc 10 -3.30992
+docID 59 segmentID 3
+doc 52 -2.97136
+doc 53 -2.9788
+doc 55 -2.99764
+doc 51 -3.00016
+doc 54 -3.02456
+doc 20 -3.027
+docID 59 segmentID 4
+doc 53 -2.87341
+doc 20 -2.98366
+doc 16 -2.99768
+doc 44 -2.99813
+doc 10 -3.00873
+doc 47 -3.02332
+docID 59 segmentID 5
+doc 51 -3.60215
+doc 54 -3.64083
+doc 55 -3.65431
+doc 56 -3.69065
+doc 4 -3.713
+doc 5 -3.71558
+docID 59 segmentID 6
+doc 20 -1.6567
+doc 44 -1.6591
+doc 42 -1.67528
+doc 16 -1.67649
+doc 47 -1.68521
+doc 51 -1.68527
+docID 59 segmentID 7
+doc 56 -2.56001
+doc 58 -2.60772
+doc 10 -2.6131
+doc 39 -2.62374
+doc 20 -2.63352
+doc 1 -2.63467
+docID 59 segmentID 8
+doc 20 -2.11926
+doc 16 -2.13689
+doc 44 -2.13891
+doc 4 -2.14491
+doc 42 -2.15032
+doc 54 -2.15702
+================================================
+16
+docID 60 segmentID 1
+doc 57 -3.70971
+doc 54 -3.91151
+doc 59 -3.94002
+doc 55 -3.96868
+doc 48 -3.98044
+doc 45 -3.98044
+docID 60 segmentID 2
+doc 20 -3.0295
+doc 26 -3.04283
+doc 50 -3.06839
+doc 23 -3.10162
+doc 59 -3.11312
+doc 16 -3.12173
+docID 60 segmentID 3
+doc 10 -2.39673
+doc 54 -2.47235
+doc 35 -2.47949
+doc 40 -2.48077
+doc 59 -2.48671
+doc 34 -2.49904
+docID 60 segmentID 4
+doc 56 -3.54003
+doc 54 -3.60401
+doc 1 -3.60524
+doc 4 -3.61363
+doc 5 -3.61375
+doc 47 -3.62053
+docID 60 segmentID 5
+doc 44 -2.67751
+doc 54 -2.73463
+doc 59 -2.82861
+doc 16 -2.85426
+doc 56 -2.85662
+doc 42 -2.86328
+docID 60 segmentID 6
+doc 59 -2.94891
+doc 56 -3.15998
+doc 54 -3.17239
+doc 36 -3.18505
+doc 37 -3.18681
+doc 53 -3.20501
+docID 60 segmentID 7
+doc 59 -2.41976
+doc 47 -2.47348
+doc 53 -2.47476
+doc 50 -2.48868
+doc 20 -2.49625
+doc 54 -2.5229
+docID 60 segmentID 8
+doc 59 -3.47585
+doc 51 -3.60268
+doc 50 -3.60317
+doc 54 -3.60446
+doc 44 -3.60651
+doc 55 -3.61607
+docID 60 segmentID 9
+doc 56 -3.04227
+doc 53 -3.07785
+doc 20 -3.0961
+doc 57 -3.12027
+doc 47 -3.13628
+doc 16 -3.14045
+docID 60 segmentID 10
+doc 56 -2.91982
+doc 54 -2.95755
+doc 53 -3.04551
+doc 34 -3.08373
+doc 10 -3.10306
+doc 57 -3.11413
+docID 60 segmentID 11
+doc 59 -3.36208
+doc 54 -3.44879
+doc 33 -3.52067
+doc 39 -3.52599
+doc 56 -3.53324
+doc 53 -3.55274
+docID 60 segmentID 12
+doc 20 -3.32742
+doc 44 -3.36595
+doc 50 -3.3747
+doc 17 -3.37914
+doc 16 -3.38287
+doc 47 -3.38574
+docID 60 segmentID 13
+doc 53 -4.02332
+doc 56 -4.04196
+doc 57 -4.04409
+doc 19 -4.08395
+doc 20 -4.10334
+doc 1 -4.107
+docID 60 segmentID 14
+doc 56 -2.95682
+doc 57 -3.02834
+doc 20 -3.07009
+doc 54 -3.07153
+doc 39 -3.09488
+doc 17 -3.10774
+docID 60 segmentID 15
+doc 10 -2.75575
+doc 57 -2.77997
+doc 20 -2.8118
+doc 46 -2.81806
+doc 26 -2.82876
+doc 56 -2.84219
+docID 60 segmentID 16
+doc 59 -3.39161
+doc 57 -3.393
+doc 38 -3.39361
+doc 58 -3.40285
+doc 56 -3.4132
+doc 1 -3.43144
+================================================
+14
+docID 61 segmentID 1
+doc 53 -3.25188
+doc 60 -3.31769
+doc 59 -3.34386
+doc 43 -3.35974
+doc 26 -3.36651
+doc 20 -3.36758
+docID 61 segmentID 2
+doc 55 -3.22938
+doc 59 -3.26991
+doc 53 -3.32851
+doc 20 -3.34703
+doc 51 -3.34826
+doc 5 -3.34856
+docID 61 segmentID 3
+doc 59 -3.20033
+doc 51 -3.31802
+doc 36 -3.43156
+doc 37 -3.43632
+doc 49 -3.4784
+doc 42 -3.50489
+docID 61 segmentID 4
+doc 40 -3.41625
+doc 44 -3.47475
+doc 20 -3.48799
+doc 42 -3.49284
+doc 26 -3.49453
+doc 16 -3.50036
+docID 61 segmentID 5
+doc 59 -3.04011
+doc 55 -3.09804
+doc 53 -3.12105
+doc 44 -3.18368
+doc 49 -3.19905
+doc 20 -3.19951
+docID 61 segmentID 6
+doc 14 -2.85478
+doc 8 -2.87853
+doc 1 -2.88673
+doc 43 -2.89395
+doc 53 -2.92926
+doc 25 -2.93408
+docID 61 segmentID 7
+doc 25 -3.05327
+doc 1 -3.05704
+doc 48 -3.05869
+doc 31 -3.05963
+doc 45 -3.05988
+doc 46 -3.09691
+docID 61 segmentID 8
+doc 55 -4.39656
+doc 5 -4.40974
+doc 34 -4.41105
+doc 1 -4.41503
+doc 58 -4.42123
+doc 17 -4.42499
+docID 61 segmentID 9
+doc 60 -3.43604
+doc 56 -3.51892
+doc 57 -3.58459
+doc 55 -3.62578
+doc 38 -3.62922
+doc 42 -3.67924
+docID 61 segmentID 10
+doc 54 -3.25867
+doc 59 -3.31601
+doc 20 -3.31606
+doc 16 -3.31645
+doc 26 -3.32497
+doc 15 -3.33229
+docID 61 segmentID 11
+doc 59 -3.41823
+doc 55 -3.49214
+doc 60 -3.52993
+doc 33 -3.54766
+doc 54 -3.61944
+doc 42 -3.62355
+docID 61 segmentID 12
+doc 57 -4.06697
+doc 24 -4.06813
+doc 54 -4.07457
+doc 1 -4.10322
+doc 44 -4.1068
+doc 13 -4.12482
+docID 61 segmentID 13
+doc 18 -3.65149
+doc 5 -3.71915
+doc 28 -3.72036
+doc 2 -3.72703
+doc 53 -3.73322
+doc 33 -3.7438
+docID 61 segmentID 14
+doc 59 -3.48263
+doc 20 -3.69048
+doc 54 -3.69388
+doc 40 -3.70493
+doc 16 -3.71713
+doc 24 -3.73852
+================================================
+5
+docID 62 segmentID 1
+doc 42 -3.23693
+doc 44 -3.29116
+doc 56 -3.35928
+doc 61 -3.39543
+doc 58 -3.42931
+doc 59 -3.46833
+docID 62 segmentID 2
+doc 5 -2.58884
+doc 20 -2.60186
+doc 16 -2.61519
+doc 54 -2.61831
+doc 47 -2.61992
+doc 44 -2.62314
+docID 62 segmentID 3
+doc 60 -3.11134
+doc 44 -3.18156
+doc 56 -3.19641
+doc 54 -3.2009
+doc 4 -3.20232
+doc 42 -3.21542
+docID 62 segmentID 4
+doc 42 -3.34416
+doc 57 -3.39451
+doc 6 -3.40859
+doc 20 -3.43713
+doc 44 -3.4431
+doc 60 -3.44493
+docID 62 segmentID 5
+doc 54 -3.37931
+doc 61 -3.38499
+doc 47 -3.42995
+doc 43 -3.44228
+doc 13 -3.48336
+doc 5 -3.50843
+================================================
+11
+docID 63 segmentID 1
+doc 44 -3.20781
+doc 33 -3.23097
+doc 6 -3.23606
+doc 47 -3.24856
+doc 5 -3.25155
+doc 62 -3.25446
+docID 63 segmentID 2
+doc 53 -3.03205
+doc 43 -3.09961
+doc 20 -3.2389
+doc 26 -3.24162
+doc 62 -3.24311
+doc 60 -3.26392
+docID 63 segmentID 3
+doc 56 -2.76368
+doc 60 -2.79385
+doc 55 -2.81869
+doc 59 -2.84182
+doc 40 -2.85965
+doc 53 -2.88259
+docID 63 segmentID 4
+doc 59 -2.96417
+doc 53 -3.02992
+doc 56 -3.0452
+doc 49 -3.06853
+doc 30 -3.0714
+doc 61 -3.07578
+docID 63 segmentID 5
+doc 40 -3.69061
+doc 30 -3.69432
+doc 20 -3.70396
+doc 54 -3.71198
+doc 16 -3.71431
+doc 62 -3.75106
+docID 63 segmentID 6
+doc 54 -3.28947
+doc 6 -3.29986
+doc 59 -3.30353
+doc 44 -3.3071
+doc 5 -3.31017
+doc 27 -3.31357
+docID 63 segmentID 7
+doc 25 -3.18524
+doc 59 -3.20772
+doc 5 -3.22431
+doc 43 -3.22894
+doc 53 -3.23394
+doc 60 -3.23739
+docID 63 segmentID 8
+doc 59 -3.54348
+doc 1 -3.68846
+doc 55 -3.70472
+doc 47 -3.71047
+doc 38 -3.71808
+doc 34 -3.7462
+docID 63 segmentID 9
+doc 53 -3.40088
+doc 62 -3.44712
+doc 49 -3.44956
+doc 57 -3.48688
+doc 43 -3.51209
+doc 44 -3.53603
+docID 63 segmentID 10
+doc 59 -2.71443
+doc 58 -2.76053
+doc 1 -2.76879
+doc 53 -2.77751
+doc 60 -2.78125
+doc 44 -2.79377
+docID 63 segmentID 11
+doc 9 -3.6924
+doc 20 -3.71675
+doc 16 -3.72054
+doc 49 -3.73026
+doc 40 -3.74029
+doc 54 -3.7537
+================================================
+12
+docID 64 segmentID 1
+doc 59 -2.15442
+doc 53 -2.24238
+doc 51 -2.26699
+doc 49 -2.35023
+doc 16 -2.35115
+doc 20 -2.38214
+docID 64 segmentID 2
+doc 60 -2.23645
+doc 59 -2.40785
+doc 6 -2.45724
+doc 63 -2.467
+doc 51 -2.48136
+doc 40 -2.48815
+docID 64 segmentID 3
+doc 60 -3.4242
+doc 54 -3.50012
+doc 43 -3.55576
+doc 55 -3.55589
+doc 59 -3.58074
+doc 44 -3.61249
+docID 64 segmentID 4
+doc 61 -2.84127
+doc 60 -2.8585
+doc 59 -2.86152
+doc 57 -2.91647
+doc 53 -2.92115
+doc 62 -2.92467
+docID 64 segmentID 5
+doc 59 -3.01301
+doc 20 -3.11333
+doc 50 -3.1229
+doc 16 -3.14927
+doc 53 -3.15176
+doc 47 -3.15414
+docID 64 segmentID 6
+doc 59 -2.38185
+doc 53 -2.56526
+doc 61 -2.56665
+doc 47 -2.58923
+doc 20 -2.63441
+doc 16 -2.63491
+docID 64 segmentID 7
+doc 16 -2.87102
+doc 20 -2.89659
+doc 44 -2.96995
+doc 59 -2.97011
+doc 54 -2.98412
+doc 58 -2.98491
+docID 64 segmentID 8
+doc 29 -4.46841
+doc 59 -4.48732
+doc 61 -4.49939
+doc 63 -4.52027
+doc 31 -4.53018
+doc 56 -4.54028
+docID 64 segmentID 9
+doc 61 -2.55833
+doc 55 -2.56166
+doc 60 -2.57725
+doc 59 -2.58553
+doc 53 -2.66307
+doc 63 -2.69316
+docID 64 segmentID 10
+doc 59 -2.60271
+doc 61 -2.61567
+doc 49 -2.62875
+doc 53 -2.63726
+doc 40 -2.66186
+doc 20 -2.66766
+docID 64 segmentID 11
+doc 55 -2.89676
+doc 63 -2.97534
+doc 43 -2.97995
+doc 10 -2.98433
+doc 59 -3.0096
+doc 60 -3.01759
+docID 64 segmentID 12
+doc 59 -3.37264
+doc 53 -3.42615
+doc 60 -3.44543
+doc 31 -3.44802
+doc 20 -3.49069
+doc 16 -3.49562
+================================================
+6
+docID 65 segmentID 1
+doc 28 -2.76365
+doc 52 -2.77168
+doc 35 -2.78907
+doc 34 -2.97303
+doc 32 -2.98497
+doc 23 -2.9917
+docID 65 segmentID 2
+doc 35 -2.48357
+doc 6 -2.57701
+doc 52 -2.58118
+doc 1 -2.60516
+doc 28 -2.61154
+doc 17 -2.61936
+docID 65 segmentID 3
+doc 52 -3.15228
+doc 28 -3.16492
+doc 23 -3.17881
+doc 50 -3.18378
+doc 29 -3.19142
+doc 16 -3.20145
+docID 65 segmentID 4
+doc 16 -3.07455
+doc 20 -3.08501
+doc 36 -3.11141
+doc 37 -3.12027
+doc 44 -3.13485
+doc 6 -3.13568
+docID 65 segmentID 5
+doc 28 -3.11711
+doc 17 -3.18607
+doc 6 -3.23273
+doc 35 -3.23462
+doc 50 -3.25506
+doc 44 -3.25586
+docID 65 segmentID 6
+doc 28 -1.66518
+doc 25 -2.02861
+doc 30 -2.10347
+doc 1 -2.10358
+doc 10 -2.13072
+doc 19 -2.1311
+================================================
+6
+docID 66 segmentID 1
+doc 65 -2.11265
+doc 28 -2.76365
+doc 52 -2.77168
+doc 35 -2.78907
+doc 34 -2.97303
+doc 32 -2.98497
+docID 66 segmentID 2
+doc 65 -1.61145
+doc 35 -2.44779
+doc 6 -2.51704
+doc 28 -2.51903
+doc 52 -2.54716
+doc 1 -2.55868
+docID 66 segmentID 3
+doc 65 -2.12717
+doc 52 -3.15228
+doc 28 -3.16492
+doc 23 -3.17881
+doc 50 -3.18378
+doc 29 -3.19142
+docID 66 segmentID 4
+doc 65 -1.99395
+doc 16 -3.07455
+doc 20 -3.08501
+doc 36 -3.11141
+doc 37 -3.12027
+doc 44 -3.13485
+docID 66 segmentID 5
+doc 65 -2.00411
+doc 28 -3.11711
+doc 17 -3.18607
+doc 6 -3.23273
+doc 35 -3.23462
+doc 50 -3.25506
+docID 66 segmentID 6
+doc 65 -1.42199
+doc 28 -1.66518
+doc 25 -2.02861
+doc 30 -2.10347
+doc 1 -2.10358
+doc 10 -2.13072
+================================================
+3
+docID 67 segmentID 1
+doc 50 -2.46483
+doc 20 -2.46824
+doc 46 -2.53001
+doc 52 -2.54948
+doc 16 -2.56618
+doc 60 -2.57981
+docID 67 segmentID 2
+doc 66 -1.76603
+doc 65 -1.76988
+doc 20 -1.83205
+doc 50 -1.83486
+doc 35 -1.83518
+doc 28 -1.86319
+docID 67 segmentID 3
+doc 51 -3.35937
+doc 57 -3.36039
+doc 49 -3.37185
+doc 22 -4.04045
+doc 23 -4.12461
+doc 64 -4.17166
+================================================
+2
+docID 68 segmentID 1
+doc 50 -2.80153
+doc 67 -2.98113
+doc 47 -2.99954
+doc 60 -3.00006
+doc 20 -3.03927
+doc 26 -3.04342
+docID 68 segmentID 2
+doc 20 -1.80169
+doc 67 -1.80458
+doc 16 -1.8249
+doc 50 -1.83155
+doc 42 -1.83444
+doc 26 -1.84178
+================================================
+7
+docID 69 segmentID 1
+doc 35 -2.6257
+doc 6 -2.71874
+doc 65 -2.72739
+doc 66 -2.72783
+doc 58 -2.73244
+doc 16 -2.73277
+docID 69 segmentID 2
+doc 6 -2.20066
+doc 35 -2.22218
+doc 68 -2.2247
+doc 66 -2.23479
+doc 65 -2.24307
+doc 16 -2.27276
+docID 69 segmentID 3
+doc 27 -3.04359
+doc 38 -3.05516
+doc 35 -3.06072
+doc 29 -3.06268
+doc 32 -3.07411
+doc 39 -3.09464
+docID 69 segmentID 4
+doc 31 -2.90886
+doc 40 -2.94281
+doc 6 -2.97116
+doc 17 -2.98466
+doc 47 -2.98487
+doc 48 -2.98782
+docID 69 segmentID 5
+doc 29 -2.87882
+doc 44 -2.96737
+doc 56 -2.9842
+doc 1 -2.99733
+doc 4 -3.00629
+doc 39 -3.00695
+docID 69 segmentID 6
+doc 15 -2.93382
+doc 39 -2.97492
+doc 27 -2.9876
+doc 19 -2.99226
+doc 31 -3.00841
+doc 35 -3.01152
+docID 69 segmentID 7
+doc 35 -1.7966
+doc 67 -2.1525
+doc 28 -2.30443
+doc 12 -2.31754
+doc 1 -2.32856
+doc 66 -2.34169
+================================================
+12
+docID 70 segmentID 1
+doc 65 -1.8801
+doc 66 -1.88094
+doc 69 -2.00385
+doc 35 -2.06301
+doc 12 -2.06469
+doc 1 -2.06723
+docID 70 segmentID 2
+doc 66 -3.09481
+doc 69 -3.14832
+doc 65 -3.15023
+doc 28 -3.16139
+doc 40 -3.1686
+doc 6 -3.23405
+docID 70 segmentID 3
+doc 69 -4.07445
+doc 42 -4.08102
+doc 46 -4.09152
+doc 28 -4.14792
+doc 40 -4.16723
+doc 52 -4.1678
+docID 70 segmentID 4
+doc 69 -2.93006
+doc 15 -2.95585
+doc 49 -3.00452
+doc 41 -3.00544
+doc 68 -3.00714
+doc 40 -3.03579
+docID 70 segmentID 5
+doc 69 -2.77609
+doc 17 -2.89859
+doc 65 -2.90244
+doc 66 -2.90349
+doc 29 -3.00079
+doc 35 -3.01759
+docID 70 segmentID 6
+doc 66 -2.06844
+doc 65 -2.08669
+doc 52 -2.48896
+doc 35 -2.5557
+doc 28 -2.61103
+doc 38 -2.65735
+docID 70 segmentID 7
+doc 65 -1.41781
+doc 66 -1.42651
+doc 28 -1.62152
+doc 67 -1.86155
+doc 25 -2.00557
+doc 1 -2.06298
+docID 70 segmentID 8
+doc 65 -2.84042
+doc 66 -2.84302
+doc 69 -2.9071
+doc 68 -2.9499
+doc 67 -2.9512
+doc 63 -2.98398
+docID 70 segmentID 9
+doc 28 -3.37538
+doc 26 -3.42859
+doc 63 -3.44421
+doc 23 -3.45456
+doc 66 -3.46381
+doc 65 -3.46511
+docID 70 segmentID 10
+doc 63 -3.06011
+doc 28 -3.14145
+doc 65 -3.18771
+doc 25 -3.19892
+doc 1 -3.20122
+doc 66 -3.20174
+docID 70 segmentID 11
+doc 30 -3.30364
+doc 16 -3.31392
+doc 28 -3.31462
+doc 1 -3.3317
+doc 20 -3.33727
+doc 12 -3.33858
+docID 70 segmentID 12
+doc 47 -5.02246
+doc 16 -5.02316
+doc 44 -5.05846
+doc 50 -5.09239
+doc 20 -5.0975
+doc 1 -5.10065
+================================================
+2
+docID 71 segmentID 1
+doc 68 -3.18508
+doc 20 -3.20708
+doc 48 -3.21777
+doc 45 -3.21851
+doc 26 -3.23353
+doc 16 -3.24139
+docID 71 segmentID 2
+doc 46 -2.22812
+doc 6 -2.24471
+doc 20 -2.2724
+doc 57 -2.27685
+doc 68 -2.27946
+doc 5 -2.29165
+================================================
+16
+docID 72 segmentID 1
+doc 28 -1.84971
+doc 1 -1.95518
+doc 70 -1.96101
+doc 65 -2.02238
+doc 66 -2.02281
+doc 12 -2.0314
+docID 72 segmentID 2
+doc 28 -2.40088
+doc 53 -2.61783
+doc 55 -2.65929
+doc 29 -2.68657
+doc 71 -2.69253
+doc 44 -2.70684
+docID 72 segmentID 3
+doc 28 -2.75302
+doc 48 -2.91758
+doc 45 -2.91758
+doc 4 -2.92184
+doc 2 -2.92523
+doc 1 -2.92638
+docID 72 segmentID 4
+doc 28 -2.15904
+doc 70 -2.1822
+doc 66 -2.18598
+doc 65 -2.18608
+doc 38 -2.18705
+doc 1 -2.23484
+docID 72 segmentID 5
+doc 65 -3.09114
+doc 66 -3.09339
+doc 63 -3.11506
+doc 70 -3.13992
+doc 17 -3.15179
+doc 55 -3.15287
+docID 72 segmentID 6
+doc 28 -3.10131
+doc 55 -3.12165
+doc 34 -3.13047
+doc 65 -3.1332
+doc 66 -3.13397
+doc 10 -3.15398
+docID 72 segmentID 7
+doc 35 -2.34822
+doc 65 -2.38257
+doc 66 -2.38361
+doc 28 -2.38439
+doc 52 -2.41125
+doc 17 -2.42298
+docID 72 segmentID 8
+doc 65 -2.35319
+doc 66 -2.35544
+doc 52 -2.51625
+doc 38 -2.58161
+doc 23 -2.59533
+doc 16 -2.6047
+docID 72 segmentID 9
+doc 65 -2.20295
+doc 66 -2.20614
+doc 70 -2.57954
+doc 28 -2.88968
+doc 35 -2.91889
+doc 52 -2.95848
+docID 72 segmentID 10
+doc 70 -2.4284
+doc 40 -3.13033
+doc 69 -3.24091
+doc 28 -3.29265
+doc 71 -3.30009
+doc 6 -3.32182
+docID 72 segmentID 11
+doc 70 -3.29747
+doc 65 -3.77624
+doc 66 -3.77883
+doc 46 -3.96138
+doc 16 -3.98357
+doc 36 -3.98641
+docID 72 segmentID 12
+doc 67 -3.06196
+doc 71 -3.11998
+doc 38 -3.14659
+doc 68 -3.15241
+doc 20 -3.16358
+doc 60 -3.1638
+docID 72 segmentID 13
+doc 10 -2.84185
+doc 58 -2.84909
+doc 8 -2.86784
+doc 25 -2.86974
+doc 14 -2.8709
+doc 20 -2.87661
+docID 72 segmentID 14
+doc 28 -2.87244
+doc 69 -2.88981
+doc 48 -2.89541
+doc 45 -2.89542
+doc 29 -2.90259
+doc 40 -2.90362
+docID 72 segmentID 15
+doc 56 -2.72093
+doc 10 -2.80992
+doc 58 -2.8197
+doc 52 -2.86159
+doc 60 -2.8636
+doc 54 -2.87658
+docID 72 segmentID 16
+doc 56 -2.66227
+doc 40 -2.80921
+doc 64 -2.81659
+doc 61 -2.82805
+doc 57 -2.82877
+doc 55 -2.83601
+================================================
+10
+docID 73 segmentID 1
+doc 1 -3.42667
+doc 36 -3.45754
+doc 31 -3.45898
+doc 25 -3.46076
+doc 37 -3.46385
+doc 68 -3.47567
+docID 73 segmentID 2
+doc 1 -4.13688
+doc 28 -4.24111
+doc 67 -4.25007
+doc 41 -4.28259
+doc 69 -4.29214
+doc 12 -4.30393
+docID 73 segmentID 3
+doc 37 -3.17154
+doc 36 -3.17795
+doc 13 -3.25972
+doc 6 -3.2857
+doc 72 -3.3383
+doc 34 -3.33922
+docID 73 segmentID 4
+doc 37 -2.95289
+doc 5 -2.95807
+doc 36 -2.95903
+doc 17 -2.96319
+doc 1 -2.97188
+doc 34 -2.97358
+docID 73 segmentID 5
+doc 10 -3.5385
+doc 19 -3.57213
+doc 69 -3.57285
+doc 25 -3.6188
+doc 1 -3.61972
+doc 36 -3.63144
+docID 73 segmentID 6
+doc 72 -1.31743
+doc 28 -1.9527
+doc 1 -1.96584
+doc 70 -1.98447
+doc 67 -1.98643
+doc 12 -2.01206
+docID 73 segmentID 7
+doc 72 -2.2554
+doc 34 -2.94351
+doc 10 -2.98222
+doc 6 -3.04376
+doc 44 -3.07246
+doc 29 -3.07591
+docID 73 segmentID 8
+doc 72 -1.61417
+doc 35 -2.24062
+doc 52 -2.36228
+doc 17 -2.365
+doc 29 -2.38399
+doc 50 -2.38502
+docID 73 segmentID 9
+doc 72 -1.03893
+doc 65 -1.69759
+doc 66 -1.69855
+doc 70 -1.72146
+doc 20 -1.80188
+doc 35 -1.81634
+docID 73 segmentID 10
+doc 72 -1.6883
+doc 56 -2.55516
+doc 57 -2.74202
+doc 64 -2.78665
+doc 44 -2.78823
+doc 60 -2.79111
+================================================
+5
+docID 74 segmentID 1
+doc 52 -2.28607
+doc 70 -2.42914
+doc 28 -2.47511
+doc 50 -2.52845
+doc 67 -2.55761
+doc 16 -2.58276
+docID 74 segmentID 2
+doc 65 -2.40312
+doc 66 -2.42204
+doc 70 -2.42604
+doc 16 -2.43305
+doc 50 -2.51914
+doc 20 -2.52173
+docID 74 segmentID 3
+doc 70 -3.14967
+doc 5 -3.23461
+doc 68 -3.25779
+doc 65 -3.26951
+doc 66 -3.27126
+doc 72 -3.29529
+docID 74 segmentID 4
+doc 70 -2.53743
+doc 69 -2.55434
+doc 66 -2.57782
+doc 65 -2.57911
+doc 1 -2.59925
+doc 4 -2.59969
+docID 74 segmentID 5
+doc 72 -1.16695
+doc 73 -1.43296
+doc 28 -1.80825
+doc 70 -1.92153
+doc 1 -1.92686
+doc 65 -1.98875
+================================================
+4
+docID 75 segmentID 1
+doc 74 -1.5832
+doc 66 -2.53266
+doc 65 -2.54285
+doc 16 -2.55742
+doc 70 -2.61874
+doc 28 -2.6493
+docID 75 segmentID 2
+doc 74 -1.93383
+doc 70 -3.14967
+doc 5 -3.23461
+doc 68 -3.25779
+doc 65 -3.26951
+doc 66 -3.27126
+docID 75 segmentID 3
+doc 74 -1.58842
+doc 70 -2.53743
+doc 69 -2.55434
+doc 66 -2.57782
+doc 65 -2.57911
+doc 1 -2.59925
+docID 75 segmentID 4
+doc 74 -1.15253
+doc 72 -1.16695
+doc 73 -1.43296
+doc 28 -1.80825
+doc 70 -1.92153
+doc 1 -1.92686
+================================================
+7
+docID 76 segmentID 1
+doc 20 -3.45366
+doc 73 -3.46931
+doc 40 -3.47605
+doc 72 -3.50348
+doc 16 -3.52203
+doc 19 -3.5472
+docID 76 segmentID 2
+doc 35 -2.43604
+doc 69 -2.43855
+doc 68 -2.44428
+doc 74 -2.45684
+doc 70 -2.46242
+doc 3 -2.48196
+docID 76 segmentID 3
+doc 69 -2.51132
+doc 6 -2.66447
+doc 29 -2.67532
+doc 5 -2.71393
+doc 35 -2.73786
+doc 56 -2.74647
+docID 76 segmentID 4
+doc 50 -3.8474
+doc 75 -3.96615
+doc 67 -3.97135
+doc 74 -3.98225
+doc 4 -4.02137
+doc 68 -4.05267
+docID 76 segmentID 5
+doc 73 -3.04175
+doc 19 -3.04658
+doc 67 -3.08746
+doc 20 -3.1081
+doc 72 -3.1084
+doc 50 -3.15152
+docID 76 segmentID 6
+doc 68 -3.65766
+doc 50 -3.69653
+doc 19 -3.7014
+doc 20 -3.8158
+doc 72 -3.83531
+doc 26 -3.84791
+docID 76 segmentID 7
+doc 35 -1.91078
+doc 69 -1.92495
+doc 67 -2.33908
+doc 34 -2.38582
+doc 28 -2.43647
+doc 12 -2.43803
+================================================
+1
+docID 77 segmentID 1
+doc 46 -1.26642
+doc 6 -1.2853
+doc 1 -1.28685
+doc 5 -1.29829
+doc 20 -1.30128
+doc 28 -1.3067
+================================================
+23
+docID 78 segmentID 1
+doc 73 -1.40761
+doc 75 -1.49089
+doc 74 -1.49607
+doc 72 -1.49924
+doc 77 -1.93228
+doc 28 -1.9606
+docID 78 segmentID 2
+doc 72 -3.08163
+doc 28 -3.16226
+doc 73 -3.17895
+doc 35 -3.27163
+doc 47 -3.27423
+doc 50 -3.2837
+docID 78 segmentID 3
+doc 6 -2.36707
+doc 46 -2.42916
+doc 48 -2.43193
+doc 45 -2.43222
+doc 77 -2.51486
+doc 57 -2.56108
+docID 78 segmentID 4
+doc 46 -2.14579
+doc 48 -2.15899
+doc 45 -2.16099
+doc 6 -2.1879
+doc 65 -2.21853
+doc 66 -2.21928
+docID 78 segmentID 5
+doc 34 -2.61208
+doc 57 -2.83515
+doc 45 -2.84325
+doc 48 -2.84411
+doc 46 -2.85174
+doc 77 -2.85521
+docID 78 segmentID 6
+doc 72 -1.82892
+doc 28 -2.37936
+doc 29 -2.47774
+doc 46 -2.50317
+doc 44 -2.50803
+doc 53 -2.51388
+docID 78 segmentID 7
+doc 29 -2.89965
+doc 77 -2.94788
+doc 67 -2.96494
+doc 10 -2.98272
+doc 72 -2.99867
+doc 46 -3.00606
+docID 78 segmentID 8
+doc 77 -2.72888
+doc 46 -2.85388
+doc 28 -3.1214
+doc 65 -3.1398
+doc 66 -3.14119
+doc 6 -3.1517
+docID 78 segmentID 9
+doc 77 -2.67826
+doc 46 -2.80391
+doc 57 -2.85063
+doc 19 -2.85916
+doc 3 -2.87539
+doc 71 -2.88311
+docID 78 segmentID 10
+doc 46 -3.04648
+doc 77 -3.05283
+doc 6 -3.19485
+doc 69 -3.19537
+doc 28 -3.2101
+doc 65 -3.25957
+docID 78 segmentID 11
+doc 77 -2.30641
+doc 46 -2.45521
+doc 66 -2.45688
+doc 65 -2.46883
+doc 57 -2.47574
+doc 3 -2.49448
+docID 78 segmentID 12
+doc 65 -2.2001
+doc 66 -2.20125
+doc 70 -2.33274
+doc 73 -2.37486
+doc 72 -2.41428
+doc 35 -2.54248
+docID 78 segmentID 13
+doc 70 -2.07568
+doc 73 -2.26233
+doc 72 -2.27707
+doc 69 -2.55607
+doc 65 -2.56683
+doc 66 -2.567
+docID 78 segmentID 14
+doc 73 -2.62473
+doc 72 -2.64536
+doc 70 -2.7057
+doc 71 -2.79776
+doc 77 -2.80962
+doc 76 -2.82548
+docID 78 segmentID 15
+doc 74 -3.99265
+doc 46 -4.10029
+doc 63 -4.12925
+doc 20 -4.14487
+doc 73 -4.14635
+doc 28 -4.15329
+docID 78 segmentID 16
+doc 42 -3.82816
+doc 57 -3.85276
+doc 73 -3.88199
+doc 75 -3.88346
+doc 4 -3.88864
+doc 74 -3.8915
+docID 78 segmentID 17
+doc 74 -1.61939
+doc 75 -1.64048
+doc 76 -2.45203
+doc 77 -2.46371
+doc 70 -2.51075
+doc 20 -2.52253
+docID 78 segmentID 18
+doc 75 -1.7145
+doc 74 -1.73285
+doc 69 -2.47662
+doc 76 -2.5285
+doc 4 -2.56133
+doc 57 -2.56975
+docID 78 segmentID 19
+doc 65 -3.08627
+doc 66 -3.08911
+doc 74 -3.11873
+doc 76 -3.14591
+doc 73 -3.1486
+doc 77 -3.15556
+docID 78 segmentID 20
+doc 77 -2.5532
+doc 35 -2.79835
+doc 75 -2.81451
+doc 72 -2.82669
+doc 73 -2.82797
+doc 74 -2.8416
+docID 78 segmentID 21
+doc 69 -2.54922
+doc 76 -2.58819
+doc 77 -2.59595
+doc 74 -2.64275
+doc 75 -2.65222
+doc 19 -2.65692
+docID 78 segmentID 22
+doc 77 -2.36338
+doc 72 -2.79753
+doc 73 -2.80452
+doc 70 -2.82223
+doc 65 -2.88389
+doc 66 -2.88675
+docID 78 segmentID 23
+doc 58 -2.99751
+doc 75 -3.06769
+doc 74 -3.06846
+doc 77 -3.08881
+doc 4 -3.09131
+doc 27 -3.09713
+================================================

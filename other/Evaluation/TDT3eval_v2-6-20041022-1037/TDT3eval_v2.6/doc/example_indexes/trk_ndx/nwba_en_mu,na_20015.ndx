@@ -1,0 +1,28 @@
+# TRACKING RECID TOPIC=20015
+#
+# Generated: on Fri Aug 25 14:29:51 EDT 2000
+#            by command '/data/data2/TDT/Software/TDT3eval_v2.0/TDT3BuildIndex.pl -t 4 -n 2 -v 3 -s -S English=as1,Mandarin=as0 -L LnkDB -T TDT99_mul -R /data/data2/TDT/Dryrun2000/TDT2_release3.1.patch1 -r 393826261 -f index.flist -O . -a ccap -y 2000'
+#
+#
+# Training documents are chronologically listed.  Use the last Nt(th) storys
+# for training condition Nt.  The format of the lines are as follows:
+#    '# Topic_training_story <Target_Story_docno> <Source_file> <Begin> <End>'
+# Should the training story NOT have any words associated with it, the begin
+# and end time/recids will be -1
+#
+# Topic_training_story VOA19980106.2300.0141 tkn/19980106_2300_2400_VOA_ENG.tkn 351 418
+#
+# Certified Off-topic Training documents are chronologically listed.  
+# Use the last Nn(th) storys for training condition Nn.  The format 
+# of the lines are as follows:
+#    '# Off_topic_training_story <Target_Story_docno> <Source_file> <Begin> <End>'
+# Should the training story NOT have any words associated with it, the begin
+# and end time/recids will be -1.
+#
+# Off_topic_training_story APW19980104.0091 tkn/19980104_0002_0418_APW_ENG.tkn 4765 5083
+# Off_topic_training_story VOA19980106.2100.0514 tkn/19980106_2100_2200_VOA_ENG.tkn 1248 1608
+#
+# The following constitutes the source files to be tested on.
+# Each line contains two tokens, the source file under test and
+# the recid in the tokenized stream where the testing begins.
+#

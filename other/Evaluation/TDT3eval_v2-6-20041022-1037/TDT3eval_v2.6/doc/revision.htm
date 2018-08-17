@@ -1,0 +1,686 @@
+<!-- $Id: revision.htm,v 1.8 2004/10/22 14:39:47 jfiscus Exp $ -->
+<HTML>
+<HEAD>
+<CENTER><TITLE>TDT3eval Revision History</TITLE></CENTER>
+<B><BIG><CENTER>TDT3eval Revision History</CENTER></BIG></B>
+<CENTER>Version 2.4, released August 23, 2004 </CENTER>
+</HEAD>
+<BODY><p><hr>
+
+The follow is the revision history for the TDT3eval package.  The
+TDT3eval package is the successor to the TDT2eval package.  The <a
+HREF="revision_tdt2.htm">TDT2 revision log</a> contains the history of
+the TDT2eval package.
+
+
+<P>
+<h1> Version 1.0, Released May 21, 1999 </h1>
+Programs have been converted to following TDT3 filenames:
+<DIR>
+	<table border=2>
+	<tr> <th> TDT2 Name <TH> TDT3 Name
+	<TR> <TD> TDT2BuildIndex.pl <TD> TDT3BuildIndex.pl
+	<TR> <TD> TDT2seg.pl <TD> TDT3seg.pl
+	<TR> <TD> TDT2trk.pl <TD> TDT3trk.pl
+	<TR> <TD> TDT2det.pl <TD> TDT3det.pl
+	<TR> <TD> TDT2.pm <TD> TDT3.pm
+	</TABLE>
+</DIR>
+
+The following changes have been made since TDT2eval Version 0.6. 
+
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<li> Added "use strict" to improve error checking. 
+	<li> Converted all glob aliases to references.
+	<LI> Added code to the topic relevance table loader to make sure there is only one entry for a topic/document annotation.  Version 0.6 did not do this check and as a consequence, some documents were improperly ignored during scoring.  This will slightly change the detection performance.
+	<LI> Corrected problems with the automatic boundary scoring procedures.  The mapping function to map story decisions onto the reference story segmentation was making mistakes. 
+	<OL> <LI> On the next to the last hyp story, if it occurred before the last reference story boundary, that mapping was incorrect,
+	     <LI> For a reference story with multiple hypothesis story units, (at least three stories), the mapped hypothesis cluster was always the last story within the reference story boundaries.
+	</OL>
+	<LI> Changed the tracking scoring structure to be more memory efficient.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<li> Added "use strict" to improve error checking. 
+	<li> Converted all glob aliases to references.
+	<LI> Relaxed the checking of system output deferral times.  Warnings are printed rather that fatal errors.
+	<li> Modified the accepted index file format.  There are additional fields that specify the source file and language conditions of the test.
+	<LI> Modified the default evaluation frame size to be 75 IFF the evaluation source language is Mandarin and the POINTER type is a recid.
+	<LI> For the evaluation of Mandarin ASR, the RECIDs are in terms of words, but the evaluation frame size for Mandarin is in terms of characters.  Therefore, the program converts the word-based RECIDs into character-bases RECIDs by reading the tokenized text file.
+	</UL>
+<TR> <TD> TDT3det.pl <TD> 
+	<UL>
+	<li> Added "use strict" to improve error checking. 
+	<li> Converted all glob aliases to references.
+	<LI> Added a  -S option to define independent subsets over which scores are computed.  
+	<LI> Modified the summary report it include story weighted Pmiss, Pfa and Cdet.
+	<LI> Added the computation of Cost Weighted YDZ metrics.
+	<li> Designated primary evaluation metric.
+	<LI> Relaxed the checking of system output deferral periods.  Warnings are printed rather that fatal errors.
+	<li> Modifications to TDT3.pm changed the scoring of the 1998 TDT2 evaluation.  This document documents the changes in detection performance <a HREF="v06-v10.htm">between TDT2eval V0.6 and TDT3eval V1.0</A>
+	<li> Defined MACROs for common topic sets.  These macros can be used with the -T option to specify topic sets.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<li> Added "use strict" to improve error checking. 
+	<li> Converted all glob aliases to references.
+	<LI> Modified the storage structure for the scores of each document to be more memory efficient. The structure is an array, rather than a hash list, but there is a hash table to tell what values the array cells correspond to.
+	<li> Designate primary evaluation metric.
+	<li> Topic weighted DET curves are now an option.
+	<li> The problem with mapping automatic story boundaries onto reference story boundaries does change the results of the '98 TDT2 evaluation.  The overall scores for the CMU no boundary test changed as follows:
+	<table border=2>
+	<tr> <TH> Metric </TH> <TH> TDT2eval_v0.6 </TH> <TH> TDT3eval_v1.0 </TH> </TR>
+	<tr> <td> Story Weighted Pmiss  </TD> <TD> 0.4050 </TD> <TD> 0.4138 </TD> </TR>
+	<tr> <td> Story Weighted Pfa    </TD> <TD> 0.0041 </TD> <TD> 0.0040 </TD> </TR>
+	<tr> <td> Story Weighted Ctrack </TD> <TD> 0.0122 </TD> <TD> 0.0122 </TD> </TR>
+	<tr> <td> Topic Weighted Pmiss  </TD> <TD> 0.3820 </TD> <TD> 0.3850 </TD> </TR>
+	<tr> <td> Topic Weighted Pfa    </TD> <TD> 0.0047 </TD> <TD> 0.0046 </TD> </TR>
+	<tr> <td> Topic Weighted Ctrack </TD> <TD> 0.0122 </TD> <TD> 0.0122 </TD> </TR>
+	</table>
+	</UL>
+
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Mostly re-written to support the TDT3 Evaluation.
+	<li> Defined MACROs for common topic sets.  These macros can be used with the -T option to specify topic sets.
+	</UL>
+</table>
+</DIR>
+
+<P>
+<h1> Version 1.1, Released June 9, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<li> Corrected the activation of the "speedup" code.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<li> Minor documentation change
+	<li> Corrected default Cost of False Alarm to 0.3
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<li> Minor documentation changes
+        </UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<li> Minor documentation changes
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<li> First Introduction.
+        </UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<li> Cleaned up the residual problems with the FSD keys being generated.
+	<LI> Limited the number of FSD index files to only the english data.
+	<LI> Corrected the use of the topic regular expression.
+	<LI> Modified the calls to load the story boundaries and topic relevance tables to try a number 
+	<li> Added the generation of the evaluation auxiliary information file.
+        </UL>
+</table>
+</DIR>
+
+<P>
+<h1> Version 1.2, Released June 17, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<li> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<li> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<li> No Changes.
+        </UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<li> Corrected a problem with scoring the mandarin machine translation data.  (.mtr and .mta files weren't handled properly.)
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<li> No Changes.
+        </UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<li> No Changes.
+        </UL>
+</table>
+</DIR>
+
+<P>
+<h1> Version 1.3, Released July 23, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<li> Reduced the number of computations for the DET plots.  The previous DET plots computed a point for each document.  The new plot computes a point when one of two conditions occur:
+	  <OL> <LI> the next highest scoring point is an "on topic", or
+	       <LI> the next highest scoring point is "off topic", but the following point is "on topic".
+	  </OL>
+	  Condition 2 preserves the "step" structure of the graphs so that the graphs look identical.  
+	  <P> When using 1.3 score tracking results of the first 1999 dry run, there was a 66% reduction in DET computation runtime, for an overall reduction of 55%.  In terms of disk space for the DET plots, there was a 99% reduction from 128Mb to 1.8Mb.  In terms of RAM during execution, version 1.3 used 300 Mb, while version 1.2 used 718 Mb
+
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<li> Corrected a problem with the -C option.
+	<li> Changed the documentation to say the default Cost of a false alarm is 0.3.	
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<li> Changed the cost of a false alarm to 0.1.
+	<li> Corrected a problem with the -C option.
+        </UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<li> Changed the cost of a false alarm to 0.1.
+	<li> Corrected a problem with the -C option.
+	<li> The trial ensemble DET plot generation procedure was modified, see changes to 'TDT3.pm'.
+
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<li> Changed the cost of a false alarm to 0.1.
+	<li> Corrected a problem with the -C option.
+        </UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<li> No Changes.
+        </UL>
+</table>
+</DIR>
+
+<P>
+<h1> Version 1.4, Released August 12, 1999 </h1>
+- Added the FAQ to the documentation.
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<li> modified 'Add_Topic_Into_TDTref()' function to try first try to find a topic relevance in the TDT root directory, (by prepending the directory name), or second by just trying the name.  This permits specification of the topic relevance file on the command line.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<li> Incorporated changes provided by Paul van Mulbregt that computes precision and recall if the '-p option is given and the evaluation frame size is set to 1 via the '-f 1' option.
+	<li> Added computations and reports of normalized cost.
+	<li> Fixed a bug to handle .as1 transcripts.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<li> Added the '-j' option to specify a topic relevance file from the command line.
+	<li> Sorted the output report numerically by the reference topic.
+	<li> Modified the DET graphs in that topic specific performance points that are off the scale are indicated by squares on the graph border.
+	<li> Added computations and reports of normalized cost.
+	<li> Fixed a bug to handle .as1 transcripts.
+        </UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<li> Added the '-j' option to specify a topic relevance file from the command line.
+	<li> Added computations and reports of normalized cost.
+	<li> Fixed a bug to handle .as1 transcripts.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<li> Added the '-j' option to specify a topic relevance file from the command line.
+	<li> Added the -p, -w, -n options to manipulate the DET plots.
+	<li> Added computations and reports of normalized cost.
+	<li> Fixed a bug to handle .as1 transcripts.
+	<li> Added the option -k and -K to write and read FSD key files.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Debut of this script.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<li> Added support for the story link detection task.
+	<li> Added the -S option to specify the ASR file extensions.
+        </UL>
+</table>
+</DIR>
+
+
+<P>
+<h1> Version 1.5, Released September 20, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> Modest changes to accomodate new corpus release format.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> Modest changes to accomodate new corpus release format.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Modest changes to accomodate new corpus release format.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Modest changes to accomodate new corpus release format.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Modest changes to accomodate new corpus release format.
+	<li> Modified the sampling function for the randomized story link detection files.  The previous version used a 14 day window for the off-topic storyies.  This version used an exponential function.
+        </UL>
+</table>
+</DIR>
+<P>
+
+<h1> Version 1.6, Released September 24, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> Minor changes to parse and check filenames in the system output.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> Minor changes to parse and check filenames in the system output.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Minor changes to parse and check filenames in the system output.
+	<li> Releaxed the constraint that Nt must be 1, 2, 4, 8, or 16.
+	<li> Modified the reader of system output files.  The files can now be compress a priori
+	     and the decompressed during the evaluation run.  The -Z option permits specification of 
+	     the uncompression utility.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Minor changes to parse and check filenames in the system output.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Modified the scores reported as link detection, not story link detection.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Included PRI, MNB and NBC in the list of broadcast news sources.
+        </UL>
+</table>
+</DIR>
+
+
+<h1> Version 1.7, Released October 27, 1999 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> Modified the topic macros defined in $main::TopicSets
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> Reversed some the previous checks to the filenames in the system output.	
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> Reversed some the previous checks to the filenames in the system output.
+	<li> Added a check to make sure each source file appears once in the system output.
+	<li> re-worked the code to read a subset definition file.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Reversed some the previous checks to the filenames in the system output.
+	<li> Added code to make the program read compressed system output files.
+	<li> Added code to ingore the system output of a partitial source file if it is the first
+	source file for a topic, and the first decision begins after recid or time of 1.
+	<li> Added code to score source file subsets, via the -U argument.
+	<LI> Added the option -u to produce subset-conditioned DET graphs.
+	
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Reversed some the previous checks to the filenames in the system output.
+	<li> Added a check to make sure each source file appears once in the system output.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Changed the tracking index generation proceedures.  The code randomly selects the target stories for a partiular language IF there are more that Ntmax possible training stories before the division between test and training data.
+	<LI> Corrected an undiscovered bug in the generation of randomized link detection index files.  The previous version selected an entirely different set of documents for the different source conditions, (nwt+bnasr and nwt+bnman).  The modifications results in exactly the same set of test documents regardless of source condition.
+	<LI> Changed Story Link Detection to Link Detection.
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 1.8, Released January 21, 2000 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> Slight modification to load the tdt3 topic relavance table.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Corrected the -t option to make it work.
+	<LI> Modified the key file reader.  Pairs marked as "OTHER", (rather that TARGET or NONTARGET), are excluded from the performance calculations.  The pairs are checked form, and thus still required, in the system output.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Added a command line options -l and -L to use the link database file to generate the index files.
+	<li> Modified the handling of the ABC data to default to not use either 'ccap' or 'fdch' extensions.
+	<li> The link annotation database now has three possible values, "Y", "N", or "BRIEF" which are translated into "TARGET", "NONTARGET", and "OTHER" respectively in the outputted answer key.
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 1.9, Released August 14, 2000 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> Repaired a bug in 'Find_system_score_for_doc()'.  It prevented scoring using automatic segmentations.,
+	<li> Added code to produce a threshold plot.  The plot's x axis is the system-provided decision scores.  Plotted values are Pmiss vs score, Pfa vs score, normalize cost version score, along with the minimum cost point located on the graph with it's coordinates indicated.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Added the normalized tracking cost to the minimum DET cost printout.
+	<LI> Threshhold plots are produced when DET plots are produced.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Added the normalized tracking cost to the minimum DET cost printout.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Added the normalized tracking cost to the minimum DET cost printout.
+	<LI> Threshhold plots are produced when DET plots are produced.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Added the -y option.  Tracking index files include the certified off-topic story designation.
+	<LI> Link detection index files are generated for English as well as Mandarin and Multilingual test conditions
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.0, Released August 2 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.1, Released Nov. 3, 2000 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> Corrected the code that interpreted the annotations.  It missinterpreted stories annotated with NO to be annotated with YES.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Corrected the code that interpreted the annotations.  It missinterpreted stories annotated with NO to be annotated with YES.
+	<LI> Corrected a warning generated during the building of a threshhold plot.
+	<LI> Modified the computation of topic weighted tracking cost.  Previously, the formulation used the average of the tracking cost for each topic.  This was acceptable unless topics existed with no "on-topic" stories in the test set.  The formulation was changed to use the average of the topics Pmiss statistics and the average of the topic Pfa statistics.  This way, if topic has no on-topic test stories, the topic weighted Pmiss disregards the topic while the topic weighted Pfa does not.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Corrected a warning generated during the building of a threshhold plot.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Permitted compressed input files for the key and system input files.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Modified the code that loads in the certified offtopics to not die if the database is missing.
+	<LI> Modified the tracking index files to shorten the file names, and to generate the experiment
+	     control files.
+	<LI> Modified the link detection index files to better sample the monolingual and crosslingual
+	     link space.
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.2, Released May 29, 2001 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Fixed an error in the subset scoring table.  The problem was in dealing with topics that had no on-topic stories.
+	<li> Modified the program to accept decision coordinants using docno's in the system output file.  This implementation assumes the docno's are the reference docno's.  Future releases may use alternative boundary files.
+	<li> Modified a significant portion of the script to fix problems illuminated by 'use strict'
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> No Changes.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> No Changes.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> No Changes.
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.3, Released October 22, 2001 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+	<LI> Modified the Rescale_Trail_data functions to work.
+	<LI> Modified Load_Boundaries_Into_TDTRef() to accept a subset definition file so that a list of source files could be excluded from scoring.
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+	<LI> Added the ability to exclude a set of source files from scoring via '-E'.
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> Added the ability to exclude a set of source files from scoring via '-E'.
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> Added the ability to produce minimum DET plots using the -a option
+	<LI> Added the ability to exclude a set of source files from scoring via '-E'.
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Added the ability to exclude a set of source files from scoring via '-E'.
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Added the -S option.
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Modified calls to Load_Boundaries_Into_TDTRef().
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.4, Released August 23, 2004 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3.pm <TD>
+        <UL>
+        </UL>
+<TR> <TD> TDT3seg.pl <TD> 
+        <UL>
+        </UL>
+<TR> <TD> TDT3det.pl <TD> 
+        <UL>
+	<LI> No Change </li>
+	</UL>
+<TR> <TD> TDT3trk.pl <TD> 
+        <UL>
+	<LI> No Change </li>
+        </UL>
+<TR> <TD> TDT3fsd.pl <TD> 
+        <UL>
+	<LI> Added the option -o to specify what topic labels are on-topic. </li>
+        </UL>
+<TR> <TD> DetectionScore.pl <TD> 
+        <UL>
+	<LI> Added a detailed output file that is a merge of the system and key file </LI>
+	</UL>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Added a flag to output either HTD or Topic Detection index files. </LI>
+	<LI> Segmentation index files only output IFF there are BN source files </LI>
+	<LI> Link Detection index files include mono-lingual topics as long as there are enough on-topic stories in a language. </LI>
+	<LI> -M filters either NWT or BN files out of the source files. <\LI>
+        </UL>
+</table>
+</DIR>
+<h1> Version 2.5, Released September 1, 2004 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> TDT3BuildIndex.pl <TD>
+        <UL>
+	<LI> Added the Story List Index file for the HTD task. </LI>
+        </UL>
+</table>
+</DIR>
+
+<h1> Version 2.6, Released October 22, 2004 </h1>
+<DIR>
+<TABLE BORDER=2>
+<TR> <TD> DetectionScore.pl <TD>
+        <UL>
+	<LI> Added code to calculate TREC utility for supervised adaptive tracking. </LI>
+	<LI> Corrected calculation of PMiss, Cost and Norm(Cost) when there are no ontopic storyies for a topic. The topic weighted Cost and Norm(Cost) were changes also. </LI>
+        </UL>
+<TR> <TD> TDT3trk.pl <TD>
+        <UL>
+	<LI> Added code to calculate TREC utility for supervised adaptive tracking. </LI>
+        </UL>
+</table>
+</DIR>
+
+<P>
+<H1> Possible Future Changes </H1>
+
+<UL> 	<li> Make DET curves import able into powerpoint.
+	<li> Make DET curve scale a command line configuration.
+	<li> Make a new script EditDET.pl That can combine DET curves, 
+		add points to curves,  and add annotations at specific points
+	<li> The programs open and close stdout which needs to be fixed.
+	<li> Check file order of submissions, make sure only one place in file.
+</UL>
+
+<P>
+<Center> <font color=red> <H1> Known Bugs </H1> </FONT> </Center>
+
+<dir>
+The TDT3BuildIndex.pl program only builds the default index files.
+
+
+<P> The segmentation scoring procedures based on time pointers has
+the following problem.  When reference story has a duration in time,
+but not in lexical tokens, the scoring program ingores that stories
+boundaries.  Consequently, the denominators for calculation P(miss)
+and P(fa) are slightly off (18 seconds in 260000 seconds).  Since the
+discrepancy is small, and the current TDT evaluation will not be using
+time pointers, this problem is left for future resolution.
+
+</dir>
+
+
+</BODY>
+</HTML>
+ <!--  LocalWords:  TDT
+ -->

@@ -1,0 +1,90 @@
+<source_subset>
+<set title="NWT Subset, English Subset" heading="NWT English">
+<source_file filename="19980104_0002_0418_APW_ENG">
+<source_file filename="19980104_0720_0851_APW_ENG">
+<source_file filename="19980104_1155_1243_APW_ENG">
+<source_file filename="19980104_1337_1411_NYT_NYT">
+<source_file filename="19980104_1427_1729_NYT_NYT">
+<source_file filename="19980104_1717_1939_APW_ENG">
+<source_file filename="19980104_1828_2025_NYT_NYT">
+<source_file filename="19980104_2103_2230_NYT_NYT">
+<source_file filename="19980105_0009_1124_NYT_NYT">
+<source_file filename="19980105_0010_0248_APW_ENG">
+<source_file filename="19980105_1005_1010_APW_ENG">
+<source_file filename="19980105_1205_1225_APW_ENG">
+<source_file filename="19980105_1440_1455_APW_ENG">
+<source_file filename="19980105_1729_1814_NYT_NYT">
+<source_file filename="19980105_1951_2049_NYT_NYT">
+<source_file filename="19980105_2151_2246_NYT_NYT">
+<source_file filename="19980106_0004_0215_APW_ENG">
+<source_file filename="19980106_0019_1649_NYT_NYT">
+<source_file filename="19980106_0948_1002_APW_ENG">
+<source_file filename="19980106_1135_1206_APW_ENG">
+<source_file filename="19980106_1512_1528_APW_ENG">
+<source_file filename="19980106_1750_1923_NYT_NYT">
+<source_file filename="19980106_2021_2100_NYT_NYT">
+<source_file filename="19980106_2155_2314_NYT_NYT">
+</set>
+<set title="BNews Subset, English Subset" heading="BN English">
+<source_file filename="19980104_1130_1200_CNN_HDL">
+<source_file filename="19980104_1600_1630_CNN_HDL">
+<source_file filename="19980104_1830_1900_ABC_WNT">
+<source_file filename="19980104_2300_2400_VOA_ENG">
+<source_file filename="19980105_1130_1200_CNN_HDL">
+<source_file filename="19980105_1600_1630_CNN_HDL">
+<source_file filename="19980105_2000_2030_CNN_HDL">
+<source_file filename="19980105_2000_2100_PRI_TWD">
+<source_file filename="19980105_2100_2200_VOA_ENG">
+<source_file filename="19980105_2300_2400_VOA_ENG">
+<source_file filename="19980106_0100_0130_CNN_HDL">
+<source_file filename="19980106_1130_1200_CNN_HDL">
+<source_file filename="19980106_1600_1630_CNN_HDL">
+<source_file filename="19980106_1830_1900_ABC_WNT">
+<source_file filename="19980106_2100_2200_VOA_ENG">
+<source_file filename="19980106_2130_2200_CNN_HDL">
+<source_file filename="19980106_2300_2400_VOA_ENG">
+</set>
+<set title="NWT+BNews, English Subset" heading="NWT+BN English">
+<source_file filename="19980104_0002_0418_APW_ENG">
+<source_file filename="19980104_0720_0851_APW_ENG">
+<source_file filename="19980104_1130_1200_CNN_HDL">
+<source_file filename="19980104_1155_1243_APW_ENG">
+<source_file filename="19980104_1337_1411_NYT_NYT">
+<source_file filename="19980104_1427_1729_NYT_NYT">
+<source_file filename="19980104_1600_1630_CNN_HDL">
+<source_file filename="19980104_1717_1939_APW_ENG">
+<source_file filename="19980104_1828_2025_NYT_NYT">
+<source_file filename="19980104_1830_1900_ABC_WNT">
+<source_file filename="19980104_2103_2230_NYT_NYT">
+<source_file filename="19980104_2300_2400_VOA_ENG">
+<source_file filename="19980105_0009_1124_NYT_NYT">
+<source_file filename="19980105_0010_0248_APW_ENG">
+<source_file filename="19980105_1005_1010_APW_ENG">
+<source_file filename="19980105_1130_1200_CNN_HDL">
+<source_file filename="19980105_1205_1225_APW_ENG">
+<source_file filename="19980105_1440_1455_APW_ENG">
+<source_file filename="19980105_1600_1630_CNN_HDL">
+<source_file filename="19980105_1729_1814_NYT_NYT">
+<source_file filename="19980105_1951_2049_NYT_NYT">
+<source_file filename="19980105_2000_2030_CNN_HDL">
+<source_file filename="19980105_2000_2100_PRI_TWD">
+<source_file filename="19980105_2100_2200_VOA_ENG">
+<source_file filename="19980105_2151_2246_NYT_NYT">
+<source_file filename="19980105_2300_2400_VOA_ENG">
+<source_file filename="19980106_0004_0215_APW_ENG">
+<source_file filename="19980106_0019_1649_NYT_NYT">
+<source_file filename="19980106_0100_0130_CNN_HDL">
+<source_file filename="19980106_0948_1002_APW_ENG">
+<source_file filename="19980106_1130_1200_CNN_HDL">
+<source_file filename="19980106_1135_1206_APW_ENG">
+<source_file filename="19980106_1512_1528_APW_ENG">
+<source_file filename="19980106_1600_1630_CNN_HDL">
+<source_file filename="19980106_1750_1923_NYT_NYT">
+<source_file filename="19980106_1830_1900_ABC_WNT">
+<source_file filename="19980106_2021_2100_NYT_NYT">
+<source_file filename="19980106_2100_2200_VOA_ENG">
+<source_file filename="19980106_2130_2200_CNN_HDL">
+<source_file filename="19980106_2155_2314_NYT_NYT">
+<source_file filename="19980106_2300_2400_VOA_ENG">
+</set>
+</source_subset>

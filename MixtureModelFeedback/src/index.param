@@ -1,0 +1,9 @@
+<parameters>
+<index>index/index</index>
+<indexType>key</indexType>
+<countStopWords>false</countStopWords>
+<memory>1024m</memory>
+<docFormat>Arabic</docFormat>
+<dataFiles>fbdocs.data</dataFiles>
+<stopwords>persian.txt</stopwords>
+</parameters>

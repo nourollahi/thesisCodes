@@ -1,0 +1,1 @@
+result <- read.csv(file="result.csv",header=TRUE,sep=","); 

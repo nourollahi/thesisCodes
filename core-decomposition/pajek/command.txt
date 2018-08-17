@@ -1,0 +1,1 @@
+cores.exe pcore *.net 12 0

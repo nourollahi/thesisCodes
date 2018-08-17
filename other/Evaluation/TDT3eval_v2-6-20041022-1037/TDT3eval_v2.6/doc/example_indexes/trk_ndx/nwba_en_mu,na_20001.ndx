@@ -1,0 +1,62 @@
+# TRACKING RECID TOPIC=20001
+#
+# Generated: on Fri Aug 25 14:29:51 EDT 2000
+#            by command '/data/data2/TDT/Software/TDT3eval_v2.0/TDT3BuildIndex.pl -t 4 -n 2 -v 3 -s -S English=as1,Mandarin=as0 -L LnkDB -T TDT99_mul -R /data/data2/TDT/Dryrun2000/TDT2_release3.1.patch1 -r 393826261 -f index.flist -O . -a ccap -y 2000'
+#
+#
+# Training documents are chronologically listed.  Use the last Nt(th) storys
+# for training condition Nt.  The format of the lines are as follows:
+#    '# Topic_training_story <Target_Story_docno> <Source_file> <Begin> <End>'
+# Should the training story NOT have any words associated with it, the begin
+# and end time/recids will be -1
+#
+# Topic_training_story NYT19980104.0206 tkn/19980104_2103_2230_NYT_NYT.tkn 931 2119
+#
+# Certified Off-topic Training documents are chronologically listed.  
+# Use the last Nn(th) storys for training condition Nn.  The format 
+# of the lines are as follows:
+#    '# Off_topic_training_story <Target_Story_docno> <Source_file> <Begin> <End>'
+# Should the training story NOT have any words associated with it, the begin
+# and end time/recids will be -1.
+#
+# Off_topic_training_story NYT19980104.0081 tkn/19980104_1337_1411_NYT_NYT.tkn 16032 16880
+# Off_topic_training_story NYT19980104.0103 tkn/19980104_1427_1729_NYT_NYT.tkn 5875 6900
+#
+# The following constitutes the source files to be tested on.
+# Each line contains two tokens, the source file under test and
+# the recid in the tokenized stream where the testing begins.
+#
+tkn/19980104_2300_2400_VOA_ENG.tkn 1
+tkn/19980105_0009_1124_NYT_NYT.tkn 1
+tkn/19980105_0010_0248_APW_ENG.tkn 1
+tkn/19980105_1005_1010_APW_ENG.tkn 1
+as1/19980105_1130_1200_CNN_HDL.as1 1
+tkn/19980105_1205_1225_APW_ENG.tkn 1
+tkn/19980105_1440_1455_APW_ENG.tkn 1
+as1/19980105_1600_1630_CNN_HDL.as1 1
+tkn/19980105_1622_2326_XIN_MAN.tkn 1
+tkn/19980105_1729_1814_NYT_NYT.tkn 1
+tkn/19980105_1951_2049_NYT_NYT.tkn 1
+as1/19980105_2000_2030_CNN_HDL.as1 1
+as1/19980105_2000_2100_PRI_TWD.as1 1
+tkn/19980105_2100_2200_VOA_ENG.tkn 1
+tkn/19980105_2151_2246_NYT_NYT.tkn 1
+tkn/19980105_2300_2400_VOA_ENG.tkn 1
+tkn/19980106_0004_0215_APW_ENG.tkn 1
+tkn/19980106_0019_1649_NYT_NYT.tkn 1
+as1/19980106_0100_0130_CNN_HDL.as1 1
+tkn/19980106_0948_1002_APW_ENG.tkn 1
+as1/19980106_1130_1200_CNN_HDL.as1 1
+tkn/19980106_1135_1206_APW_ENG.tkn 1
+tkn/19980106_1452_1717_XIN_MAN.tkn 1
+tkn/19980106_1512_1528_APW_ENG.tkn 1
+as1/19980106_1600_1630_CNN_HDL.as1 1
+tkn/19980106_1750_1923_NYT_NYT.tkn 1
+as1/19980106_1830_1900_ABC_WNT.as1 1
+tkn/19980106_1914_2334_XIN_MAN.tkn 1
+tkn/19980106_1932_1442_XIN_MAN.tkn 1
+tkn/19980106_2021_2100_NYT_NYT.tkn 1
+tkn/19980106_2100_2200_VOA_ENG.tkn 1
+as1/19980106_2130_2200_CNN_HDL.as1 1
+tkn/19980106_2155_2314_NYT_NYT.tkn 1
+tkn/19980106_2300_2400_VOA_ENG.tkn 1
