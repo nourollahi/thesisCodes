@@ -14,7 +14,7 @@ import org.w3c.dom.NodeList;
 
 public class QueryMaker {
 	public static void main(String[] args) throws IOException {
-		BufferedWriter bwQuerySet = new BufferedWriter(new FileWriter(new File("query.txt")));
+		BufferedWriter bwQuerySet = new BufferedWriter(new FileWriter(new File("query2.txt")));
 		try {
 
 			File fXmlFile = new File("trecFormat.txt");

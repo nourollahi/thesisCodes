@@ -13,7 +13,7 @@ public class DAO {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			Connection conn = DriverManager.getConnection(
-					"jdbc:sqlserver://mostafa-vaio\\sqlserver;databaseName=rigi;integratedSecurity=true");
+					"jdbc:sqlserver://mostafa-vaio\\sqlserver;databaseName=ghatl_dadashi;integratedSecurity=true");
 			String selectTableSQL = "select content , my_content from  khabar WHERE id = ? and khabar_gozari=?";
 			PreparedStatement preparedStatement = conn.prepareStatement(selectTableSQL);
 			preparedStatement.setString(1, id);
@@ -22,7 +22,11 @@ public class DAO {
 			if (rs.next()) {
 				String content = rs.getString(1);
 				String myContent = rs.getString(2);
-				if (!(myContent.equals(""))) {
+				/**
+				 * moragheb baaaaaaaaaaaaash
+				 * null ya khali
+				 */
+				if (!(myContent ==null)) {
 					return myContent;
 				} else {
 					return content;

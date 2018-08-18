@@ -15,10 +15,10 @@ public class Manager {
 		LinkedHashMap<String, String> neededID = new LinkedHashMap<>();
 		try {
 			int docNum = 0;
-			scanner = new Scanner(new File("agency-id.txt"));
+			scanner = new Scanner(new File("agency-id-comment.txt"));
 			while (scanner.hasNext()) {
-//				String[] line = scanner.nextLine().split("-");
-				neededID.put(++docNum + "", scanner.nextLine());
+				String[] line = scanner.nextLine().split("-");
+				neededID.put(++docNum + "", line[0]+"-"+line[1]);
 //				docNum++;
 			}
 			System.out.println("needed item count" + neededID.size());
